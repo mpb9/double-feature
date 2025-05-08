@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --black: #040605;
+  --brown: #2a1204;
+  --l-brown: #262626;
+  --white: #eef4e0;
+  --red: #950d1b;
+  --l-red: #ea665c;
+  --d-red: #100606;
+  --yellow: #fee685;
+  --l-yellow: #bcc1a9;
+  --green: #69d346;
+  --l-green: #97b58b;
+  --blue: #0e3e92;
+  --l-blue: #6d8ed2;
+  --purple: #631da2;
+  --l-purple: #ad76e1;
+  --pink: #e6b2a6;
+  --l-pink: #f4d1c6;
+  --orange: #f9a03f;
+  --l-orange: #f5cb93;
+
+  --gray: #a5aca0;
+  --l-gray: #d2dbcd;
+  --d-gray: #131315;
+  --dim: #9da598;
+
+  --boxd-gray: #445466;
+  --boxd-orange: #ff8001;
+  --boxd-green: #00e054;
+  --boxd-blue: #3fbdf4;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: var(--d-gray);
+}
+body {
+  margin: 0 auto;
+  color: var(--gray);
+  font-family: "Lato", sans-serif;
+}
+
+/* MARK: Home Page
+*/
+#home {
+  /* background-image: linear-gradient(to right, #8c7d9010 18px, transparent 1px),
+    linear-gradient(to bottom, #0000004b 1px, transparent 1px); */
+  background-image: linear-gradient(to right, #8c7d9010 18px, transparent 1px),
+    linear-gradient(to bottom, #0000004b 1px, transparent 1px);
+  background-size: 24px 16px;
+  /* background-color: var(--d-red); */
+  background-color: #130101;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#home-header {
+  background-image: linear-gradient(to right, #8c7d9010 18px, transparent 1px),
+    linear-gradient(to bottom, #0000002b 1px, transparent 1px);
+  background-size: 24px 16px;
+  background-color: #150101fc;
+  border-bottom: 3px solid #0f0606aa;
+  box-shadow: 0 0 10px 6px #0f0606aa;
+}
+#home-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+#home-section > div > h1 {
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  transition-duration: 400ms;
+  transition-delay: 0ms;
+  text-transform: uppercase;
+}
+#home-section:hover > div > h1 {
+  letter-spacing: 0.18em;
+  font-weight: 300;
+  transition-duration: 500ms;
+  transition-delay: 75ms;
+}
+
+/* MARK: Scrollbar
+ */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* MARK: Misc.
+ */
+.btn:hover {
+  box-shadow: 0 0 0.25rem 2px var(--gray);
+}
+
+input[type="text"]:focus {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
+
+#textInputContainer input:valid,
+#textInputContainer input:focus {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+}
