@@ -1,0 +1,18 @@
+.vscode
+.env
+/venv
+**node_modules**
+**pnpm-lock.yaml**
+.DS_Store
+.pnpm
+
+# server
+/server/config.env
+
+# cli
+/cli/.env
+/cli/letterboxd
+/cli/app/assets/img/more
+/cli/app/routes/articles/_templates
+/cli/.react-router/
+/cli/build/
