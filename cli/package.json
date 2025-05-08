@@ -1,8 +1,11 @@
 {
   "name": "cli",
   "private": true,
+  "homepage": "https://makeitadoublefeature.com",
   "type": "module",
   "scripts": {
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js"
@@ -20,6 +23,7 @@
   "devDependencies": {
     "@react-router/dev": "^7.5.3",
     "@tailwindcss/vite": "^4.1.4",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.4",
     "vite": "^6.3.3"
   }

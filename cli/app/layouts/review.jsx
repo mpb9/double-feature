@@ -1,9 +1,9 @@
 import { Outlet } from "react-router";
-import { metaBuilder } from "../services/meta-builder-service";
+import { metaBuilder } from "../services/head/meta-service";
 import "../styles/article.css";
 
 export function meta() {
-  const reviewMeta = metaBuilder("Review");
+  const reviewMeta = metaBuilder("Double Feature - Review");
   return reviewMeta;
 }
 
@@ -19,10 +19,7 @@ export default function Review() {
           thanks for reading (:
         </p>
         <p className="text-[1.05em] font-[400] leading-0">
-          -{" "}
-          <a href="https://michael-beebe.com" target="_blank">
-            michael
-          </a>
+          - <a href="https://michael-beebe.com">michael</a>
         </p>
       </div>
     </div>

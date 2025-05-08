@@ -25,6 +25,15 @@
   --l-gray: #d2dbcd;
   --d-gray: #131315;
   --dim: #9da598;
+
+  --a: #9bbc8e;
+  --a-hover: #b3eca9;
+  --a-visited: #708f63;
+  --a-visited-hover: #89cb7d;
+  --a-underline: #355c24;
+  --a-underline-hover: #519b32;
+  --a-underline-visited: #295814;
+  --a-underline-visited-hover: #468929;
 }
 
 #article {
@@ -99,21 +108,38 @@
 /* MARK: a 
 */
 #article a {
-  color: var(--l-green);
-  text-decoration: underline solid #42ad0588 4px;
+  color: var(--a);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--a-underline);
+  text-decoration-thickness: 5px;
   text-underline-offset: 0.1em;
 }
-#article a:hover,
-#article a:visited:hover {
-  color: #166907;
-  text-underline-offset: 0.2em;
-  text-decoration: underline solid #1a7609aa 5px;
+#article a:hover {
+  color: var(--a-hover);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--a-underline-hover);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.25em;
   transition: all 0.3s ease-in-out;
 }
 #article a:visited {
-  color: var(--l-green);
-  text-decoration: underline solid #16690744 2px;
-  text-underline-offset: 0.2em;
+  color: var(--a-visited);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--a-underline-visited);
+  text-decoration-thickness: 5px;
+  text-underline-offset: 0.1em;
+}
+#article a:visited:hover {
+  color: var(--a-visited-hover);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: var(--a-underline-visited-hover);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.25em;
+  transition: all 0.3s ease-in-out;
 }
 
 #article p a {

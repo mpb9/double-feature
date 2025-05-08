@@ -1,5 +1,7 @@
 export function metaBuilder(title = "Double Feature", color = "#131315") {
   return [
+    { charSet: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
     { title: title },
     {
       name: "description",
@@ -75,9 +77,20 @@ export function metaBuilder(title = "Double Feature", color = "#131315") {
       name: "theme-color",
       content: color,
     },
+    { name: "robots", content: "index, follow" },
+    { name: "revisit-after", content: "1 days" },
+    { name: "rating", content: "general" },
+    { name: "distribution", content: "global" },
+    { name: "language", content: "en-US" },
+    { name: "googlebot", content: "index, follow" },
+    { name: "googlebot-news", content: "index, follow" },
+    { name: "googlebot-image", content: "index, follow" },
+    { name: "googlebot-video", content: "index, follow" },
   ];
 }
 export const DEFAULT_META = [
+  { charSet: "utf-8" },
+  { name: "viewport", content: "width=device-width, initial-scale=1" },
   { title: "Double Feature" },
   {
     name: "description",
@@ -153,4 +166,13 @@ export const DEFAULT_META = [
     name: "theme-color",
     content: "#131315",
   },
+  { name: "robots", content: "index, follow" },
+  { name: "revisit-after", content: "1 days" },
+  { name: "rating", content: "general" },
+  { name: "distribution", content: "global" },
+  { name: "language", content: "en-US" },
+  { name: "googlebot", content: "index, follow" },
+  { name: "googlebot-news", content: "index, follow" },
+  { name: "googlebot-image", content: "index, follow" },
+  { name: "googlebot-video", content: "index, follow" },
 ];

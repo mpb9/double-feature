@@ -3,7 +3,7 @@ export const FEATURED_FILES = [
   new FileSpecs(
     "25-for-25",
     "25 for 25",
-    "the-social-network.jpg",
+    "socialnetwork.jpg",
     "25-for-25",
     "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
     ["featured", "lists"],

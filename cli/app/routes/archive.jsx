@@ -1,7 +1,7 @@
 import FilePreview from "../components/file-preview";
+import Footer from "../components/footer";
 import { ARCHIVE_FILES } from "../data/archive-data";
-
-import { metaBuilder } from "../services/meta-builder-service";
+import { metaBuilder } from "../services/head/meta-service";
 
 export function meta() {
   const archiveMeta = metaBuilder("Archive");
@@ -9,13 +9,10 @@ export function meta() {
 }
 export default function Archive() {
   return (
-    <div
-      className="flex flex-col w-full items-start bg-[var(--black)]"
-      id="archive"
-    >
+    <div className="flex flex-col w-full items-start" id="archive">
       <div className="w-full items-center px-24 overflow-scroll pt-10">
         <div className="flex flex-col w-full items-start">
-          <h1 className="text-4xl font-bold">Archive</h1>
+          <h1 className="text-4xl font-[100]">Archive</h1>
           <p className="text-xl font-light">
             A collection of all the reviews, lists, series, and other
             film-related content by{" "}
@@ -37,6 +34,7 @@ export default function Archive() {
           />
         ))}
       </div>
+      <Footer links={["letterboxd", "tags", "home", "about"]} />
     </div>
   );
 }

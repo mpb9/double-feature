@@ -30,7 +30,7 @@ export default function FilePreview({ fileSpecs, src }) {
           className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
           style={{ backgroundImage: `url(app/assets/img/${fileSpecs.img})` }}
         >
-          <div className="absolute w-full flex items-center justify-end bg-[var(--black)]">
+          <div className="static w-full flex items-center justify-end bg-[var(--black)]">
             <h2 className="text-lg md:text-xl lg:text-2xl pr-3 pb-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
               {fileSpecs.title}
             </h2>
@@ -41,14 +41,14 @@ export default function FilePreview({ fileSpecs, src }) {
   }
   if (isFeatured) {
     return (
-      <div className="flex flex-col group items-center justify-center min-w-[95%] sm:min-w-[60%] md:min-w-[47%] lg:min-w-[42%] xl:min-w-[36%] h-full mr-8 py-4 tracking-normal">
+      <div className="flex flex-col group items-center justify-center min-w-[90%] sm:min-w-[70%] md:min-w-[50%] lg:min-w-[44%] xl:min-w-[40%] h-full mr-8 py-4 tracking-normal">
         {/* Switch to <Link /> or something */}
         <a
           href={href}
-          className="w-full min-h-80 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
+          className="w-full min-h-56 sm:min-h-64 lg:min-h-72 xl:min-h-80 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
           style={{ backgroundImage: `url(app/assets/img/${fileSpecs.img})` }}
         >
-          <div className="absolute w-full flex items-center justify-end bg-[var(--black)]">
+          <div className="static w-full flex items-center justify-end bg-[var(--black)]">
             <h2 className="text-3xl pr-4 pb-[3px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
               {fileSpecs.title}
             </h2>
@@ -64,7 +64,7 @@ export default function FilePreview({ fileSpecs, src }) {
         className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
         style={{ backgroundImage: `url(app/assets/img/${fileSpecs.img})` }}
       >
-        <div className="absolute w-full flex items-center justify-end bg-[var(--black)]">
+        <div className="static w-full flex items-center justify-end bg-[var(--black)]">
           <h2 className="text-lg md:text-xl lg:text-2xl pr-3 pb-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
             {fileSpecs.title}
           </h2>

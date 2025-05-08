@@ -17,20 +17,14 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
       <main>
         <h2>
           1.{" "}
-          <a
-            href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/"
-            target="_blank"
-          >
+          <a href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/">
             Portrait of a Lady on Fire
           </a>
         </h2>
         <p>hey this isnt so hard!</p>
         <h2>
           2.{" "}
-          <a
-            target="_blank"
-            href="https://letterboxd.com/michaelbeebe/film/paprika-2006/reviews/"
-          >
+          <a href="https://letterboxd.com/michaelbeebe/film/paprika-2006/reviews/">
             Paprika
           </a>{" "}
         </h2>
@@ -47,19 +41,13 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <ul>
           <li>
-            <a
-              href="https://youtu.be/2XGYr9_BiEU?si=VqCwBYrGkRmwk9dc"
-              target="_blank"
-            >
+            <a href="https://youtu.be/2XGYr9_BiEU?si=VqCwBYrGkRmwk9dc">
               Satoshi Kon and Why Love Is All You Need Ep. 1 - Perfect Blue
             </a>{" "}
             (the first in a series)
           </li>
           <li>
-            <a
-              href="https://youtu.be/9GzZuRMwbW4?si=VxKEVmV0ZsItUMM-"
-              target="_blank"
-            >
+            <a href="https://youtu.be/9GzZuRMwbW4?si=VxKEVmV0ZsItUMM-">
               The Work of Satoshi Kon
             </a>
           </li>
@@ -67,10 +55,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
 
         <h2>
           3.{" "}
-          <a
-            target="_blank"
-            href="https://letterboxd.com/film/mad-max-fury-road/"
-          >
+          <a href="https://letterboxd.com/film/mad-max-fury-road/">
             Mad Max: Fury Road
           </a>
         </h2>
@@ -80,10 +65,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           interesting i dont like that i had to do this)
         </p>
         <h2>
-          4.{" "}
-          <a target="_blank" href="https://boxd.it/2b4m">
-            Spirited Away
-          </a>
+          4. <a href="https://boxd.it/2b4m">Spirited Away</a>
         </h2>
         <>
           <p>
@@ -97,20 +79,14 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             incredible this piece of art is… plz forgive me, Miyazaki-san 😭🫡
           </p>
           <p>
-            <a
-              target="_blank"
-              href="https://letterboxd.com/michaelbeebe/list/ghibli-ranked/"
-            >
+            <a href="https://letterboxd.com/michaelbeebe/list/ghibli-ranked/">
               Studio Ghibli Movie Rankings
             </a>
           </p>
         </>
         <h2>
           5.{" "}
-          <a
-            target="_blank"
-            href="https://letterboxd.com/michaelbeebe/film/oppenheimer/reviews/"
-          >
+          <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer/reviews/">
             Oppenheimer
           </a>
         </h2>
@@ -121,10 +97,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             "whatever man, he's good and all but Social Network AND Zodiac
             exist??" anyways, this is far and away my fav nolan and has been
             since{" "}
-            <a
-              target="_blank"
-              href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/"
-            >
+            <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/">
               i first watched/reviewed it
             </a>
           </p>
@@ -138,20 +111,14 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </p>
         </>
         <h2>
-          6.{" "}
-          <a target="_blank" href="https://boxd.it/17ue">
-            The Social Network
-          </a>
+          6. <a href="https://boxd.it/17ue">The Social Network</a>
         </h2>
         <blockquote>
           Sorry, my Prada’s at the cleaners along with my hoodie and my fuck-you
         </blockquote>
         <p>⭐⭐⭐⭐⭐</p>
         <h2>
-          7.{" "}
-          <a target="_blank" href="https://boxd.it/28No">
-            Pan's Labyrinth
-          </a>
+          7. <a href="https://boxd.it/28No">Pan's Labyrinth</a>
         </h2>
         <p>
           u guys seen this shit? i feel like we dont talk abt this shit enough.
@@ -168,10 +135,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           night
         </p>
         <h2>
-          8.{" "}
-          <a target="_blank" href="https://boxd.it/hTha">
-            Parasite
-          </a>
+          8. <a href="https://boxd.it/hTha">Parasite</a>
         </h2>
         <p>
           ya know when something just like absolutely nails all the themes u
@@ -179,10 +143,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           with? yeah.
         </p>
         <h2>
-          9.{" "}
-          <a target="_blank" href="https://boxd.it/27ww">
-            Ratatouille
-          </a>
+          9. <a href="https://boxd.it/27ww">Ratatouille</a>
         </h2>
         <blockquote>
           In many ways, the work of a critic is easy. We risk very little, yet
@@ -210,10 +171,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <p>what a life affirming film. i will always cherish it 🐀👨‍🍳</p>
 
         <h2>
-          10.{" "}
-          <a target="_blank" href="https://boxd.it/Arw0">
-            Aftersun
-          </a>
+          10. <a href="https://boxd.it/Arw0">Aftersun</a>
         </h2>
         <p>
           ok this is the highest ranked movie that ive only watched once. and i
@@ -240,10 +198,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           is worth bringing up bc omg wtf idk what else to say
         </p>
         <h2>
-          11.{" "}
-          <a target="_blank" href="https://boxd.it/pUfA">
-            Dune: Part 2
-          </a>
+          11. <a href="https://boxd.it/pUfA">Dune: Part 2</a>
         </h2>
         <p>
           i dont think ive ever written anything significant abt Dune, which is
@@ -272,10 +227,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           <i>(i like sci-fi)</i>
         </p>
         <h2>
-          12.{" "}
-          <a target="_blank" href="https://boxd.it/1JzG">
-            Inglourious Basterds
-          </a>
+          12. <a href="https://boxd.it/1JzG">Inglourious Basterds</a>
         </h2>
         <p>
           was my fav movie throughout high school and i'm very due to watch it
@@ -296,10 +248,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           damn dude i do not understand ur mindset rn
         </p>
         <h2>
-          13.{" "}
-          <a target="_blank" href="https://boxd.it/7bQA">
-            Whiplash
-          </a>
+          13. <a href="https://boxd.it/7bQA">Whiplash</a>
         </h2>
         <p>
           ur so pressed abt whether ur rushing or dragging, but when was the
@@ -322,10 +271,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           some ppl, but omg is it devastating…
         </p>
         <h2>
-          14.{" "}
-          <a target="_blank" href="https://boxd.it/2b1M">
-            Crouching Tiger, Hidden Dragon
-          </a>
+          14. <a href="https://boxd.it/2b1M">Crouching Tiger, Hidden Dragon</a>
         </h2>
         <p>
           this movie blew away my expectations… what i was anticipating would've
@@ -363,10 +309,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
 
         <h2>
-          15.{" "}
-          <a target="_blank" href="https://boxd.it/k4BO">
-            The Brutalist
-          </a>
+          15. <a href="https://boxd.it/k4BO">The Brutalist</a>
         </h2>
         <blockquote>
           My buildings were designed to endure such erosion.
@@ -388,10 +331,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
 
         <h2>
-          16.{" "}
-          <a target="_blank" href="https://boxd.it/1Y2i">
-            Children of Men
-          </a>
+          16. <a href="https://boxd.it/1Y2i">Children of Men</a>
         </h2>
         <p>
           lol if The Brutalist was "up my alley", this movie features{" "}
@@ -418,69 +358,43 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
 
         <h2>
-          17.{" "}
-          <a target="_blank" href="https://boxd.it/1JP0">
-            All About Lily Chou-Chou
-          </a>
+          17. <a href="https://boxd.it/1JP0">All About Lily Chou-Chou</a>
         </h2>
 
         <h2>
           18.{" "}
-          <a target="_blank" href="https://boxd.it/jUk4">
-            Everything Everywhere All at Once
-          </a>
+          <a href="https://boxd.it/jUk4">Everything Everywhere All at Once</a>
         </h2>
         <p>
           if there's a common theme on this list, its that im a sucker for
           sincere cinema.
         </p>
         <h2>
-          19.{" "}
-          <a target="_blank" href="https://boxd.it/hNVe">
-            Hereditary
-          </a>
+          19. <a href="https://boxd.it/hNVe">Hereditary</a>
         </h2>
 
         <h2>
-          20.{" "}
-          <a target="_blank" href="https://boxd.it/d2hI">
-            The Favourite
-          </a>
+          20. <a href="https://boxd.it/d2hI">The Favourite</a>
         </h2>
 
         <h2>
-          21.{" "}
-          <a target="_blank" href="https://boxd.it/948A">
-            The Handmaiden
-          </a>
+          21. <a href="https://boxd.it/948A">The Handmaiden</a>
         </h2>
 
         <h2>
-          22.{" "}
-          <a target="_blank" href="https://boxd.it/eOCm">
-            Get Out
-          </a>
+          22. <a href="https://boxd.it/eOCm">Get Out</a>
         </h2>
 
         <h2>
-          23.{" "}
-          <a target="_blank" href="https://boxd.it/20hO">
-            Superbad
-          </a>
+          23. <a href="https://boxd.it/20hO">Superbad</a>
         </h2>
 
         <h2>
-          24.{" "}
-          <a target="_blank" href="https://boxd.it/2416">
-            Hot Fuzz
-          </a>
+          24. <a href="https://boxd.it/2416">Hot Fuzz</a>
         </h2>
 
         <h2>
-          25.{" "}
-          <a target="_blank" href="https://boxd.it/dGNE">
-            Lady Bird
-          </a>
+          25. <a href="https://boxd.it/dGNE">Lady Bird</a>
         </h2>
       </main>
     </>

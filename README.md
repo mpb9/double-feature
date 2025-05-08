@@ -133,6 +133,15 @@ CLUSTER ⇨ DATABASE ⇨ COLLECTION ⇨ DOCUMENT ⇨ FIELD: VALUE
   - override existing with incoming change: ```/<endpoint>Override```
   - ignore conflicts and duplicates: ```/<endpoint>Ignore```
 
+### Deployment
+
+**GitHub** - [mpb9/double-feature](https://github.com/mpb9/double-feature)
+**SquareSpace** - [domains/managed/makeitadoublefeature](https://account.squarespace.com/domains/managed/makeitadoublefeature.com)
+
+#### Guides
+
+- [react > github-pages](https://create-react-app.dev/docs/deployment/#github-pages)
+
 ## On-Screen
 
 ### Film Series

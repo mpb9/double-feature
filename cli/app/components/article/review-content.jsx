@@ -34,9 +34,7 @@ export default function ReviewContent({ fileSpecs, htmlMappers }) {
   return (
     <>
       <h2>
-        <a href={fileSpecs.url} target="_blank">
-          {fileSpecs.date}
-        </a>
+        <a href={fileSpecs.url}>{fileSpecs.date}</a>
       </h2>
     </>
   );
