@@ -19,4 +19,4 @@ COPY ./package.json pnpm-lock.yaml /app/
 COPY --from=prod-dependencies-env /app/node_modules /app/node_modules
 COPY --from=build-env /app/build /app/build
 WORKDIR /app
-CMD ["npm", "run", "start"]
+CMD ["pnpm", "run", "start"]
