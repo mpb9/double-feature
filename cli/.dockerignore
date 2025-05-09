@@ -1,4 +1,50 @@
 .react-router
-build
-node_modules
 README.md
+
+# Ignore dependencies and build output
+node_modules/
+dist/
+build/
+out/
+.tmp/
+.cache/
+
+# Ignore Vite, Webpack, and React-specific build artifacts
+.vite/
+.vitepress/
+.eslintcache
+.npm/
+coverage/
+jest/
+cypress/
+cypress/screenshots/
+cypress/videos/
+reports/
+
+# Ignore environment and config files (sensitive data)
+*.env*
+*.log
+
+# Ignore lockfiles (optional if using Docker for package installation)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore local development files
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files (to avoid copying unnecessary configs)
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore build-specific cache files
+*.lock
