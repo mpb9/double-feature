@@ -17,4 +17,4 @@
 /cli/app/img/more
 /cli/app/routes/articles/_templates
 /cli/.react-router/
-# /cli/build/
+/cli/build/
