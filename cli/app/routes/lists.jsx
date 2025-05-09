@@ -24,13 +24,9 @@ export default function Lists() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full p-10 flex-wrap">
+      <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
         {LISTS_FILES.map((fileSpecs, index) => (
-          <FilePreview
-            key={index}
-            fileSpecs={fileSpecs}
-            src={"files/reviews/"}
-          />
+          <FilePreview key={index} fileSpecs={fileSpecs} src={"list"} />
         ))}
       </div>
       <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />

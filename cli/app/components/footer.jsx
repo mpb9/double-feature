@@ -26,7 +26,7 @@ export default function Footer({
   links = ["letterboxd", "home", "tags", "archive", "about"],
 }) {
   return (
-    <div className="flex w-full justify-center items-center pt-10 pb-20">
+    <div className="flex w-full justify-center items-center pt-4 pb-14">
       {links.includes("letterboxd") ? (
         <HomeLink
           name={LINK_SPECS.letterboxd.name}

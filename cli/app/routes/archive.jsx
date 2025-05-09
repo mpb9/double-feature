@@ -25,13 +25,9 @@ export default function Archive() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full p-10 flex-wrap">
+      <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
         {ARCHIVE_FILES.map((fileSpecs, index) => (
-          <FilePreview
-            key={index}
-            fileSpecs={fileSpecs}
-            src={"files/archive/"}
-          />
+          <FilePreview key={index} fileSpecs={fileSpecs} src={"archive"} />
         ))}
       </div>
       <Footer links={["letterboxd", "tags", "home", "about"]} />

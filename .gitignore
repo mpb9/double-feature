@@ -13,7 +13,7 @@
 # cli
 /cli/.env
 /cli/letterboxd
-/cli/app/assets/img/more
+/cli/app/img/more
 /cli/app/routes/articles/_templates
 /cli/.react-router/
 /cli/build/
