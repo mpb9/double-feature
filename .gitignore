@@ -3,6 +3,7 @@
 /venv
 **node_modules**
 **pnpm-lock.yaml**
+**package-lock.json**
 .DS_Store
 .pnpm
 /logs
