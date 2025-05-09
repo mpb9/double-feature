@@ -5,6 +5,7 @@
 **pnpm-lock.yaml**
 .DS_Store
 .pnpm
+/logs
 
 # server
 /server/config.env

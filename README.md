@@ -138,6 +138,12 @@ CLUSTER ⇨ DATABASE ⇨ COLLECTION ⇨ DOCUMENT ⇨ FIELD: VALUE
 **GitHub** - [mpb9/double-feature](https://github.com/mpb9/double-feature)
 **SquareSpace** - [domains/managed/makeitadoublefeature](https://account.squarespace.com/domains/managed/makeitadoublefeature.com)
 
+#### /cli Only
+
+```shell
+cd cli && pnpm run deploy
+```
+
 #### Guides
 
 - [react > github-pages](https://create-react-app.dev/docs/deployment/#github-pages)
@@ -157,19 +163,3 @@ CLUSTER ⇨ DATABASE ⇨ COLLECTION ⇨ DOCUMENT ⇨ FIELD: VALUE
   - [Profile](https://letterboxd.com/michaelbeebe)
   - [Main Menu](https://letterboxd.com/michaelbeebe/list/main-menu/detail)
   - [Diary](https://letterboxd.com/michaelbeebe/films/diary)
-
-## Ideas for the Future
-
-### Short-term
-
-- [ ] Make my profile location a reference to some movie location/quote (i.e. Wasteland, Arakis, etc.)
-- [ ] Find movie with backdrop that either looks like a blu-ray main menu or some sort of remote for main menu list's backdrop
-- [x] Make this the hub for my unfinished reviews / unlogged films bc i can't decide what to say / reviews i know i want to write in my head but too lazy so i just didnt log and dont want to forget about / etc.
-- [ ] Create & link youtube playlists for trailers, music moments, etc. in list descriptions instead of having to add video links to each entry
-- [ ] Create & link spotify playlists for soundracks, music moments, etc. in list descriptions instead of having to add song links to each entry
-- [ ] Make the sides of one of my pages look like curtains in a theater (and the top)
-- [ ] [editable data grid/spreadsheet](https://github.com/ag-grid/ag-grid)
-
-### Long-term
-
-- [Letterboxd API](https://api-docs.letterboxd.com)
