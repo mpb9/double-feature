@@ -2,7 +2,7 @@
 build/
 node_modules
 README.md
-*._DS_Store
+.DS_Store
 
 # Ignore dependencies and build output
 node_modules/
