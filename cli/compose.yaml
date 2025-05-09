@@ -1,0 +1,8 @@
+services:
+  df-cli-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: df-cli
+    ports:
+      - "3000:3000"

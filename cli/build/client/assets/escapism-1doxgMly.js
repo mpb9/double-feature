@@ -1,0 +1,1 @@
+import{w as e}from"./with-props-CTzvD32q.js";import{o as s}from"./chunk-D4RADZKF-8YUgi0Se.js";import{A as i}from"./article-header-Y4hjm6_U.js";import"./index-CoLcMgoR.js";const c=e(function({loaderData:t}){const r=t;return s.jsxs(s.Fragment,{children:[s.jsx(i,{fileSpecs:r}),s.jsx("main",{children:s.jsx("h2",{children:r.title})})]})});export{c as default};
