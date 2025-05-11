@@ -28,9 +28,6 @@ ReviewContent.propTypes = {
   ).isRequired,
 };
 export default function ReviewContent({ fileSpecs, htmlMappers }) {
-  console.log("fileSpecs", fileSpecs);
-  console.log("htmlMappers", htmlMappers);
-
   return (
     <>
       <h2>

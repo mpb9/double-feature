@@ -1,9 +1,8 @@
 export default {
   ssr: true,
-  /*
   async prerender() {
     return [
-      "/",
+      // "/",
       // ARCHIVE
       // "/archive/2024",
       // "/archive/2023",
@@ -35,5 +34,4 @@ export default {
       // "/review/the-curse",
     ];
   },
-  */
 };
