@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM node:24.0.1-slim AS base
 
 COPY . /app

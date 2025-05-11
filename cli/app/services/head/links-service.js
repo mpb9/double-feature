@@ -1,8 +1,7 @@
-const IMG_PATH = "/img/";
-export function linkBuilder(icon = "two-tickets.png") {
+export function linkBuilder(icon = "/two-tickets.png") {
   return [
-    { rel: "icon", href: `${IMG_PATH}${icon}` },
-    { rel: "apple-touch-icon", href: `${IMG_PATH}${icon}` },
+    { rel: "icon", href: icon },
+    { rel: "apple-touch-icon", href: icon },
     { rel: "me", href: "mailto:michaelbeebe1031@gmail.com" },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     {
@@ -17,8 +16,8 @@ export function linkBuilder(icon = "two-tickets.png") {
   ];
 }
 export const DEFAULT_LINKS = [
-  { rel: "icon", href: `${IMG_PATH}two-tickets.png` },
-  { rel: "apple-touch-icon", href: `${IMG_PATH}two-tickets.png` },
+  { rel: "icon", href: "/two-tickets.png" },
+  { rel: "apple-touch-icon", href: "/two-tickets.png" },
   { rel: "me", href: "mailto:michaelbeebe1031@gmail.com" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {

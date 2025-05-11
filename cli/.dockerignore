@@ -3,6 +3,7 @@ build/
 node_modules
 README.md
 .DS_Store
+pnpm-lock.yaml
 
 # Ignore dependencies and build output
 node_modules/

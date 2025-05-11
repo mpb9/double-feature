@@ -2,9 +2,6 @@ import ArticleTags from "./article-tags";
 
 const IMG_DIR = "img";
 export default function ArticleHeader({ fileSpecs }) {
-  const { title, img, src, url, tags, date } = fileSpecs;
-  const baseUrl = "http://localhost:3000/tag";
-
   return (
     <header
       className="w-full min-h-50 md:min-h-64 lg:min-h-80 flex flex-col items-end justify-between bg-no-repeat bg-cover bg-center"
