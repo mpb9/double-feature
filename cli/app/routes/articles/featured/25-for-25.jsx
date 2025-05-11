@@ -15,6 +15,24 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
     <>
       <ArticleHeader fileSpecs={fileSpecs} />
       <main>
+        <p>
+          its 2025 and these r the 25 best films of the 21st century
+          <i> (thus far) (according to me)</i>
+          <br />
+          <li>
+            only caveat: <b>one film per director</b>
+          </li>
+          <li>
+            shoutout{" "}
+            <a
+              href="https://open.spotify.com/show/6mTel3azvnK8isLs4VujvF?si=4acf0f9ee3aa48f5"
+              rel="nofollow"
+            >
+              the big picture
+            </a>{" "}
+            podcast!
+          </li>
+        </p>
         <h2>
           1.{" "}
           <a href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/">

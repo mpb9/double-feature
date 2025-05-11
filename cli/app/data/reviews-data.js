@@ -41,7 +41,7 @@ export const REVIEWS_FILES = [
     "Trainspotting",
     "trainspotting.jpg",
     "trainspotting",
-    "",
+    "https://boxd.it/6h19k3",
     ["reviews"],
     "2024-04-12"
   ),

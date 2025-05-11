@@ -1,9 +1,9 @@
-### Building and running your application
+## Building and running your application
 
 When you're ready, start your application by running:
 `docker compose up --build`.
 
-### Deploying your application to the cloud
+## Deploying your application to the cloud
 
 First, build your image, e.g.: `docker build -t myapp .`.
 If your cloud uses a different CPU architecture than your development
