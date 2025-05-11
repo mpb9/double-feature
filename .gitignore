@@ -18,3 +18,6 @@
 /cli/app/routes/articles/_templates
 /cli/.react-router/
 /cli/build/
+
+# docker
+docker-compose.yml

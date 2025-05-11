@@ -1,8 +1,0 @@
-services:
-  df-prod:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: cli
-    ports:
-      - "3000:3000"

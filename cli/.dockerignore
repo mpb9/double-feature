@@ -1,8 +1,6 @@
 .react-router
-build/
-node_modules
 README.md
-.DS_Store
+**.DS_Store**
 pnpm-lock.yaml
 
 # Ignore dependencies and build output
@@ -11,6 +9,7 @@ dist/
 out/
 .tmp/
 .cache/
+build/
 
 # Ignore Vite, Webpack, and React-specific build artifacts
 .vite/
@@ -48,6 +47,7 @@ Thumbs.db
 
 # Ignore Docker-related files (to avoid copying unnecessary configs)
 Dockerfile
+Dockerfile.*
 .dockerignore
 docker-compose.yml
 docker-compose.override.yml
