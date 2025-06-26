@@ -30,7 +30,7 @@ export default function FilePreview({ fileSpecs, src }) {
       <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 py-4 tracking-normal">
         <a
           href={`/${src}/not-found`}
-          className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
+          className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
           style={{ backgroundImage: `url(/${IMG_DIR}/${fileSpecs.img})` }}
         >
           <div className="static w-full flex items-center justify-end bg-[var(--black)]">
@@ -48,7 +48,7 @@ export default function FilePreview({ fileSpecs, src }) {
         {/* Switch to <Link /> or something */}
         <a
           href={href}
-          className="w-full min-h-56 sm:min-h-64 lg:min-h-72 xl:min-h-80 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
+          className="w-full min-h-56 sm:min-h-64 lg:min-h-72 xl:min-h-80 flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
           style={{ backgroundImage: `url(/${IMG_DIR}/${fileSpecs.img})` }}
         >
           <div className="static w-full flex items-center justify-end bg-[var(--black)]">
@@ -64,7 +64,7 @@ export default function FilePreview({ fileSpecs, src }) {
     <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 py-4 tracking-normal">
       <a
         href={href}
-        className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-75 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-100 transition duration-500"
+        className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
         style={{ backgroundImage: `url(/${IMG_DIR}/${fileSpecs.img})` }}
       >
         <div className="static w-full flex items-center justify-end bg-[var(--black)]">
