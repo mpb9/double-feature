@@ -3,7 +3,7 @@ export default function HomeHeader() {
     <div className="absolute z-10 w-full" id="home-header">
       <div className="flex w-full items-center justify-center">
         <div
-          className="flex flex-col w-fit items-center h-fit px-[38px] py-4"
+          className="flex flex-col w-fit items-center h-fit px-[38px] py-6"
           id="home-title"
         >
           <h6 className="text-lg cursor-default text-[var(--dim)] pb-[3px] font-[100] italic">
@@ -14,8 +14,8 @@ export default function HomeHeader() {
           </h1>
         </div>
       </div>
-      <div className="absolute z-10 top-2 right-4">
-        <div className="flex flex-col w-fit items-center h-fit px-[24px] py-2">
+      <div className="absolute z-10 top-0 right-4">
+        <div className="flex flex-col w-fit items-center h-fit px-[24px] py-6">
           <div className="text-xl cursor-default text-right text-[#a5aca0cc] pt-[3px] font-[100]">
             created by: <br />
             <a
