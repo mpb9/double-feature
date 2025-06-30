@@ -3,13 +3,13 @@ import "../../styles/article.css";
 
 /**
  * ReviewContent component
- * @param {Object} fileSpecs - The file to display
+ * @param {Object} articleSpecs - The file to display
  * @param {Array} htmlMappers - The content of the review
  * @returns {JSX.Element}
  */
 
 ReviewContent.propTypes = {
-  fileSpecs: PropTypes.shape({
+  articleSpecs: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
@@ -27,11 +27,11 @@ ReviewContent.propTypes = {
     })
   ).isRequired,
 };
-export default function ReviewContent({ fileSpecs, htmlMappers }) {
+export default function ReviewContent({ articleSpecs, htmlMappers }) {
   return (
     <>
       <h2>
-        <a href={fileSpecs.url}>{fileSpecs.date}</a>
+        <a href={articleSpecs.url}>{articleSpecs.date}</a>
       </h2>
     </>
   );

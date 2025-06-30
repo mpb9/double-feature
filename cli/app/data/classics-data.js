@@ -1,57 +1,57 @@
-import { FileSpecs } from "../models/file-specs";
-export const CLASSICS_FILES = [
-  new FileSpecs(
-    "",
+import { ArticleSpecs } from "../models/article-specs";
+export const CLASSICS_ARTICLES = [
+  new ArticleSpecs(
+    "all-time-favs",
     "All-Time Favs",
-    "Portrait_of_a_Lady_on_Fire_027.jpg",
+    "all-time-favs.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/all-time-favs/",
     ["classics", "lists"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "directors",
     "Directors",
-    "eyes-wide-shut.jpeg",
+    "directors.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/directors/detail/",
     ["classics", "lists"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "scenes",
     "Scenes",
-    "berserk-bonfire.jpg",
+    "scenes.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/scenes/detail/",
     ["classics", "lists"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "sci-fi-canon",
     "Sci-Fi Canon",
-    "children-of-men1.jpg",
+    "sci-fi-canon.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/sci-fi-canon/",
     ["classics", "lists", "genre"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "settings",
     "Settings",
-    "ladybird063.jpg",
+    "settings.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/setting/",
     ["classics", "lists"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "soundtracks",
     "Soundtracks",
-    "Fallen-Angels-066.jpg",
+    "soundtracks.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/soundtracks/detail/",
     ["classics", "lists"]
   ),
-  new FileSpecs(
-    "",
+  new ArticleSpecs(
+    "trailers",
     "Trailers",
-    "Poor_Things_63.jpg",
+    "trailers.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/trailers/detail/",
     ["classics", "lists"]

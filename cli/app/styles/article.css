@@ -2,29 +2,13 @@
 
 :root {
   --black: #040605;
-  --brown: #2a1204;
-  --l-brown: #262626;
   --white: #eef4e0;
-  --red: #950d1b;
-  --l-red: #ea665c;
-  --d-red: #100606;
-  --yellow: #fee685;
-  --l-yellow: #bcc1a9;
   --green: #69d346;
   --l-green: #97b58b;
-  --blue: #0e3e92;
-  --l-blue: #6d8ed2;
-  --purple: #631da2;
-  --l-purple: #ad76e1;
-  --pink: #e6b2a6;
-  --l-pink: #f4d1c6;
-  --orange: #f9a03f;
-  --l-orange: #f5cb93;
-
   --gray: #a5aca0;
   --l-gray: #d2dbcd;
-  --d-gray: #131315;
-  --dim: #9da598;
+
+  --background: #8c7d900b;
 
   --a: #9bbc8e;
   --a-hover: #b3eca9;
@@ -34,7 +18,16 @@
   --a-underline-hover: #519b32;
   --a-underline-visited: #295814;
   --a-underline-visited-hover: #468929;
+
+  --blockquote: #79927528;
+
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2px;
 }
+
+/* MARK: #article 
+*/
 
 #article {
   hyphens: auto;
@@ -43,8 +36,12 @@
   font-kerning: normal;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-image: linear-gradient(to right, #8c7d9010 18px, transparent 1px),
-    linear-gradient(to bottom, #0000004b 1px, transparent 1px);
+  background-image: linear-gradient(
+      to right,
+      var(--background) 20px,
+      transparent 1.5px
+    ),
+    linear-gradient(to bottom, #05b20e05 0.5px, transparent 1px);
   background-size: 24px 16px;
   background-color: #000;
 }
@@ -54,69 +51,74 @@
   background-size: 28px 18px;
 }
 #article main {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0.25rem 2.25rem 0rem 2.25rem;
+  max-width: 800px;
 }
 
-/* MARK: HEADINGS */
+/* MARK: <p>
+*/
+#article p {
+  margin: 1rem 0;
+  border-left: 2px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  word-break: auto-phrase;
+  overflow-wrap: normal;
+}
+#article header ~ p:hover {
+  border-left: 2px solid #23222388;
+}
+
+/* MARK: <h#>
+*/
 #article h1,
 #article h2,
 #article h3,
 #article h4,
 #article h5,
 #article h6 {
-  margin-top: 1em;
-  margin-left: 1.25em;
+  margin-top: 1.5rem;
+  word-break: auto-phrase;
+  overflow-wrap: normal;
 }
 #article h2 {
-  font-size: 1.7em;
+  font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.1em;
+  line-height: 1.4;
 }
 #article h3 {
-  font-size: 1.55em;
+  font-size: 1.4rem;
   font-weight: 100;
   letter-spacing: 0.1em;
+  line-height: 1.3;
 }
 #article h4 {
-  font-size: 1.4em;
+  font-size: 1.3rem;
   font-weight: 100;
   letter-spacing: 0.1em;
+  line-height: 1.2;
 }
 #article h5 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 100;
   letter-spacing: 0.1em;
+  line-height: 1.1;
 }
 #article h6 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-style: italic;
   font-weight: normal;
 }
 
-/* MARK: TOC
-*/
-#TOC li {
-  list-style: none;
-}
-#TOC ul {
-  padding-left: 1.3em;
-}
-#TOC > ul {
-  padding-left: 0;
-}
-#TOC a:not(:hover) {
-  text-decoration: none;
-}
-
-/* MARK: a 
+/* MARK: <a>
 */
 #article a {
   color: var(--a);
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: var(--a-underline);
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 4px;
   text-underline-offset: 0.1em;
 }
 #article a:hover {
@@ -126,14 +128,14 @@
   text-decoration-color: var(--a-underline-hover);
   text-decoration-thickness: 3px;
   text-underline-offset: 0.25em;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #article a:visited {
   color: var(--a-visited);
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-color: var(--a-underline-visited);
-  text-decoration-thickness: 5px;
+  text-decoration-thickness: 4px;
   text-underline-offset: 0.1em;
 }
 #article a:visited:hover {
@@ -143,35 +145,13 @@
   text-decoration-color: var(--a-underline-visited-hover);
   text-decoration-thickness: 3px;
   text-underline-offset: 0.25em;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-
 #article p a {
   font-weight: 600;
 }
 
-/* MARK: nav 
-*/
-#article nav a {
-  color: #66c746 !important;
-  text-decoration: none;
-  font-size: 1.75em;
-  font-weight: 100;
-}
-#article nav a:visited {
-  color: #69d346 !important;
-  text-decoration: none;
-  font-size: 1.75em;
-  font-weight: 100;
-}
-#article nav a:hover,
-#article nav a:visited:hover {
-  color: var(--white) !important;
-  text-decoration: none;
-  opacity: 75%;
-}
-
-/* MARK: images
+/* MARK: image
 */
 #article img {
   max-width: 100%;
@@ -181,78 +161,64 @@
   max-width: 100%;
 }
 
-/* MARK: text
-*/
-#article p {
-  margin: 1em 0;
-  padding-left: 1.75em;
-  padding-right: 1.75em;
-  border-left: 2px solid transparent;
-  font-size: 1.15em;
-}
-
-#article header ~ p:hover {
-  border-left: 2px solid #23222388;
-}
-
-/* MARK: list
+/* MARK: <ol>,<ul>
 */
 #article ol,
 #article ul {
-  padding-left: 1.75em;
-  margin-top: 1em;
+  margin-top: 1rem;
 }
-#article li > ol,
-#article li > ul {
+#article ol > li,
+#article ul > li {
   margin-top: 0;
 }
 #article li {
-  font-size: 1.05em;
-  margin: 0.25em 2em;
-  list-style: disc;
+  margin: 0.25rem 1.5rem;
+  list-style-type: square;
   list-style-position: inside;
+  list-style-image: linear-gradient(
+    transparent 0%,
+    transparent 30%,
+    var(--gray) 30%,
+    var(--gray) 50%,
+    transparent 50%,
+    transparent 100%
+  );
 }
 
-/* MARK: blocks
+/* MARK: quote
 */
 #article blockquote {
-  margin: 1em 1.75em 1em 1.75em;
-  padding: 0.5em 1.25em;
-  border-left: 2px solid #809d7a;
-  color: #687e64;
-  font-size: 1.15em;
-  background-color: #151517aa;
-  border-top-right-radius: 0.25em;
-  border-bottom-right-radius: 0.25em;
-  font-style: italic;
-}
-#article code {
-  font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
-  font-size: 90%;
-  margin: 0;
-  hyphens: manual;
-}
-#article pre {
-  margin: 1em 0;
-  overflow: auto;
-}
-#article pre code {
-  padding: 0;
-  overflow: visible;
+  margin: 1rem 3px 1rem 3px;
+  padding: 0.75rem 1rem 0.75rem 1.75rem;
+
+  color: var(--l-green);
+  background-color: var(--black);
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--blockquote) 100%
+  );
+  border-left: 1px solid #89cb7d;
+
+  word-break: auto-phrase;
   overflow-wrap: normal;
+  text-indent: -0.75ch;
+  quotes: "“" "”" "'" "'";
 }
-#article .sourceCode {
-  background-color: transparent;
-  overflow: visible;
+@supports (hanging-punctuation: first) {
+  #article blockquote {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
 }
-#article hr {
-  border: none;
-  border-top: 1px solid #1a1a1a;
-  height: 1px;
-  margin: 1em 0;
+#article blockquote::before {
+  content: open-quote;
+}
+#article blockquote::after {
+  content: close-quote;
 }
 
-/* MARK: table
+/* MARK: <table>
 */
 #article table {
   margin: 1em 0;
@@ -278,41 +244,65 @@
   padding: 0.125em 0.5em 0.25em 0.5em;
 }
 
-/* MARK: etc. 
+/* MARK: #TOC
+*/
+#TOC li {
+  list-style: none;
+}
+#TOC ul {
+  padding-left: 1.3em;
+}
+#TOC > ul {
+  padding-left: 0;
+}
+#TOC a:not(:hover) {
+  text-decoration: none;
+}
+
+/* MARK: <nav>
+*/
+#article nav a {
+  color: #66c746 !important;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: 100;
+}
+#article nav a:visited {
+  color: #69d346 !important;
+  text-decoration: none;
+  font-size: 1.75em;
+  font-weight: 100;
+}
+#article nav a:hover,
+#article nav a:visited:hover {
+  color: var(--white) !important;
+  text-decoration: none;
+  opacity: 75%;
+}
+
+/* MARK: <code>
 */
 #article code {
   white-space: pre-wrap;
+  font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 90%;
+  margin: 0;
+  hyphens: manual;
 }
-#article span.smallcaps {
-  font-variant: small-caps;
+#article pre code {
+  padding: 0;
+  overflow: visible;
+  overflow-wrap: normal;
 }
-#article div.columns {
-  display: flex;
-  gap: min(4vw, 1.5em);
-}
-#article div.column {
-  flex: auto;
-  overflow-x: auto;
-}
-#article div.hanging-indent {
-  margin-left: 1.5em;
-  text-indent: -1.5em;
+#article .sourceCode {
+  background-color: transparent;
+  overflow: visible;
 }
 
-#article ul.task-list[class] {
-  list-style: none;
-}
-#article ul.task-list li input[type="checkbox"] {
-  font-size: inherit;
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
-
-#article sub {
-  vertical-align: baseline;
-  font-size: 1em;
-}
-#article em {
-  font-style: italic;
+/* MARK: etc.
+ */
+/* ! not sure if this is ever used in articles */
+#article pre {
+  margin: 1em 0;
+  overflow: auto;
 }

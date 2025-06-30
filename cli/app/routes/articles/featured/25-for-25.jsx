@@ -1,24 +1,22 @@
-import ArticleHeader from "../../../components/article/article-header";
-import { getFileSpecsById } from "../../../services/file-specs-service";
+import ArticleHeader from "../../../components/articles/article-header";
+import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getFileSpecsById("25-for-25");
+  const data = getArticleSpecsById("25-for-25");
   return data;
 }
 
 export default function TwentyFiveForTwentyFive({ loaderData }) {
-  const fileSpecs = loaderData;
+  const articleSpecs = loaderData;
 
   return (
     <>
-      <ArticleHeader fileSpecs={fileSpecs} />
+      <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <p>
-          its 2025 and these r the 25 best films of the 21st century
-          <i> (thus far) (according to me)</i>
-          <br />
+        <h2>The 25 Best Films of the 21st Century (so far)</h2>
+        <ul>
           <li>
             only caveat: <b>one film per director</b>
           </li>
@@ -28,11 +26,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
               href="https://open.spotify.com/show/6mTel3azvnK8isLs4VujvF?si=4acf0f9ee3aa48f5"
               rel="nofollow"
             >
-              the big picture
+              The Big Picture
             </a>{" "}
-            podcast!
+            podcast for the inspiration!
           </li>
-        </p>
+        </ul>
+
         <h2>
           1.{" "}
           <a href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/">
@@ -40,6 +39,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>
         </h2>
         <p>hey this isnt so hard!</p>
+
         <h2>
           2.{" "}
           <a href="https://letterboxd.com/michaelbeebe/film/paprika-2006/reviews/">
@@ -82,59 +82,60 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           matchup. im going with my heart and my gut (but things r getting
           interesting i dont like that i had to do this)
         </p>
+
         <h2>
           4. <a href="https://boxd.it/2b4m">Spirited Away</a>
         </h2>
-        <>
-          <p>
-            i think me loving Miyazaki so much, seeing every movie he's made,
-            and having a few personal favs that i cherish more than Spirited
-            Away all worked against it in these rankings…
-          </p>
-          <p>
-            that is: this time i'm spending trying to justify *only* ranking it
-            the **fourth best film of the past 25 years** is a testimony to how
-            incredible this piece of art is… plz forgive me, Miyazaki-san 😭🫡
-          </p>
-          <p>
+        <p>
+          i think me loving Miyazaki so much, seeing every movie he's made, and
+          having a few personal favs that i cherish more than Spirited Away all
+          worked against it in these rankings…
+        </p>
+        <p>
+          that is: this time i'm spending trying to justify *only* ranking it
+          the **fourth best film of the past 25 years** is a testimony to how
+          incredible this piece of art is… plz forgive me, Miyazaki-san 😭🫡
+        </p>
+        <ul>
+          <li>
             <a href="https://letterboxd.com/michaelbeebe/list/ghibli-ranked/">
               Studio Ghibli Movie Rankings
             </a>
-          </p>
-        </>
+          </li>
+        </ul>
+
         <h2>
           5.{" "}
           <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer/reviews/">
             Oppenheimer
           </a>
         </h2>
-        <>
-          <p>
-            if u wouldve told me i'd have Nolan ranked above Fincher prior to
-            Oppenheimer's release (not to mention Tenet), i would've been like
-            "whatever man, he's good and all but Social Network AND Zodiac
-            exist??" anyways, this is far and away my fav nolan and has been
-            since{" "}
-            <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/">
-              i first watched/reviewed it
-            </a>
-          </p>
-          <p>
-            **note: i love tenet and had to mention it, but i wouldnt put it
-            above either of the Fincher films i referenced (just to quell the
-            (uncultured) tenet haters before they get upset abt not having the
-            courage to submit themselves to that incredible film)… also
-            interstellar fucks too i forgot to say anything abt it so there ya
-            go
-          </p>
-        </>
+        <p>
+          if u wouldve told me i'd have Nolan ranked above Fincher prior to
+          Oppenheimer's release (not to mention Tenet), i would've been like
+          "whatever man, he's good and all but Social Network AND Zodiac
+          exist??" anyways, this is far and away my fav nolan and has been since{" "}
+          <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/">
+            i first watched/reviewed it
+          </a>
+        </p>
+        <p>
+          **note: i love tenet and had to mention it, but i wouldnt put it above
+          either of the Fincher films i referenced (just to quell the
+          (uncultured) tenet haters before they get upset abt not having the
+          courage to submit themselves to that incredible film)… also
+          interstellar fucks too i forgot to say anything abt it so there ya go
+        </p>
+
         <h2>
           6. <a href="https://boxd.it/17ue">The Social Network</a>
         </h2>
         <blockquote>
           Sorry, my Prada’s at the cleaners along with my hoodie and my fuck-you
+          flip-flops you pretentious douchebag.
         </blockquote>
         <p>⭐⭐⭐⭐⭐</p>
+
         <h2>
           7. <a href="https://boxd.it/28No">Pan's Labyrinth</a>
         </h2>
@@ -152,6 +153,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           i'm more than due for another viewing… guess i got plans for tmrw
           night
         </p>
+
         <h2>
           8. <a href="https://boxd.it/hTha">Parasite</a>
         </h2>
@@ -163,6 +165,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <h2>
           9. <a href="https://boxd.it/27ww">Ratatouille</a>
         </h2>
+
         <blockquote>
           In many ways, the work of a critic is easy. We risk very little, yet
           enjoy a position over those who offer up their work and their selves
@@ -171,7 +174,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           in the grand scheme of things, the average piece of junk is probably
           more meaningful than our criticism designating it so. But there are
           times when a critic truly risks something, and that is in the
-          discovery and defense of the <i>new</i>. The world is often unkind to
+          discovery and defense of the <i>new</i>. The world is often unkind to
           new talent, new creations. The new needs friends. Last night, I
           experienced something new: an extraordinary meal from a singularly
           unexpected source. To say that both the meal and its maker have
@@ -179,8 +182,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           understatement. They have rocked me to my core. In the past, I have
           made no secret of my disdain for Chef Gusteau's famous motto, "Anyone
           can cook." But I realize, only now do I truly understand what he
-          meant. Not everyone can become a great artist; but a great artist 
-          <i>can</i> come from 
+          meant. Not everyone can become a great artist; but a great artist
+          <i>can</i> come from
           <i>anywhere</i>. It is difficult to imagine more humble origins than
           those of the genius now cooking at Gusteau's, who is, in this critic's
           opinion, nothing less than the finest chef in France. I will be
@@ -215,6 +218,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </b>{" "}
           is worth bringing up bc omg wtf idk what else to say
         </p>
+
         <h2>
           11. <a href="https://boxd.it/pUfA">Dune: Part 2</a>
         </h2>
@@ -244,6 +248,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <p>
           <i>(i like sci-fi)</i>
         </p>
+
         <h2>
           12. <a href="https://boxd.it/1JzG">Inglourious Basterds</a>
         </h2>
@@ -265,6 +270,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           guess, i dont have any right to demand something from an artist, but
           damn dude i do not understand ur mindset rn
         </p>
+
         <h2>
           13. <a href="https://boxd.it/7bQA">Whiplash</a>
         </h2>
@@ -288,6 +294,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           filmmaking is jazz music). the ending is maybe(?) misinterpreted by
           some ppl, but omg is it devastating…
         </p>
+
         <h2>
           14. <a href="https://boxd.it/2b1M">Crouching Tiger, Hidden Dragon</a>
         </h2>
@@ -339,14 +346,14 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           engage with art… idk its just all very up my alley. oh and it took
           fucking risks!
         </p>
-        <p>
-          <i>
+        <ul>
+          <li>
             very thought-provoking{" "}
             <a href="https://open.spotify.com/episode/2fUO43K5JsFtCT1bWbcoFp?si=ug-ZU6NMQ028i6zAxUXL_w">
               Big Picture episode featuring Adam Nayman
             </a>
-          </i>
-        </p>
+          </li>
+        </ul>
 
         <h2>
           16. <a href="https://boxd.it/1Y2i">Children of Men</a>
@@ -365,15 +372,14 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           with the correct side + we need to work together to fight the real
           enemy.
         </p>
-
-        <p>
-          <i>
+        <ul>
+          <li>
             <a href="https://www.goodreads.com/quotes/11243889-in-one-of-the-key-scenes-in-alfonso-cuaron-s-2006">
               quote from Mark Fisher's Capitalist Realism
             </a>{" "}
             regarding Children of Men
-          </i>
-        </p>
+          </li>
+        </ul>
 
         <h2>
           17. <a href="https://boxd.it/1JP0">All About Lily Chou-Chou</a>
@@ -387,6 +393,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           if there's a common theme on this list, its that im a sucker for
           sincere cinema.
         </p>
+
         <h2>
           19. <a href="https://boxd.it/hNVe">Hereditary</a>
         </h2>

@@ -1,22 +1,22 @@
-import ArticleHeader from "../../../components/article/article-header";
-import ReviewContent from "../../../components/article/review-content";
-import { getFileSpecsById } from "../../../services/file-specs-service";
+import ArticleHeader from "../../../components/articles/article-header";
+import ReviewContent from "../../../components/articles/review-content";
+import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getFileSpecsById("burning");
+  const data = getArticleSpecsById("burning");
   return data;
 }
 
 export default function Burning({ loaderData }) {
-  const fileSpecs = loaderData;
+  const articleSpecs = loaderData;
 
   return (
     <>
-      <ArticleHeader fileSpecs={fileSpecs} />
+      <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <ReviewContent fileSpecs={fileSpecs} htmlMappers={[]} />
+        <ReviewContent articleSpecs={articleSpecs} htmlMappers={[]} />
         <p>
           Even the damn metaphors are metaphors. All the time spent running and
           driving and pondering and waiting with Jong-su accomplishes so much

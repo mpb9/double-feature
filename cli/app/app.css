@@ -2,29 +2,14 @@
 
 :root {
   --black: #040605;
-  --brown: #2a1204;
-  --l-brown: #262626;
   --white: #eef4e0;
-  --red: #950d1b;
-  --l-red: #ea665c;
-  --d-red: #100606;
-  --yellow: #fee685;
-  --l-yellow: #bcc1a9;
-  --green: #69d346;
-  --l-green: #97b58b;
-  --blue: #0e3e92;
-  --l-blue: #6d8ed2;
-  --purple: #631da2;
-  --l-purple: #ad76e1;
-  --pink: #e6b2a6;
-  --l-pink: #f4d1c6;
-  --orange: #f9a03f;
-  --l-orange: #f5cb93;
-
   --gray: #a5aca0;
   --l-gray: #d2dbcd;
-  --d-gray: #131315;
   --dim: #9da598;
+  --green: #69d346;
+  --l-green: #97b58b;
+  --red: #950d1b;
+  --l-pink: #f4d1c6;
 
   --boxd-gray: #445466;
   --boxd-orange: #ff8001;
@@ -43,7 +28,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* MARK: Home Page
+/* MARK: Home
 */
 #home,
 #tags,

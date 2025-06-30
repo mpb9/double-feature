@@ -1,36 +1,36 @@
-import { FileSpecs } from "../models/file-specs";
-export const FEATURED_FILES = [
-  new FileSpecs(
+import { ArticleSpecs } from "../models/article-specs";
+export const FEATURED_ARTICLES = [
+  new ArticleSpecs(
     "25-for-25",
-    "25 for 25",
-    "socialnetwork.jpg",
+    "25 for '25",
+    "25-for-25.jpg",
     "25-for-25",
     "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
     ["featured", "lists"],
     "2025-05-10"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "escapism",
     "Escapism",
-    "All-About-Lily-Chou-Chou.jpeg",
+    "escapism.jpg",
     "escapism",
     "",
     ["featured", "series"],
     "2025-05-10"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "everybody-wants-some",
     "Everybody Wants Some!!",
-    "everybodywantssome.jpg",
+    "everybody-wants-some.jpg",
     "everybody-wants-some",
     "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/",
     ["featured", "reviews"],
     "2025-03-07"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "burning",
     "Burning",
-    "Burning.jpg",
+    "burning.jpg",
     "burning",
     "https://letterboxd.com/michaelbeebe/film/burning-2018/",
     ["featured", "reviews"],

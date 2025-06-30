@@ -1,4 +1,4 @@
-export function metaBuilder(title = "Double Feature", color = "#131315") {
+export function metaBuilder(title = "Double Feature", color = "#69d346") {
   return [
     { charSet: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -6,7 +6,7 @@ export function metaBuilder(title = "Double Feature", color = "#131315") {
     {
       name: "description",
       content:
-        "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+        "Home to all my film-based endeavours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
     },
     {
       name: "author",
@@ -95,7 +95,7 @@ export const DEFAULT_META = [
   {
     name: "description",
     content:
-      "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+      "Home to all my film-based endeavours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
   },
   {
     name: "author",

@@ -12,7 +12,7 @@ export function meta() {
 export default function Review() {
   return (
     <div id="article">
-      <div className="flex flex-col w-full max-w-[70em] m-auto pb-5 bg-[var(--l-brown)] min-h-screen">
+      <div className="flex flex-col w-full max-w-[70em] m-auto pb-5 bg-transparent min-h-screen">
         <Outlet />
         <Thanks />
         <Footer />

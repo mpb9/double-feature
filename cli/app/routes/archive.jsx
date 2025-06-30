@@ -1,6 +1,6 @@
 import FilePreview from "../components/file-preview";
 import Footer from "../components/footer";
-import { ARCHIVE_FILES } from "../data/archive-data";
+import { ARCHIVE_ARTICLES } from "../data/archive-data";
 import { metaBuilder } from "../services/head/meta-service";
 
 export function meta() {
@@ -26,8 +26,12 @@ export default function Archive() {
         </div>
       </div>
       <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
-        {ARCHIVE_FILES.map((fileSpecs, index) => (
-          <FilePreview key={index} fileSpecs={fileSpecs} src={"archive"} />
+        {ARCHIVE_ARTICLES.map((articleSpecs, index) => (
+          <FilePreview
+            key={index}
+            articleSpecs={articleSpecs}
+            src={"archive"}
+          />
         ))}
       </div>
       <Footer links={["letterboxd", "tags", "home", "about"]} />

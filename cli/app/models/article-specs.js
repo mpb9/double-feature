@@ -1,4 +1,4 @@
-export class FileSpecs {
+export class ArticleSpecs {
   constructor(
     id = "",
     title = "",

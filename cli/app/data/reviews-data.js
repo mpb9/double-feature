@@ -1,6 +1,6 @@
-import { FileSpecs } from "../models/file-specs";
-export const REVIEWS_FILES = [
-  new FileSpecs(
+import { ArticleSpecs } from "../models/article-specs";
+export const REVIEWS_ARTICLES = [
+  new ArticleSpecs(
     "nickel-boys",
     "Nickel Boys",
     "nickel-boys.png",
@@ -9,16 +9,16 @@ export const REVIEWS_FILES = [
     ["reviews"],
     "2025-02-11"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "fullmetal-alchemist-brotherhood",
     "Fullmetal Alchemist: Brotherhood",
-    "fma-brotherhood.png",
+    "fullmetal-alchemist-brotherhood.png",
     "",
     "",
     ["reviews", "show", "spoilers"],
     "2025-02-11"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "requiem-for-a-dream",
     "Requiem for a Dream",
     "requiem-for-a-dream.jpg",
@@ -27,16 +27,16 @@ export const REVIEWS_FILES = [
     ["reviews"],
     "2024-09-18"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "rebel-ridge",
     "Rebel Ridge",
-    "Rebel_Ridge.jpg",
+    "rebel-ridge.jpg",
     "",
     "",
     ["reviews"],
     "2024-09-13"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "trainspotting",
     "Trainspotting",
     "trainspotting.jpg",
@@ -45,7 +45,7 @@ export const REVIEWS_FILES = [
     ["reviews"],
     "2024-04-12"
   ),
-  new FileSpecs(
+  new ArticleSpecs(
     "the-curse",
     "The Curse",
     "the-curse.png",

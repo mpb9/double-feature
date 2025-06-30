@@ -29,8 +29,8 @@ export default function HomeSection({ name, files, src }) {
     return (
       <div className="pb-6" id="home-section">
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
+          {files.map((articleSpecs, index) => (
+            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>
@@ -38,7 +38,7 @@ export default function HomeSection({ name, files, src }) {
   } else if (isClassics) {
     return (
       <div id="home-section">
-        <div className="flex flex-row w-full text-[var(--dim)] text-4xl italic pl-1">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[var(--dim)] text-[28px] sm:text-4xl italic pl-1">
           <h1>
             ____
             <i className="pl-1 pr-1 cursor-default">{name}</i>
@@ -46,8 +46,8 @@ export default function HomeSection({ name, files, src }) {
           </h1>
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
+          {files.map((articleSpecs, index) => (
+            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>
@@ -55,7 +55,7 @@ export default function HomeSection({ name, files, src }) {
   } else {
     return (
       <div id="home-section">
-        <div className="flex flex-row w-full text-4xl font-[100] pl-0">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[28px] sm:text-4xl font-[100] pl-0">
           <h1>
             <a
               href={`/${name.toLowerCase()}`}
@@ -70,8 +70,8 @@ export default function HomeSection({ name, files, src }) {
           </h1>
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
+          {files.map((articleSpecs, index) => (
+            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>

@@ -1,6 +1,6 @@
 import FilePreview from "../components/file-preview";
 import Footer from "../components/footer";
-import { REVIEWS_FILES } from "../data/reviews-data";
+import { REVIEWS_ARTICLES } from "../data/reviews-data";
 import { metaBuilder } from "../services/head/meta-service";
 export function meta() {
   const reviewsMeta = metaBuilder("Reviews");
@@ -24,8 +24,8 @@ export default function Reviews() {
         </div>
       </div>
       <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
-        {REVIEWS_FILES.map((fileSpecs, index) => (
-          <FilePreview key={index} fileSpecs={fileSpecs} src={"review"} />
+        {REVIEWS_ARTICLES.map((articleSpecs, index) => (
+          <FilePreview key={index} articleSpecs={articleSpecs} src={"review"} />
         ))}
       </div>
       <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />

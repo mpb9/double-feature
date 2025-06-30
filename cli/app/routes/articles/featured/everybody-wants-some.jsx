@@ -1,21 +1,21 @@
-import ArticleHeader from "../../../components/article/article-header";
-import ReviewContent from "../../../components/article/review-content";
-import { getFileSpecsById } from "../../../services/file-specs-service";
+import ArticleHeader from "../../../components/articles/article-header";
+import ReviewContent from "../../../components/articles/review-content";
+import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getFileSpecsById("everybody-wants-some");
+  const data = getArticleSpecsById("everybody-wants-some");
   return data;
 }
 
 export default function EverybodyWantsSome({ loaderData }) {
-  const fileSpecs = loaderData;
+  const articleSpecs = loaderData;
   return (
     <>
-      <ArticleHeader fileSpecs={fileSpecs} />
+      <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <ReviewContent fileSpecs={fileSpecs} htmlMappers={[]} />
+        <ReviewContent articleSpecs={articleSpecs} htmlMappers={[]} />
         <p>
           showed this to my dad, who played college baseball in the early 80s,
           which was pretty dope. he might&#39;ve dropped more &quot;this is so
@@ -140,7 +140,7 @@ export default function EverybodyWantsSome({ loaderData }) {
           quick sidebar: this is my fav Powell performance he’s so charismatic
           and such a realistic variation of the kind of guy you love to be
           around (great writing too ofc, maybe him and Linklater should write
-          something together in the future <em>winky wink</em>)
+          something together in the future <i>winky wink</i>)
         </p>
         <p>
           also i have no real theory on y tf this movie is called “Everybody

@@ -1,18 +1,18 @@
-import ArticleHeader from "../../../components/article/article-header";
-import { getFileSpecsById } from "../../../services/file-specs-service";
+import ArticleHeader from "../../../components/articles/article-header";
+import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getFileSpecsById("trainspotting");
+  const data = getArticleSpecsById("trainspotting");
   return data;
 }
 
 export default function Trainspotting({ loaderData }) {
-  const fileSpecs = loaderData;
+  const articleSpecs = loaderData;
   return (
     <>
-      <ArticleHeader fileSpecs={fileSpecs} />
+      <ArticleHeader articleSpecs={articleSpecs} />
       <main>
         <h2 id="-2025-03-07-https-boxd-it-93m20x-">
           <a href="https://boxd.it/6h19k3">2024-04-12</a>
