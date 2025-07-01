@@ -1,32 +1,35 @@
 import { index, layout, prefix, route } from "@react-router/dev/routes";
+import { ROUTE_DIRS } from "./constants";
 
 export default [
-  index("./routes/home.jsx"),
-  route("archive", "./routes/archive.jsx"),
-  route("lists", "./routes/lists.jsx"),
-  route("reviews", "./routes/reviews.jsx"),
-  route("tags", "./routes/tags.jsx"),
-  layout("layouts/article.jsx", [
+  index(`${ROUTE_DIRS.root}home.jsx`),
+  route("archive", `${ROUTE_DIRS.root}archive.jsx`),
+  route("lists", `${ROUTE_DIRS.root}lists.jsx`),
+  route("reviews", `${ROUTE_DIRS.root}reviews.jsx`),
+  route("tags", `${ROUTE_DIRS.root}tags.jsx`),
+
+  layout(`${ROUTE_DIRS.layouts}article.jsx`, [
     ...prefix("featured", [
-      route("25-for-25", "routes/articles/featured/25-for-25.jsx"),
-      route("escapism", "routes/articles/featured/escapism.jsx"),
+      route("25-for-25", `${ROUTE_DIRS.featured}25-for-25.jsx`),
+      route("escapism", `${ROUTE_DIRS.featured}escapism.jsx`),
       route(
         "everybody-wants-some",
-        "routes/articles/featured/everybody-wants-some.jsx"
+        `${ROUTE_DIRS.featured}everybody-wants-some.jsx`
       ),
-      route("burning", "routes/articles/featured/burning.jsx"),
+      route("burning", `${ROUTE_DIRS.featured}burning.jsx`),
     ]),
   ]),
+
   // Reviews
-  layout("layouts/review.jsx", [
+  layout(`${ROUTE_DIRS.layouts}review.jsx`, [
     ...prefix("review", [
-      route("trainspotting", "./routes/articles/reviews/trainspotting.jsx"),
+      route("trainspotting", `./${ROUTE_DIRS.reviews}trainspotting.jsx`),
     ]),
   ]),
   // Lists
-  //...prefix("list", [layout("layouts/article.jsx", [])]),
+  //...prefix("list", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
   // Classics
-  //...prefix("classics", [layout("layouts/article.jsx", [])]),
+  //...prefix("classics", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
   // Archive
-  //...prefix("archive", [layout("layouts/article.jsx", [])]),
+  //...prefix("archive", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
 ];

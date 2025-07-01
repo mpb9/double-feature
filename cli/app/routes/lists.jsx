@@ -1,5 +1,5 @@
-import FilePreview from "../components/file-preview";
-import Footer from "../components/footer";
+import ArticlePreview from "../components/article-preview";
+import Footer from "../components/footer/footer";
 import { LISTS_ARTICLES } from "../data/lists-data";
 import { metaBuilder } from "../services/head/meta-service";
 
@@ -26,7 +26,11 @@ export default function Lists() {
       </div>
       <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
         {LISTS_ARTICLES.map((articleSpecs, index) => (
-          <FilePreview key={index} articleSpecs={articleSpecs} src={"list"} />
+          <ArticlePreview
+            key={index}
+            articleSpecs={articleSpecs}
+            src={"list"}
+          />
         ))}
       </div>
       <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />

@@ -1,6 +1,15 @@
 import { ArticleSpecs } from "../models/article-specs";
 export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
+    "trainspotting",
+    "Trainspotting",
+    "trainspotting.jpg",
+    "trainspotting",
+    "https://boxd.it/6h19k3",
+    ["reviews"],
+    "2024-04-12"
+  ),
+  new ArticleSpecs(
     "nickel-boys",
     "Nickel Boys",
     "nickel-boys.png",
@@ -35,15 +44,6 @@ export const REVIEWS_ARTICLES = [
     "",
     ["reviews"],
     "2024-09-13"
-  ),
-  new ArticleSpecs(
-    "trainspotting",
-    "Trainspotting",
-    "trainspotting.jpg",
-    "trainspotting",
-    "https://boxd.it/6h19k3",
-    ["reviews"],
-    "2024-04-12"
   ),
   new ArticleSpecs(
     "the-curse",

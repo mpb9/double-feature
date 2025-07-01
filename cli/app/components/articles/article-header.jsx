@@ -1,4 +1,4 @@
-import { IMG_ROUTES } from "../../constants/routing-constants";
+import { IMG_ROUTES } from "../../constants";
 import ArticleTags from "./article-tags";
 
 export default function ArticleHeader({ articleSpecs }) {
@@ -6,7 +6,7 @@ export default function ArticleHeader({ articleSpecs }) {
     <header
       className="w-full h-[100vh] flex flex-col items-end justify-between bg-no-repeat bg-cover bg-center"
       style={{
-        backgroundImage: `url(/${IMG_ROUTES.articles}/${articleSpecs.img})`,
+        backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
       }}
     >
       <ArticleTags tags={articleSpecs.tags} />

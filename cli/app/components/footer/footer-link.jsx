@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-export default function HomeLink({ name, url }) {
+export default function FooterLink({ name, url }) {
   // ! TEMPORARY: Don't diplay "TAGS" link until tags are implemented/functional
   if (name == "Tags") {
     return;

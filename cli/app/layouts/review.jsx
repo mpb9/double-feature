@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
-import Footer from "../components/footer";
-import Thanks from "../components/thanks";
+import Thanks from "../components/articles/article-thanks";
+import Footer from "../components/footer/footer";
 import { metaBuilder } from "../services/head/meta-service";
 import "../styles/article.css";
 
@@ -12,7 +12,7 @@ export function meta() {
 export default function Review() {
   return (
     <div id="article">
-      <div className="flex flex-col w-full max-w-[70em] m-auto pb-5 bg-transparent min-h-screen">
+      <div className="flex flex-col w-full items-center m-auto pb-5 bg-transparent min-h-screen">
         <Outlet />
         <Thanks />
         <Footer />

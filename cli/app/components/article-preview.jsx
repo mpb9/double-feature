@@ -1,13 +1,13 @@
 import PropTypes from "prop-types";
-import { IMG_ROUTES } from "../constants/routing-constants";
+import { IMG_ROUTES } from "../constants";
 
 /**
- * FilePreview component
+ * ArticlePreview component
  * @param {Object} articleSpecs - The file to display
  * @param {src} src - The source of the file
  * @returns {JSX.Element}
  */
-FilePreview.propTypes = {
+ArticlePreview.propTypes = {
   articleSpecs: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
@@ -19,7 +19,7 @@ FilePreview.propTypes = {
   }).isRequired,
   src: PropTypes.string.isRequired,
 };
-export default function FilePreview({ articleSpecs, src }) {
+export default function ArticlePreview({ articleSpecs, src }) {
   const isFeatured = articleSpecs.tags.includes("featured");
   const href =
     articleSpecs.src.length > 0
@@ -33,7 +33,7 @@ export default function FilePreview({ articleSpecs, src }) {
           href={`/${src}/not-found`}
           className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
           style={{
-            backgroundImage: `url(/${IMG_ROUTES.articles}/${articleSpecs.img})`,
+            backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
           }}
         >
           <div className="static w-full flex items-center justify-end bg-[var(--black)]">
@@ -53,7 +53,7 @@ export default function FilePreview({ articleSpecs, src }) {
           href={href}
           className="w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
           style={{
-            backgroundImage: `url(/${IMG_ROUTES.articles}/${articleSpecs.img})`,
+            backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
           }}
         >
           <div className="static w-full flex items-center justify-end bg-[var(--black)]">
@@ -71,7 +71,7 @@ export default function FilePreview({ articleSpecs, src }) {
         href={href}
         className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-90 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-105 transition duration-500"
         style={{
-          backgroundImage: `url(/${IMG_ROUTES.articles}/${articleSpecs.img})`,
+          backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
         }}
       >
         <div className="static w-full flex items-center justify-end bg-[var(--black)]">

@@ -1,4 +1,4 @@
-import Footer from "../components/footer";
+import Footer from "../components/footer/footer";
 import HomeHeader from "../components/home/home-header";
 import HomeSection from "../components/home/home-section";
 import { CLASSICS_ARTICLES } from "../data/classics-data";

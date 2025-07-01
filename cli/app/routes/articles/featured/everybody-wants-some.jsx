@@ -57,9 +57,9 @@ export default function EverybodyWantsSome({ loaderData }) {
           each other’s idiosyncrasies and, moreso, their willingness to get out
           of their comfort zone in new environments.{" "}
         </p>
-        <p>
-          <strong> fourth wall break </strong>{" "}
-        </p>
+
+        <h2> fourth wall break </h2>
+
         <p>
           this thing abt the characters is actually the last section that im
           writing (u may b shocked to learn i tend to jump around a lot when i
@@ -74,9 +74,9 @@ export default function EverybodyWantsSome({ loaderData }) {
           out that the 30 year old would be the only playing it and getting
           geeked up abt it omg im wasting energy).
         </p>
-        <p>
-          <strong> fourth wall reconstructed </strong>
-        </p>
+
+        <h2> fourth wall reconstructed </h2>
+
         <p>
           so, many eagle eyed viewers might have been yelling at their
           phones/laptops when i said Powell helped everyone open up. said ppl

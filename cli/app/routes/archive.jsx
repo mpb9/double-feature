@@ -1,5 +1,5 @@
-import FilePreview from "../components/file-preview";
-import Footer from "../components/footer";
+import ArticlePreview from "../components/article-preview";
+import Footer from "../components/footer/footer";
 import { ARCHIVE_ARTICLES } from "../data/archive-data";
 import { metaBuilder } from "../services/head/meta-service";
 
@@ -27,7 +27,7 @@ export default function Archive() {
       </div>
       <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
         {ARCHIVE_ARTICLES.map((articleSpecs, index) => (
-          <FilePreview
+          <ArticlePreview
             key={index}
             articleSpecs={articleSpecs}
             src={"archive"}

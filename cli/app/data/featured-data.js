@@ -10,18 +10,9 @@ export const FEATURED_ARTICLES = [
     "2025-05-10"
   ),
   new ArticleSpecs(
-    "escapism",
-    "Escapism",
-    "escapism.jpg",
-    "escapism",
-    "",
-    ["featured", "series"],
-    "2025-05-10"
-  ),
-  new ArticleSpecs(
     "everybody-wants-some",
     "Everybody Wants Some!!",
-    "everybody-wants-some.jpg",
+    "everybody-wants-some.jpeg",
     "everybody-wants-some",
     "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/",
     ["featured", "reviews"],
@@ -35,5 +26,14 @@ export const FEATURED_ARTICLES = [
     "https://letterboxd.com/michaelbeebe/film/burning-2018/",
     ["featured", "reviews"],
     "2025-01-24"
+  ),
+  new ArticleSpecs(
+    "escapism",
+    "Escapism",
+    "escapism.jpg",
+    "escapism",
+    "",
+    ["featured", "series"],
+    "2025-05-10"
   ),
 ];

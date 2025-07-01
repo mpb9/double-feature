@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
-import Footer from "../components/footer";
-import Thanks from "../components/thanks";
+import Thanks from "../components/articles/article-thanks";
+import Footer from "../components/footer/footer";
 import { metaBuilder } from "../services/head/meta-service";
 import "../styles/article.css";
 

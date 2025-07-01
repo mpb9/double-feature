@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import FilePreview from "../file-preview";
+import ArticlePreview from "../article-preview";
 
 /**
  * HomeSection component
@@ -30,7 +30,7 @@ export default function HomeSection({ name, files, src }) {
       <div className="pb-6" id="home-section">
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
           {files.map((articleSpecs, index) => (
-            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
+            <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>
@@ -47,7 +47,7 @@ export default function HomeSection({ name, files, src }) {
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
           {files.map((articleSpecs, index) => (
-            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
+            <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>
@@ -71,7 +71,7 @@ export default function HomeSection({ name, files, src }) {
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
           {files.map((articleSpecs, index) => (
-            <FilePreview key={index} articleSpecs={articleSpecs} src={src} />
+            <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
           ))}
         </div>
       </div>

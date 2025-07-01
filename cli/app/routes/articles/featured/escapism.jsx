@@ -1,4 +1,5 @@
 import ArticleHeader from "../../../components/articles/article-header";
+import Unfinished from "../../../components/articles/unfinished";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -14,9 +15,7 @@ export default function Escapism({ loaderData }) {
   return (
     <>
       <ArticleHeader articleSpecs={articleSpecs} />
-      <main>
-        <h2>{articleSpecs.title}</h2>
-      </main>
+      <Unfinished />
     </>
   );
 }
