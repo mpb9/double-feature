@@ -32,8 +32,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "og:image",
-      content:
-        "https://static.wixstatic.com/media/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg/v1/fill/w_1000,h_559,al_c,q_85,usm_0.66_1.00_0.01/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg",
+      content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
     },
     {
       name: "og:url",
@@ -58,8 +57,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "twitter:image",
-      content:
-        "https://static.wixstatic.com/media/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg/v1/fill/w_1000,h_559,al_c,q_85,usm_0.66_1.00_0.01/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg",
+      content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
     },
     {
       name: "twitter:url",
@@ -121,8 +119,7 @@ export const DEFAULT_META = [
   },
   {
     name: "og:image",
-    content:
-      "https://static.wixstatic.com/media/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg/v1/fill/w_1000,h_559,al_c,q_85,usm_0.66_1.00_0.01/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg",
+    content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
   },
   {
     name: "og:url",
@@ -147,8 +144,7 @@ export const DEFAULT_META = [
   },
   {
     name: "twitter:image",
-    content:
-      "https://static.wixstatic.com/media/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg/v1/fill/w_1000,h_559,al_c,q_85,usm_0.66_1.00_0.01/86bf1c_2474deedb43449b08ad653412b9cf58a~mv2.jpg",
+    content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
   },
   {
     name: "twitter:url",
