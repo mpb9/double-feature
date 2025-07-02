@@ -24,6 +24,19 @@ export default [
   layout(`${ROUTE_DIRS.layouts}review.jsx`, [
     ...prefix("review", [
       route("trainspotting", `./${ROUTE_DIRS.reviews}trainspotting.jsx`),
+      route("alien", `./${ROUTE_DIRS.reviews}alien.jsx`),
+      route("nickel-boys", `./${ROUTE_DIRS.reviews}nickel-boys.jsx`),
+      route(
+        "fullmetal-alchemist-brotherhood",
+        `./${ROUTE_DIRS.reviews}fullmetal-alchemist-brotherhood.jsx`
+      ),
+      route(
+        "requiem-for-a-dream",
+        `./${ROUTE_DIRS.reviews}requiem-for-a-dream.jsx`
+      ),
+      route("rebel-ridge", `./${ROUTE_DIRS.reviews}rebel-ridge.jsx`),
+      route("the-curse", `./${ROUTE_DIRS.reviews}the-curse.jsx`),
+      route("breathless", `./${ROUTE_DIRS.reviews}breathless.jsx`),
     ]),
   ]),
   // Lists

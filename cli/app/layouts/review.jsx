@@ -4,6 +4,8 @@ import Footer from "../components/footer/footer";
 import { metaBuilder } from "../services/head/meta-service";
 import "../styles/article.css";
 
+// ! this isnt being used and is identical to article.jsx... i will delete it later
+
 export function meta() {
   const reviewMeta = metaBuilder("Review | Double Feature");
   return reviewMeta;
