@@ -1,4 +1,5 @@
 import ArticleHeader from "../../../components/articles/article-header";
+import ArticleInfo from "../../../components/articles/article-info";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -15,6 +16,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
     <>
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
+        <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
         <h2>The 25 Best Films of the 21st Century (so far)</h2>
         <ul>
           <li>

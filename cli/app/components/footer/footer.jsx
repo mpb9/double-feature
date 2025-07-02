@@ -5,7 +5,10 @@ export default function Footer({
   links = ["letterboxd", "home", "tags", "archive", "about"],
 }) {
   return (
-    <div className="flex flex-wrap w-full justify-center items-center pt-4 pb-14">
+    <div
+      id="footer"
+      className="flex flex-wrap w-full justify-center items-center pt-4 pb-14"
+    >
       {links.includes("letterboxd") ? (
         <FooterLink
           name={FREQUENT_LINKS.letterboxd.name}

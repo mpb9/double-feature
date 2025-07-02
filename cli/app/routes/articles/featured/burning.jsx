@@ -1,5 +1,5 @@
 import ArticleHeader from "../../../components/articles/article-header";
-import ReviewContent from "../../../components/articles/review-content";
+import ArticleInfo from "../../../components/articles/article-info";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -16,7 +16,7 @@ export default function Burning({ loaderData }) {
     <>
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <ReviewContent articleSpecs={articleSpecs} htmlMappers={[]} />
+        <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
         <p>
           Even the damn metaphors are metaphors. All the time spent running and
           driving and pondering and waiting with Jong-su accomplishes so much

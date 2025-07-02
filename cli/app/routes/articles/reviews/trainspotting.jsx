@@ -1,4 +1,5 @@
 import ArticleHeader from "../../../components/articles/article-header";
+import ArticleInfo from "../../../components/articles/article-info";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -14,9 +15,7 @@ export default function Trainspotting({ loaderData }) {
     <>
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <h2 id="-2025-03-07-https-boxd-it-93m20x-">
-          <a href="https://boxd.it/6h19k3">2024-04-12</a>
-        </h2>
+        <ArticleInfo articleSpecs={articleSpecs} />
         <p>
           Alright. So, people have been struggling to cope with the
           meaninglessness of life{" "}

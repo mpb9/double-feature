@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import "../../styles/article.css";
 
 /**
- * ReviewContent component
+ * ArticleInfo component
  * @param {Object} articleSpecs - The file to display
  * @param {Array} htmlMappers - The content of the review
  * @returns {JSX.Element}
  */
 
-ReviewContent.propTypes = {
+ArticleInfo.propTypes = {
   articleSpecs: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
@@ -27,12 +27,20 @@ ReviewContent.propTypes = {
     })
   ).isRequired,
 };
-export default function ReviewContent({ articleSpecs, htmlMappers }) {
+export default function ArticleInfo({ articleSpecs, htmlMappers }) {
   return (
-    <>
-      <h2>
-        <a href={articleSpecs.url}>{articleSpecs.date}</a>
+    <div id="info">
+      <h2
+        style={{
+          marginTop: "1rem",
+          // fontStyle: "italic",
+          textAlign: "left",
+          paddingLeft: "2px",
+          fontSize: "1.12rem",
+        }}
+      >
+        <a href={`${articleSpecs.url}`}>{articleSpecs.date}</a>
       </h2>
-    </>
+    </div>
   );
 }

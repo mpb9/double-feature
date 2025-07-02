@@ -7,7 +7,7 @@ export const FEATURED_ARTICLES = [
     "25-for-25",
     "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
     ["featured", "lists"],
-    "2025-05-10"
+    "2025-06-10"
   ),
   new ArticleSpecs(
     "everybody-wants-some",

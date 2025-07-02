@@ -1,5 +1,5 @@
 import ArticleHeader from "../../../components/articles/article-header";
-import ReviewContent from "../../../components/articles/review-content";
+import ArticleInfo from "../../../components/articles/article-info";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -15,7 +15,7 @@ export default function EverybodyWantsSome({ loaderData }) {
     <>
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <ReviewContent articleSpecs={articleSpecs} htmlMappers={[]} />
+        <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
         <p>
           showed this to my dad, who played college baseball in the early 80s,
           which was pretty dope. he might&#39;ve dropped more &quot;this is so

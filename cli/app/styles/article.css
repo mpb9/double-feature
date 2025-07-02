@@ -52,28 +52,6 @@
   max-width: 800px;
 }
 
-/* MARK: unfinished
-*/
-#article main.unfinished > h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  line-height: 1.2;
-  margin: 2.5rem 0 0rem 0;
-  opacity: 80%;
-  padding: 1.5rem 2rem 1.5rem 2rem;
-  color: var(--black);
-  background-color: var(--red);
-  border-radius: 0.1rem;
-  border: 10px dashed var(--black);
-  text-align: center;
-  text-transform: uppercase;
-  transition: all 0.5s ease-in-out;
-}
-#article main.unfinished ~ div > p.thanks {
-  display: none;
-}
-
 /* MARK: <p>
 */
 #article p {
@@ -88,7 +66,7 @@
   border-left: 2px solid #23222388;
 }
 
-/* MARK: <h#>
+/* MARK: headers
 */
 #article h1,
 #article h2,
@@ -149,7 +127,7 @@
   text-underline-offset: 0.25em;
   transition: all 0.5s ease-in-out;
 }
-#article a:visited {
+#article a:visited:not(#info a:visited):not(#footer a:visited) {
   color: var(--a-visited);
   text-decoration: underline;
   text-decoration-style: solid;
@@ -157,7 +135,8 @@
   text-decoration-thickness: 4px;
   text-underline-offset: 0.1em;
 }
-#article a:visited:hover {
+#article
+  a:visited:hover:not(#info a:visited:hover):not(#footer a:visited:hover) {
   color: var(--a-visited-hover);
   text-decoration: underline;
   text-decoration-style: solid;
@@ -263,6 +242,40 @@
   padding: 0.125em 0.5em 0.25em 0.5em;
 }
 
+/* MARK: #thanks
+*/
+#article p#thanks {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  line-height: 1.5;
+  color: var(--gray);
+  font-style: italic;
+}
+
+/* MARK: #unfinished
+*/
+#article main#unfinished > h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  margin: 2.5rem 0 0rem 0;
+  opacity: 80%;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  color: var(--black);
+  background-color: var(--red);
+  border-radius: 0.1rem;
+  border: 10px dashed var(--black);
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+#article main#unfinished ~ div > p#thanks {
+  display: none;
+}
+
 /* MARK: #TOC
 */
 #TOC li {
@@ -297,36 +310,6 @@
   color: var(--white) !important;
   text-decoration: none;
   opacity: 75%;
-}
-
-/* MARK: <code>
-*/
-#article code {
-  white-space: pre-wrap;
-  font-family: Menlo, Monaco, Consolas, "Lucida Console", monospace;
-  font-size: 90%;
-  margin: 0;
-  hyphens: manual;
-}
-#article pre code {
-  padding: 0;
-  overflow: visible;
-  overflow-wrap: normal;
-}
-#article .sourceCode {
-  background-color: transparent;
-  overflow: visible;
-}
-
-/* MARK: thanks
-*/
-#article p.thanks {
-  margin: 1rem 0;
-  font-size: 1.25rem;
-  font-weight: 100;
-  letter-spacing: 0.1em;
-  line-height: 1.5;
-  color: var(--gray);
 }
 
 /* MARK: etc.

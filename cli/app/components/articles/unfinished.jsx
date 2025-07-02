@@ -1,6 +1,6 @@
 export default function Unfinished() {
   return (
-    <main className="unfinished">
+    <main id="unfinished">
       <h1>NOT DONE YET (SORRY!)</h1>
     </main>
   );
