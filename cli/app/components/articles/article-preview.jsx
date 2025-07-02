@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { IMG_ROUTES } from "../constants";
+import { IMG_ROUTES } from "../../constants";
 
 /**
  * ArticlePreview component

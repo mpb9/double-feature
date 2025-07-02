@@ -1,4 +1,4 @@
-import ArticlePreview from "../components/article-preview";
+import ArticlePreview from "../components/articles/article-preview";
 import Footer from "../components/footer/footer";
 import { LISTS_ARTICLES } from "../data/lists-data";
 import { metaBuilder } from "../services/head/meta-service";

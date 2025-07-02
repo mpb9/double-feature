@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import ArticlePreview from "../article-preview";
+import ArticlePreview from "../articles/article-preview";
 
 /**
  * HomeSection component
