@@ -6,7 +6,7 @@ export const FEATURED_ARTICLES = [
     "25-for-25.jpg",
     "25-for-25",
     "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
-    ["featured", "lists"],
+    ["featured", "ranking"],
     "2025-06-10"
   ),
   new ArticleSpecs(
@@ -15,7 +15,7 @@ export const FEATURED_ARTICLES = [
     "everybody-wants-some.jpeg",
     "everybody-wants-some",
     "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/",
-    ["featured", "reviews"],
+    ["featured", "review", "2016"],
     "2025-03-07"
   ),
   new ArticleSpecs(
@@ -24,7 +24,7 @@ export const FEATURED_ARTICLES = [
     "burning.jpg",
     "burning",
     "https://letterboxd.com/michaelbeebe/film/burning-2018/",
-    ["featured", "reviews"],
+    ["featured", "review", "2018"],
     "2025-01-24"
   ),
   new ArticleSpecs(
@@ -33,7 +33,7 @@ export const FEATURED_ARTICLES = [
     "escapism.jpg",
     "escapism",
     "",
-    ["featured", "series"],
+    ["featured", "film series"],
     "2025-05-10"
   ),
 ];

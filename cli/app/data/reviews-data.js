@@ -6,7 +6,7 @@ export const REVIEWS_ARTICLES = [
     "trainspotting.jpg",
     "trainspotting",
     "https://boxd.it/6h19k3",
-    ["reviews"],
+    ["review", "1996"],
     "2024-04-12"
   ),
   new ArticleSpecs(
@@ -15,7 +15,7 @@ export const REVIEWS_ARTICLES = [
     "alien.png",
     "alien",
     "https://letterboxd.com/michaelbeebe/film/alien/",
-    ["reviews"],
+    ["review", "sci-fi", "1979"],
     "2025-05-02"
   ),
   new ArticleSpecs(
@@ -24,7 +24,7 @@ export const REVIEWS_ARTICLES = [
     "nickel-boys.jpeg",
     "nickel-boys",
     "https://letterboxd.com/michaelbeebe/film/nickel-boys/",
-    ["reviews"],
+    ["review", "2024"],
     "2025-02-11"
   ),
   new ArticleSpecs(
@@ -33,7 +33,7 @@ export const REVIEWS_ARTICLES = [
     "the-curse.png",
     "the-curse",
     "https://letterboxd.com/michaelbeebe/film/the-curse-2023/",
-    ["reviews", "show"],
+    ["review", "show", "2023"],
     "2024-01-12"
   ),
   new ArticleSpecs(
@@ -42,7 +42,7 @@ export const REVIEWS_ARTICLES = [
     "rebel-ridge.jpg",
     "rebel-ridge",
     "https://letterboxd.com/michaelbeebe/film/rebel-ridge/",
-    ["reviews"],
+    ["review", "2024"],
     "2024-09-13"
   ),
   new ArticleSpecs(
@@ -51,7 +51,7 @@ export const REVIEWS_ARTICLES = [
     "fullmetal-alchemist-brotherhood.png",
     "fullmetal-alchemist-brotherhood",
     "https://letterboxd.com/michaelbeebe/film/fullmetal-alchemist-brotherhood/",
-    ["reviews", "show", "spoilers"],
+    ["review", "anime", "spoilers", "2009"],
     "2025-02-11"
   ),
   new ArticleSpecs(
@@ -60,7 +60,7 @@ export const REVIEWS_ARTICLES = [
     "requiem-for-a-dream.jpg",
     "requiem-for-a-dream",
     "https://letterboxd.com/michaelbeebe/film/requiem-for-a-dream/",
-    ["reviews"],
+    ["review", "2000"],
     "2024-09-18"
   ),
   new ArticleSpecs(
@@ -69,7 +69,7 @@ export const REVIEWS_ARTICLES = [
     "breathless.jpg",
     "breathless",
     "https://letterboxd.com/michaelbeebe/film/breathless/",
-    ["reviews"],
+    ["review", "1960"],
     "2025-06-28"
   ),
 ];
