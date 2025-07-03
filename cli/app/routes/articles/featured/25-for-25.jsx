@@ -48,11 +48,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             Paprika
           </a>{" "}
         </h2>
-        <p>yep. havent had to make any hard decisions thus far…</p>
+        <p>yep. havent had to make any hard decisions thus far!</p>
+        <p>on another note…</p>
         <p>
-          on another note… forever mourning the immense immense loss of the
-          singular artist that was Satoshi Kon. he made four outstanding films
-          and a brilliant anime all by the time he was 46. fuck cancer so hard.
+          i'll forever mourn the immense <i>immense</i> loss of the singular
+          artist that was Satoshi Kon. he made four outstanding films (plus a
+          brilliant anime) all by the time he was 46. fuck cancer so hard.
         </p>
         <p>
           <i>
@@ -62,7 +63,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <ul>
           <li>
             <a href="https://youtu.be/2XGYr9_BiEU?si=VqCwBYrGkRmwk9dc">
-              Satoshi Kon and Why Love Is All You Need Ep. 1 - Perfect Blue
+              Satoshi Kon and Why Love Is All You Need Ep. 1 -{" "}
+              <i>Perfect Blue</i>
             </a>{" "}
             (the first in a series)
           </li>
@@ -80,9 +82,9 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>
         </h2>
         <p>
-          mad max vs. spirited away for the bronze metal is an absolutely brutal
-          matchup. im going with my heart and my gut (but things r getting
-          interesting i dont like that i had to do this)
+          <i>Mad Max</i> vs. <i>Spirited Away</i> for the bronze metal is an
+          absolutely brutal matchup. im going with my heart and my gut (but
+          things r getting interesting i dont like that i had to do this)
         </p>
 
         <h2>
@@ -90,13 +92,20 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <p>
           i think me loving Miyazaki so much, seeing every movie he's made, and
-          having a few personal favs that i cherish more than Spirited Away all
-          worked against it in these rankings…
+          having a few personal favs that i cherish more than{" "}
+          <i>Spirited Away</i> all worked against it in these rankings…
         </p>
         <p>
-          that is: this time i'm spending trying to justify *only* ranking it
-          the **fourth best film of the past 25 years** is a testimony to how
-          incredible this piece of art is… plz forgive me, Miyazaki-san 😭🫡
+          that is: this time i'm spending trying to justify{" "}
+          <b>
+            <i>only</i>
+          </b>{" "}
+          ranking it the{" "}
+          <b>
+            <i>fourth best film of the past 25 years</i>
+          </b>{" "}
+          is a testimony to how incredible this piece of art is… plz forgive me,
+          Miyazaki-san 😭🫡
         </p>
         <ul>
           <li>
@@ -114,19 +123,21 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <p>
           if u wouldve told me i'd have Nolan ranked above Fincher prior to
-          Oppenheimer's release (not to mention Tenet), i would've been like
-          "whatever man, he's good and all but Social Network AND Zodiac
-          exist??" anyways, this is far and away my fav nolan and has been since{" "}
+          Oppenheimer's release (not to mention <i>Tenet</i>), i would've been
+          like "whatever man, he's good and all but <i>Social Network</i> AND{" "}
+          <i>Zodiac</i> exist??" anyways, this is far and away my fav nolan and
+          has been since{" "}
           <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/">
             i first watched/reviewed it
           </a>
         </p>
         <p>
-          **note: i love tenet and had to mention it, but i wouldnt put it above
-          either of the Fincher films i referenced (just to quell the
-          (uncultured) tenet haters before they get upset abt not having the
-          courage to submit themselves to that incredible film)… also
-          interstellar fucks too i forgot to say anything abt it so there ya go
+          **note: i love <i>Tenet</i> and had to mention it, but i wouldnt put
+          it above either of the Fincher films i referenced (just to quell the
+          (uncultured) <i>Tenet</i> haters before they get upset abt not having
+          the courage to submit themselves to that incredible film)… also
+          <i>Interstellar</i> fucks too i forgot to say anything abt it so there
+          ya go
         </p>
 
         <h2>
@@ -225,26 +236,35 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           11. <a href="https://boxd.it/pUfA">Dune: Part 2</a>
         </h2>
         <p>
-          i dont think ive ever written anything significant abt Dune, which is
-          an unusual thing for me to (not) do when i love something to the
-          extent that i love Dune. the movies both fuck (and so will Messiah,
-          fuck the doubters + trust in Villeneuve's vision), and the books are
-          among my all-time favorites (mandatorily acknowledging that i dont
-          read much ngl). this might be another example of the "Parasite
-          Effect", a term that i just made up. it occurs when i'm just so
-          passionate abt the themes explored and fully aligned with the
-          critiques levelled in films (those akin to Parasite/Dune), and its
-          hard for me to refrain from just saying "hell yeah" or simply listing
-          all the things i love abt them. someday i'll get around to writing
-          more thoughtfully abt Dune, but today is, yet again, not that day.
+          i dont think ive ever written anything significant abt <i>Dune</i>,
+          which is an unusual thing for me to (not) do when i love something to
+          the extent that i love <i>Dune</i>. the movies both fuck (and so will{" "}
+          <i>Messiah</i>, fuck the doubters + trust in Villeneuve's vision), and
+          the books are among my all-time favorites (mandatorily acknowledging
+          that i dont read much ngl). this might be another example of the
+          "Parasite Effect", a term that i just made up. it occurs when i'm just
+          so passionate abt the themes explored and fully aligned with the
+          critiques levelled in films (those akin to <i>Parasite</i>/<i>Dune</i>
+          ), and its hard for me to refrain from just saying "hell yeah" or
+          simply listing all the things i love abt them. someday i'll get around
+          to writing more thoughtfully abt <i>Dune</i>, but today is, yet again,
+          not that day.
         </p>
         <p>anyways, here r my fav books (fiction) (unordered):</p>
         <ul>
           <i>
-            <li>Frankenstein; or, The Modern Prometheus</li>
-            <li>The Dispossessed</li>
-            <li>Things Fall Apart</li>
-            <li>Dune</li>
+            <li>
+              <i>Frankenstein; or, The Modern Prometheus</i>
+            </li>
+            <li>
+              <i>The Dispossessed</i>
+            </li>
+            <li>
+              <i>Things Fall Apart</i>
+            </li>
+            <li>
+              <i>Dune</i>
+            </li>
           </i>
         </ul>
         <p>
@@ -256,11 +276,11 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <p>
           was my fav movie throughout high school and i'm very due to watch it
-          again. my fav tarantino + fuck nazis… its undeniable how entrenched
+          again. my fav Tarantino + fuck nazis… its undeniable how entrenched
           some of these scenes/set-pieces are in the minds of everyone who
           watched them. that feat alone is incredibly special, but this movie's
           sum is still greater than its parts… just kind of like a masterclass i
-          suppose lol also: excuse my language, but quentin stop being a little
+          suppose lol also: excuse my language, but Quentin stop being a little
           self-righteous bitch and just make another movie y r u more worried
           abt ur legacy than just making a movie abt whatever ur into at the
           time? u made a dumb rule for yourself and ur the only one who cares
@@ -277,24 +297,33 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           13. <a href="https://boxd.it/7bQA">Whiplash</a>
         </h2>
         <p>
-          ur so pressed abt whether ur rushing or dragging, but when was the
-          last time u asked urself why the fuck you give such a shit? do you
-          even remember when you stopped loving the thing that u spend every
-          waking moment perfecting? are you aware that you're never going to be
-          able to? are you scared? do you need ur abusive teacher just as much
-          as he needs you? do u feel more at ease with someone pushing you
-          harder than ur capable of being pushed? how have you fallen so deeply
-          into obsession? or, why are you so scared of no longer being able to
-          indulge urself in this obsession that u make a father-figure out of a
-          man whose been broken it? there is no perfecting it, you're now only
-          capable of seeking satisfaction through the same cycle of trauma
-          that's broken the fools that went down this path before you. cmon,
-          miles. let's just go to the movies or something.. oooo i love this
-          movie. in the pantheon of the
-          *director-makes-movie-about-how-self-destructive-it-is-to-make-movies*
-          subgenre (and since its Damien Chazelle, obviously the metaphor for
-          filmmaking is jazz music). the ending is maybe(?) misinterpreted by
-          some ppl, but omg is it devastating…
+          <i>
+            ur so pressed abt whether ur rushing or dragging, but when was the
+            last time u asked urself why the fuck you give such a shit? do you
+            even remember the moment that you stopped loving the thing u spend
+            every waking moment trying to perfect? are you aware that ur never
+            going to be able to? are you scared? do you need ur abusive teacher
+            just as much as he needs you? do u feel more at ease when ur with
+            someone who pushes you further than ur capable of being pushed? how
+            have you fallen so deeply into obsession? or, why are you so scared
+            of no longer being able to indulge urself in this obsession that ur
+            making a father-figure out of a man whos life was broken by it?
+            there is no perfecting it, you're now only capable of seeking
+            satisfaction through the same cycle of trauma that's broken the
+            fools that went down this path before you. cmon, miles. let's just
+            go to the movies or something..
+          </i>
+        </p>
+        <p>
+          oooo i love this movie. its in the pantheon of the{" "}
+          <i>movie-about-how-self-destructive-it-is-to-make-movies</i> subgenre…
+          and, since its Damien Chazelle, obviously the metaphor for filmmaking
+          is jazz music (p.s.{" "}
+          <a href="https://letterboxd.com/director/damien-chazelle/">
+            all of Chazelle's movies
+          </a>{" "}
+          fit in this subgenre). the ending is maybe(?) misinterpreted by some
+          ppl, but omg is it devastating…
         </p>
 
         <h2>
@@ -352,7 +381,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           <li>
             very thought-provoking{" "}
             <a href="https://open.spotify.com/episode/2fUO43K5JsFtCT1bWbcoFp?si=ug-ZU6NMQ028i6zAxUXL_w">
-              Big Picture episode featuring Adam Nayman
+              The Big Picture podcast episode featuring Adam Nayman
             </a>
           </li>
         </ul>
@@ -377,7 +406,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <ul>
           <li>
             <a href="https://www.goodreads.com/quotes/11243889-in-one-of-the-key-scenes-in-alfonso-cuaron-s-2006">
-              quote from Mark Fisher's Capitalist Realism
+              quote from Mark Fisher's <i>Capitalist Realism</i>
             </a>{" "}
             regarding Children of Men
           </li>
