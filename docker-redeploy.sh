@@ -14,4 +14,5 @@ docker push michaelbeebe/double-feature-mongo:latest
 docker push michaelbeebe/double-feature-backend:latest
 docker push michaelbeebe/double-feature-frontend:latest
 
+open https://hub.docker.com/repositories/michaelbeebe
 open https://dashboard.render.com/project/prj-d0gfggadbo4c73bbl2og

@@ -48,8 +48,8 @@
   background-size: 28px 18px;
 }
 #article main {
-  padding: 0.25rem 2.25rem 0rem 2.25rem;
-  max-width: 800px;
+  padding: 0.25rem 1rem 0rem 1rem;
+  max-width: 750px;
 }
 
 /* MARK: <p>
@@ -172,7 +172,7 @@
 #article li {
   margin: 0.25rem 1.5rem;
   list-style-type: square;
-  list-style-position: inside;
+  list-style-position: outside;
   list-style-image: linear-gradient(
     transparent 0%,
     transparent 30%,
