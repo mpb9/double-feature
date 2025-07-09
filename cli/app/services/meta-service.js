@@ -6,7 +6,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     {
       name: "description",
       content:
-        "Home to all my film-based endeavours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
     },
     {
       name: "author",
@@ -23,12 +23,12 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "og:title",
-      content: "Double Feature",
+      content: "Make it a Double Feature",
     },
     {
       name: "og:description",
       content:
-        "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
     },
     {
       name: "og:image",
@@ -48,12 +48,12 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "twitter:title",
-      content: "Double Feature",
+      content: "Make it a Double Feature",
     },
     {
       name: "twitter:description",
       content:
-        "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
     },
     {
       name: "twitter:image",
@@ -65,11 +65,11 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "twitter:site",
-      content: "@mbeeebe",
+      content: "@michael__beebe",
     },
     {
       name: "twitter:creator",
-      content: "@mbeeebe",
+      content: "@michael__beebe",
     },
     {
       name: "theme-color",
@@ -93,7 +93,7 @@ export const DEFAULT_META = [
   {
     name: "description",
     content:
-      "Home to all my film-based endeavours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
   },
   {
     name: "author",
@@ -110,12 +110,12 @@ export const DEFAULT_META = [
   },
   {
     name: "og:title",
-    content: "Double Feature",
+    content: "Make it a Double Feature",
   },
   {
     name: "og:description",
     content:
-      "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
   },
   {
     name: "og:image",
@@ -135,12 +135,12 @@ export const DEFAULT_META = [
   },
   {
     name: "twitter:title",
-    content: "Double Feature",
+    content: "Make it a Double Feature",
   },
   {
     name: "twitter:description",
     content:
-      "Home to all my film-based endevours, featuring my blogs, reviews, and videos along with useful tools/resources for cinephiles.",
+      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
   },
   {
     name: "twitter:image",
@@ -152,15 +152,15 @@ export const DEFAULT_META = [
   },
   {
     name: "twitter:site",
-    content: "@mbeeebe",
+    content: "@michael__beebe",
   },
   {
     name: "twitter:creator",
-    content: "@mbeeebe",
+    content: "@michael__beebe",
   },
   {
     name: "theme-color",
-    content: "#131315",
+    content: "#69d346",
   },
   { name: "robots", content: "index, follow" },
   { name: "revisit-after", content: "1 days" },
