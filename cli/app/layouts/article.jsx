@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
 import Thanks from "../components/articles/thanks";
 import Footer from "../components/footer/footer";
-import { metaBuilder } from "../services/head/meta-service";
+import { metaBuilder } from "../services/meta-service";
 import "../styles/article.css";
 
 export function meta() {

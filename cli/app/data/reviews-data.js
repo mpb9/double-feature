@@ -10,6 +10,15 @@ export const REVIEWS_ARTICLES = [
     "2024-04-12"
   ),
   new ArticleSpecs(
+    "across-the-spider-verse",
+    "Spider-Man: Across the Spider-Verse",
+    "across-the-spider-verse.jpeg",
+    "across-the-spider-verse",
+    "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
+    ["review", "animation", "2023"],
+    "2024-06-24"
+  ),
+  new ArticleSpecs(
     "alien",
     "Alien",
     "alien.png",

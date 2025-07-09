@@ -32,7 +32,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "og:image",
-      content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
+      content: "https://makeitadoublefeature.com/img/logos/bar-sign.png",
     },
     {
       name: "og:url",
@@ -57,7 +57,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "twitter:image",
-      content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
+      content: "https://makeitadoublefeature.com/img/logos/bar-sign.png",
     },
     {
       name: "twitter:url",
@@ -119,7 +119,7 @@ export const DEFAULT_META = [
   },
   {
     name: "og:image",
-    content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
+    content: "https://makeitadoublefeature.com/img/logos/bar-sign.png",
   },
   {
     name: "og:url",
@@ -144,7 +144,7 @@ export const DEFAULT_META = [
   },
   {
     name: "twitter:image",
-    content: "https://makeitadoublefeature.com/img/the-shining-bar.png",
+    content: "https://makeitadoublefeature.com/img/logos/bar-sign.png",
   },
   {
     name: "twitter:url",

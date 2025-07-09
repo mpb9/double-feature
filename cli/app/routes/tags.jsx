@@ -1,5 +1,5 @@
 import Footer from "../components/footer/footer";
-import { metaBuilder } from "../services/head/meta-service";
+import { metaBuilder } from "../services/meta-service";
 
 export function meta() {
   const tagsMeta = metaBuilder("Tags");

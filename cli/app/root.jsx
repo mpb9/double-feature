@@ -6,10 +6,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-import "./app.css";
 import ErrorPage from "./routes/errors/error";
-import { DEFAULT_LINKS } from "./services/head/links-service";
-import { DEFAULT_META } from "./services/head/meta-service";
+import { DEFAULT_LINKS } from "./services/links-service";
+import { DEFAULT_META } from "./services/meta-service";
+import "./styles/app.css";
 
 export const links = () => [...DEFAULT_LINKS];
 export const meta = () => [...DEFAULT_META];

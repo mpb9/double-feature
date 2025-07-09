@@ -2,7 +2,7 @@ import { ArticleSpecs } from "../models/article-specs";
 export const CLASSICS_ARTICLES = [
   new ArticleSpecs(
     "all-time-favs",
-    "All-Time Favs",
+    "Favorite Films",
     "all-time-favs.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/all-time-favs/",
@@ -10,7 +10,7 @@ export const CLASSICS_ARTICLES = [
   ),
   new ArticleSpecs(
     "directors",
-    "Directors",
+    "Favorite Directors",
     "directors.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/directors/detail/",

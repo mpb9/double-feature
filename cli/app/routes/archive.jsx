@@ -1,7 +1,7 @@
 import ArticlePreview from "../components/articles/article-preview";
 import Footer from "../components/footer/footer";
 import { ARCHIVE_ARTICLES } from "../data/archive-data";
-import { metaBuilder } from "../services/head/meta-service";
+import { metaBuilder } from "../services/meta-service";
 
 export function meta() {
   const archiveMeta = metaBuilder("Archive");

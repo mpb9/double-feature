@@ -48,7 +48,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             Paprika
           </a>{" "}
         </h2>
-        <p>yep. havent had to make any hard decisions thus far!</p>
+        <p>yep. haven't had to make any hard decisions thus far!</p>
         <p>on another note…</p>
         <p>
           i'll forever mourn the immense <i>immense</i> loss of the singular

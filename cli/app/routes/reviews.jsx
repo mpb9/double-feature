@@ -1,7 +1,7 @@
 import ArticlePreview from "../components/articles/article-preview";
 import Footer from "../components/footer/footer";
 import { REVIEWS_ARTICLES } from "../data/reviews-data";
-import { metaBuilder } from "../services/head/meta-service";
+import { metaBuilder } from "../services/meta-service";
 export function meta() {
   const reviewsMeta = metaBuilder("Reviews");
   return reviewsMeta;

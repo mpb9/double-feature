@@ -1,7 +1,7 @@
 import ArticlePreview from "../components/articles/article-preview";
 import Footer from "../components/footer/footer";
 import { LISTS_ARTICLES } from "../data/lists-data";
-import { metaBuilder } from "../services/head/meta-service";
+import { metaBuilder } from "../services/meta-service";
 
 export function meta() {
   const listsMeta = metaBuilder("Lists", "#a0b1b8");

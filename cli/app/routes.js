@@ -8,6 +8,7 @@ export default [
   route("reviews", `${ROUTE_DIRS.root}reviews.jsx`),
   route("tags", `${ROUTE_DIRS.root}tags.jsx`),
 
+  // info: Featured
   layout(`${ROUTE_DIRS.layouts}article.jsx`, [
     ...prefix("featured", [
       route("25-for-25", `${ROUTE_DIRS.featured}25-for-25.jsx`),
@@ -20,7 +21,7 @@ export default [
     ]),
   ]),
 
-  // Reviews
+  // info: Reviews
   layout(`${ROUTE_DIRS.layouts}review.jsx`, [
     ...prefix("review", [
       route("trainspotting", `./${ROUTE_DIRS.reviews}trainspotting.jsx`),
@@ -37,12 +38,10 @@ export default [
       route("rebel-ridge", `./${ROUTE_DIRS.reviews}rebel-ridge.jsx`),
       route("the-curse", `./${ROUTE_DIRS.reviews}the-curse.jsx`),
       route("breathless", `./${ROUTE_DIRS.reviews}breathless.jsx`),
+      route(
+        "across-the-spider-verse",
+        `./${ROUTE_DIRS.reviews}across-the-spider-verse.jsx`
+      ),
     ]),
   ]),
-  // Lists
-  //...prefix("list", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
-  // Classics
-  //...prefix("classics", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
-  // Archive
-  //...prefix("archive", [layout("${ROUTE_DIRS.layouts}article.jsx", [])]),
 ];
