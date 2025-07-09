@@ -1,4 +1,4 @@
-export function linkBuilder(icon = "/img/logos/favicon.png") {
+export function linkBuilder(icon = "/img/branding/favicon.png") {
   return [
     { rel: "icon", href: icon },
     { rel: "apple-touch-icon", href: icon },
@@ -16,8 +16,8 @@ export function linkBuilder(icon = "/img/logos/favicon.png") {
   ];
 }
 export const DEFAULT_LINKS = [
-  { rel: "icon", href: "/img/logos/favicon.png" },
-  { rel: "apple-touch-icon", href: "/img/logos/favicon.png" },
+  { rel: "icon", href: "/img/branding/favicon.png" },
+  { rel: "apple-touch-icon", href: "/img/branding/favicon.png" },
   { rel: "me", href: "mailto:michaelbeebe1031@gmail.com" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
