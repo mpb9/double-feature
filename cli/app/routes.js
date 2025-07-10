@@ -1,47 +1,47 @@
 import { index, layout, prefix, route } from "@react-router/dev/routes";
-import { ROUTE_DIRS } from "./constants";
+import { DIR_ROUTES } from "./constants";
 
 export default [
-  index(`${ROUTE_DIRS.root}home.jsx`),
-  route("archive", `${ROUTE_DIRS.root}archive.jsx`),
-  route("lists", `${ROUTE_DIRS.root}lists.jsx`),
-  route("reviews", `${ROUTE_DIRS.root}reviews.jsx`),
+  index(`${DIR_ROUTES.root}home.jsx`),
+  route("archive", `${DIR_ROUTES.root}archive.jsx`),
+  route("lists", `${DIR_ROUTES.root}lists.jsx`),
+  route("reviews", `${DIR_ROUTES.root}reviews.jsx`),
 
-  layout(`${ROUTE_DIRS.layouts}article.jsx`, [
+  layout(`${DIR_ROUTES.layouts}article.jsx`, [
     // info: Featured
     ...prefix("featured", [
-      route("25-for-25", `${ROUTE_DIRS.featured}25-for-25.jsx`),
-      route("escapism", `${ROUTE_DIRS.featured}escapism.jsx`),
+      route("25-for-25", `${DIR_ROUTES.featured}25-for-25.jsx`),
+      route("escapism", `${DIR_ROUTES.featured}escapism.jsx`),
       route(
         "everybody-wants-some",
-        `${ROUTE_DIRS.featured}everybody-wants-some.jsx`
+        `${DIR_ROUTES.featured}everybody-wants-some.jsx`
       ),
-      route("burning", `${ROUTE_DIRS.featured}burning.jsx`),
+      route("burning", `${DIR_ROUTES.featured}burning.jsx`),
     ]),
   ]),
 
-  layout(`${ROUTE_DIRS.layouts}review.jsx`, [
+  layout(`${DIR_ROUTES.layouts}review.jsx`, [
     // info: Reviews
     ...prefix("review", [
-      route("trainspotting", `./${ROUTE_DIRS.reviews}trainspotting.jsx`),
-      route("alien", `./${ROUTE_DIRS.reviews}alien.jsx`),
-      route("nickel-boys", `./${ROUTE_DIRS.reviews}nickel-boys.jsx`),
+      route("trainspotting", `./${DIR_ROUTES.reviews}trainspotting.jsx`),
+      route("alien", `./${DIR_ROUTES.reviews}alien.jsx`),
+      route("nickel-boys", `./${DIR_ROUTES.reviews}nickel-boys.jsx`),
       route(
         "fullmetal-alchemist-brotherhood",
-        `./${ROUTE_DIRS.reviews}fullmetal-alchemist-brotherhood.jsx`
+        `./${DIR_ROUTES.reviews}fullmetal-alchemist-brotherhood.jsx`
       ),
       route(
         "requiem-for-a-dream",
-        `./${ROUTE_DIRS.reviews}requiem-for-a-dream.jsx`
+        `./${DIR_ROUTES.reviews}requiem-for-a-dream.jsx`
       ),
-      route("rebel-ridge", `./${ROUTE_DIRS.reviews}rebel-ridge.jsx`),
-      route("the-curse", `./${ROUTE_DIRS.reviews}the-curse.jsx`),
-      route("breathless", `./${ROUTE_DIRS.reviews}breathless.jsx`),
+      route("rebel-ridge", `./${DIR_ROUTES.reviews}rebel-ridge.jsx`),
+      route("the-curse", `./${DIR_ROUTES.reviews}the-curse.jsx`),
+      route("breathless", `./${DIR_ROUTES.reviews}breathless.jsx`),
       route(
         "across-the-spider-verse",
-        `./${ROUTE_DIRS.reviews}across-the-spider-verse.jsx`
+        `./${DIR_ROUTES.reviews}across-the-spider-verse.jsx`
       ),
-      route("28-years-later", `./${ROUTE_DIRS.reviews}28-years-later.jsx`),
+      route("28-years-later", `./${DIR_ROUTES.reviews}28-years-later.jsx`),
     ]),
   ]),
 ];

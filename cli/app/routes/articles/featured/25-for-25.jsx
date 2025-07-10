@@ -1,5 +1,6 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
+import { IMG_ROUTES } from "../../../constants";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -115,9 +116,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </li>
         </ul>
 
+        <div className="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/oppenheimer.jpg`}
+            alt="Benny Safdie as Edward Teller in Oppenheimer (2023)"
+          />
+        </div>
         <h2>
           5.{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer/reviews/">
+          <a href="https://letterboxd.com/film/oppenheimer-2023/">
             Oppenheimer
           </a>
         </h2>
@@ -204,6 +211,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </blockquote>
         <p>what a life affirming film. i will always cherish it 🐀👨‍🍳</p>
 
+        <div className="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/aftersun.jpg`}
+            alt="Frankie Corio and Paul Mescal in Aftersun (2022)"
+          />
+        </div>
         <h2>
           10. <a href="https://boxd.it/Arw0">Aftersun</a>
         </h2>
@@ -326,6 +339,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           ppl, but omg is it devastating…
         </p>
 
+        <div className="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/crouching-tiger-hidden-dragon.jpg`}
+            alt="Zhang Ziyi and Michelle Yeoh in Crouching Tiger, Hidden Dragon (2000)"
+          />
+        </div>
         <h2>
           14. <a href="https://boxd.it/2b1M">Crouching Tiger, Hidden Dragon</a>
         </h2>

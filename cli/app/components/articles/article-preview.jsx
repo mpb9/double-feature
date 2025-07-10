@@ -38,7 +38,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
           href={`/${src}/not-found`}
           className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
           style={{
-            backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
+            backgroundImage: `url(/${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
         >
           <div className={textBoxCss}>
@@ -58,7 +58,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
           href={href}
           className="w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
           style={{
-            backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
+            backgroundImage: `url(/${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
         >
           <div className={textBoxCss}>
@@ -76,7 +76,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
         href={href}
         className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
         style={{
-          backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
+          backgroundImage: `url(/${IMG_ROUTES.covers}${articleSpecs.img})`,
         }}
       >
         <div className={textBoxCss}>

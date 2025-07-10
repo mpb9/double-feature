@@ -21,6 +21,10 @@
 
   --blockquote: #79927528;
 
+  --img-background: #8c7d902b;
+  --img-backdrop-left: #97b58b10;
+  --img-backdrop-right: #97b58b10;
+
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.2px;
@@ -152,8 +156,49 @@
 /* MARK: image
 */
 #article img {
-  max-width: 100%;
+  margin: 2.5rem 0 2rem 0;
+  border-radius: 0.1rem;
+  box-shadow: 0 0 18px 6px #000000cc;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  height: auto;
+  max-height: 500px;
+  width: 100%;
+  aspect-ratio: 1.85 / 1;
+  transition: all 0.35s ease-in-out;
+  transition-delay: 0.15s;
+  opacity: 80%;
 }
+#article img:hover {
+  transform: scale(1.12, 1.12);
+  transition: all 0.75s ease-in-out;
+  transition-delay: 0.25s;
+  opacity: 100%;
+  filter: brightness(1.1);
+  box-shadow: 30vw 70px 0px -70px var(--img-backdrop-right),
+    -30vw -70px 0px -70px var(--img-backdrop-left),
+    30vw 70px 0px -200px var(--l-green), -30vw -70px 0px -200px var(--l-green);
+}
+
+#article .img {
+  margin: 0;
+  padding: 0;
+  border-radius: 0.1rem;
+  display: block;
+  height: auto;
+  max-height: 500px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      var(--img-background) 21px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, #05b20e08 0.5px, transparent 1px);
+  background-size: 24px 16px;
+  background-color: #000;
+}
+
 #article svg {
   height: auto;
   max-width: 100%;
