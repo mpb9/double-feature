@@ -7,14 +7,18 @@ import "../styles/article.css";
 // ! being used (route.js) but almost identical to article.jsx... i will reconfigure it later
 
 export function meta() {
-  const reviewMeta = metaBuilder("Review | Double Feature"); // ! only difference is "Review" instead of "Article"
+  const reviewMeta = metaBuilder(
+    "Review | Double Feature",
+    "Review | Make it a Double Feature",
+    "#69d346"
+  );
   return reviewMeta;
 }
 
 export default function Review() {
   return (
     <div id="article">
-      <div className="flex flex-col w-full items-center m-auto pb-5 bg-transparent min-h-screen">
+      <div className="flex flex-col w-full items-center m-auto bg-transparent min-h-screen">
         <Outlet />
         <Thanks />
         <Footer />

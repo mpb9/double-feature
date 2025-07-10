@@ -1,6 +1,15 @@
 import { ArticleSpecs } from "../models/article-specs";
 export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
+    "28-years-later",
+    "28 Years Later",
+    "28-years-later.png",
+    "28-years-later",
+    "https://letterboxd.com/michaelbeebe/film/28-years-later/",
+    ["review", "horror", "2025"],
+    "2025-06-26"
+  ),
+  new ArticleSpecs(
     "trainspotting",
     "Trainspotting",
     "trainspotting.jpg",

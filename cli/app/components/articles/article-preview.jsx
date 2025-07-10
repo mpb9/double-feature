@@ -28,7 +28,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
 
   if (href.length === 0) {
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 py-4 tracking-normal">
+      <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 my-4 tracking-normal">
         <a
           href={`/${src}/not-found`}
           className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
@@ -47,7 +47,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
   }
   if (isFeatured) {
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 py-4 tracking-normal">
+      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 my-4 tracking-normal">
         {/* Switch to <Link /> or something */}
         <a
           href={href}
@@ -66,7 +66,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
     );
   }
   return (
-    <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 py-4 tracking-normal">
+    <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 my-4 tracking-normal">
       <a
         href={href}
         className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"

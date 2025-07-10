@@ -4,16 +4,20 @@ import { LISTS_ARTICLES } from "../data/lists-data";
 import { metaBuilder } from "../services/meta-service";
 
 export function meta() {
-  const listsMeta = metaBuilder("Lists", "#a0b1b8");
+  const listsMeta = metaBuilder(
+    "Lists | Double Feature",
+    "Lists | Make it a Double Feature",
+    "#69d346"
+  );
   return listsMeta;
 }
 export default function Lists() {
   return (
-    <div className="flex flex-col w-full items-start min-h-screen" id="lists">
-      <div className="w-full items-center px-24 overflow-scroll pt-10">
-        <div className="flex flex-col w-full items-start">
+    <div className="flex flex-col items-start w-full min-h-screen" id="lists">
+      <div className="items-center w-full px-10 pt-10 overflow-scroll sm:px-14 md:px-24">
+        <div className="flex flex-col items-start w-full">
           <h1 className="text-4xl font-[100]">Lists</h1>
-          <p className="text-lg font-light">
+          <p className="mt-1 text-lg font-light">
             A collection of lists by{" "}
             <a
               href="https://michael-beebe.com"
@@ -24,7 +28,7 @@ export default function Lists() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
+      <div className="flex flex-wrap items-center justify-center w-full px-10 py-5">
         {LISTS_ARTICLES.map((articleSpecs, index) => (
           <ArticlePreview
             key={index}
@@ -33,7 +37,7 @@ export default function Lists() {
           />
         ))}
       </div>
-      <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />
+      <Footer links={["letterboxd", "reviews", "archive", "home", "about"]} />
     </div>
   );
 }

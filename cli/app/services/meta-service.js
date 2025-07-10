@@ -1,4 +1,8 @@
-export function metaBuilder(title = "Double Feature", color = "#69d346") {
+export function metaBuilder(
+  title = "Double Feature",
+  title_preview = "Make it a Double Feature",
+  color = "#69d346"
+) {
   return [
     { charSet: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -23,7 +27,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "og:title",
-      content: "Make it a Double Feature",
+      content: title_preview,
     },
     {
       name: "og:description",
@@ -48,7 +52,7 @@ export function metaBuilder(title = "Double Feature", color = "#69d346") {
     },
     {
       name: "twitter:title",
-      content: "Make it a Double Feature",
+      content: title_preview,
     },
     {
       name: "twitter:description",

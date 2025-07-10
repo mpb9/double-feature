@@ -1,29 +1,59 @@
 import Footer from "../components/footer/footer";
 import HomeHeader from "../components/home/home-header";
 import HomeSection from "../components/home/home-section";
-import { CLASSICS_ARTICLES } from "../data/classics-data";
 import { FEATURED_ARTICLES } from "../data/featured-data";
-import { LISTS_ARTICLES } from "../data/lists-data";
+
+import { DECADES_LISTS } from "../data/lists/decades-lists-data";
+import { DIRECTORS_LISTS } from "../data/lists/directors-lists-data";
+import { ELEMENTS_LISTS } from "../data/lists/elements-lists-data";
+import { FEATURED_LISTS } from "../data/lists/featured-lists-data";
+import { GENRES_LISTS } from "../data/lists/genres-lists-data";
+import { MICROGENRES_LISTS } from "../data/lists/microgenres-lists-data";
+import { MOMENTS_LISTS } from "../data/lists/moments-lists-data";
+import { YEARS_LISTS } from "../data/lists/years-lists-data";
 import { REVIEWS_ARTICLES } from "../data/reviews-data";
 
 export default function Home() {
   return (
     <div className="flex flex-col w-full items-center" id="home">
       <HomeHeader />
-      <div className="w-full h-screen items-center pl-10 pr-10 overflow-y-scroll pt-28 sm:pt-36">
+
+      <div className="w-full h-screen items-center px-10 pt-28 sm:pt-36 overflow-y-scroll">
+        {/* FEATURED */}
         <HomeSection
           name={"Featured"}
           files={FEATURED_ARTICLES}
           src={"featured"}
         />
+
+        {/* REVIEWS */}
         <HomeSection name={"Reviews"} files={REVIEWS_ARTICLES} src={"review"} />
-        <HomeSection name={"Lists"} files={LISTS_ARTICLES} src={"list"} />
+
+        {/* LISTS */}
+        <HomeSection name={"Lists"} files={FEATURED_LISTS} src={"list"} />
+        <HomeSection name={"Genres"} files={GENRES_LISTS} src={"genres"} />
         <HomeSection
-          name={"Classics"}
-          files={CLASSICS_ARTICLES}
-          src={"classics"}
+          name={"Microgenres"}
+          files={MICROGENRES_LISTS}
+          src={"microgenres"}
         />
-        <Footer links={["letterboxd", "tags", "archive", "about"]} />
+        <HomeSection
+          name={"Elements"}
+          files={ELEMENTS_LISTS}
+          src={"elements"}
+        />
+        <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
+        <HomeSection
+          name={"Directors"}
+          files={DIRECTORS_LISTS}
+          src={"directors"}
+        />
+        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
+        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
+
+        <Footer
+          links={["letterboxd", "lists", "reviews", "archive", "about"]}
+        />
       </div>
     </div>
   );

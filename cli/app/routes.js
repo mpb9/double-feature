@@ -8,8 +8,8 @@ export default [
   route("reviews", `${ROUTE_DIRS.root}reviews.jsx`),
   route("tags", `${ROUTE_DIRS.root}tags.jsx`),
 
-  // info: Featured
   layout(`${ROUTE_DIRS.layouts}article.jsx`, [
+    // info: Featured
     ...prefix("featured", [
       route("25-for-25", `${ROUTE_DIRS.featured}25-for-25.jsx`),
       route("escapism", `${ROUTE_DIRS.featured}escapism.jsx`),
@@ -21,8 +21,8 @@ export default [
     ]),
   ]),
 
-  // info: Reviews
   layout(`${ROUTE_DIRS.layouts}review.jsx`, [
+    // info: Reviews
     ...prefix("review", [
       route("trainspotting", `./${ROUTE_DIRS.reviews}trainspotting.jsx`),
       route("alien", `./${ROUTE_DIRS.reviews}alien.jsx`),
@@ -42,6 +42,7 @@ export default [
         "across-the-spider-verse",
         `./${ROUTE_DIRS.reviews}across-the-spider-verse.jsx`
       ),
+      route("28-years-later", `./${ROUTE_DIRS.reviews}28-years-later.jsx`),
     ]),
   ]),
 ];

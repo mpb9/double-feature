@@ -54,20 +54,19 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-bottom: 1rem;
 }
 #home-section > div > h1 {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2rem;
   font-weight: 100;
-  transition-duration: 400ms;
+  transition-duration: 500ms;
   transition-delay: 0ms;
   text-transform: uppercase;
 }
 #home-section:hover > div > h1 {
-  letter-spacing: 0.18em;
-  font-weight: 300;
+  letter-spacing: 0.4rem;
+  font-weight: 200;
   transition-duration: 500ms;
-  transition-delay: 75ms;
+  transition-delay: 50ms;
 }
 
 /* MARK: Scrollbar

@@ -3,16 +3,20 @@ import Footer from "../components/footer/footer";
 import { REVIEWS_ARTICLES } from "../data/reviews-data";
 import { metaBuilder } from "../services/meta-service";
 export function meta() {
-  const reviewsMeta = metaBuilder("Reviews");
+  const reviewsMeta = metaBuilder(
+    "Reviews | Double Feature",
+    "Reviews | Make it a Double Feature",
+    "#69d346"
+  );
   return reviewsMeta;
 }
 export default function Reviews() {
   return (
-    <div className="flex flex-col w-full items-start min-h-screen" id="reviews">
-      <div className="w-full items-center px-24 overflow-scroll pt-10">
-        <div className="flex flex-col w-full items-start">
+    <div className="flex flex-col items-start w-full min-h-screen" id="reviews">
+      <div className="items-center w-full px-10 pt-10 overflow-scroll sm:px-14 md:px-24">
+        <div className="flex flex-col items-start w-full">
           <h1 className="text-4xl font-[100]">Reviews</h1>
-          <p className="text-lg font-light">
+          <p className="mt-1 text-lg font-light">
             A collection of reviews by{" "}
             <a
               href="https://michael-beebe.com"
@@ -23,7 +27,7 @@ export default function Reviews() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
+      <div className="flex flex-wrap items-center justify-center w-full px-10 py-5">
         {REVIEWS_ARTICLES.map((articleSpecs, index) => (
           <ArticlePreview
             key={index}
@@ -32,7 +36,7 @@ export default function Reviews() {
           />
         ))}
       </div>
-      <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />
+      <Footer links={["letterboxd", "lists", "archive", "home", "about"]} />
     </div>
   );
 }

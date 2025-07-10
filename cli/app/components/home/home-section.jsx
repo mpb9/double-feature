@@ -24,10 +24,12 @@ HomeSection.propTypes = {
 export default function HomeSection({ name, files, src }) {
   const isFeatured = name == "Featured";
   const isClassics = name == "Classics";
+  const isReviews = name == "Reviews";
+  const isLists = name == "Lists";
 
   if (isFeatured) {
     return (
-      <div className="pb-6" id="home-section">
+      <div id="home-section" className="mb-4">
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
           {files.map((articleSpecs, index) => (
             <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
@@ -35,14 +37,21 @@ export default function HomeSection({ name, files, src }) {
         </div>
       </div>
     );
-  } else if (isClassics) {
+  } else if (isReviews || isLists) {
     return (
-      <div id="home-section">
-        <div className="flex flex-row w-full justify-center sm:justify-start text-[var(--dim)] text-[28px] sm:text-4xl italic pl-1">
+      <div id="home-section" className="mb-6">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[28px] sm:text-4xl font-[100] pl-0">
           <h1>
-            ____
-            <i className="pl-1 pr-1 cursor-default">{name}</i>
-            ____
+            <a
+              href={`/${name.toLowerCase()}`}
+              className="text-[#69d34688] hover:text-[#69d346] group duration-500"
+            >
+              ____
+              <i className="pl-2 pr-1 text-[var(--dim)] group-hover:text-[#69d346] duration-500">
+                {name}
+              </i>
+              ____
+            </a>
           </h1>
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
@@ -54,19 +63,12 @@ export default function HomeSection({ name, files, src }) {
     );
   } else {
     return (
-      <div id="home-section">
-        <div className="flex flex-row w-full justify-center sm:justify-start text-[28px] sm:text-4xl font-[100] pl-0">
+      <div id="home-section" className="mb-6">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[var(--dim)] text-[28px] sm:text-4xl italic pl-1">
           <h1>
-            <a
-              href={`/${name.toLowerCase()}`}
-              className="text-[#69d34688] hover:text-[#69d346] group"
-            >
-              ____
-              <i className="pl-2 pr-1 text-[var(--dim)] group-hover:text-[#69d346] duration-500">
-                {name}
-              </i>
-              ____
-            </a>
+            ____
+            <i className="pl-1 pr-1 cursor-default">{name}</i>
+            ____
           </h1>
         </div>
         <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
