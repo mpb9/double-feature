@@ -7,8 +7,7 @@ import "../styles/article.css";
 export function meta() {
   const articleMeta = metaBuilder(
     "Double Feature | Article",
-    "Make it a Double Feature | Article",
-    "#69d346"
+    "Make it a Double Feature | Article"
   );
   return articleMeta;
 }

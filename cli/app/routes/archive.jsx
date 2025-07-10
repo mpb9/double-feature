@@ -8,7 +8,10 @@ export function meta() {
   const archiveMeta = metaBuilder(
     "Archive | Double Feature",
     "Archive | Make it a Double Feature",
-    "#69d346"
+    "bar-sign.png",
+    "A collection of articles, reviews, lists, and other film-related content by Michael Beebe.",
+    "archive",
+    "#9da598"
   );
   return archiveMeta;
 }

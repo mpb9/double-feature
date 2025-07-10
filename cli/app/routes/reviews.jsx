@@ -5,8 +5,7 @@ import { metaBuilder } from "../services/meta-service";
 export function meta() {
   const reviewsMeta = metaBuilder(
     "Reviews | Double Feature",
-    "Reviews | Make it a Double Feature",
-    "#69d346"
+    "Reviews | Make it a Double Feature"
   );
   return reviewsMeta;
 }

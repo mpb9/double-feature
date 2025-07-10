@@ -6,8 +6,7 @@ import { metaBuilder } from "../services/meta-service";
 export function meta() {
   const listsMeta = metaBuilder(
     "Lists | Double Feature",
-    "Lists | Make it a Double Feature",
-    "#69d346"
+    "Lists | Make it a Double Feature"
   );
   return listsMeta;
 }

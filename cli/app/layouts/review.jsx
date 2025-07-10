@@ -9,8 +9,7 @@ import "../styles/article.css";
 export function meta() {
   const reviewMeta = metaBuilder(
     "Review | Double Feature",
-    "Review | Make it a Double Feature",
-    "#69d346"
+    "Review | Make it a Double Feature"
   );
   return reviewMeta;
 }
