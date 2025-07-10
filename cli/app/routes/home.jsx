@@ -2,7 +2,6 @@ import Footer from "../components/footer/footer";
 import HomeHeader from "../components/home/home-header";
 import HomeSection from "../components/home/home-section";
 import { FEATURED_ARTICLES } from "../data/featured-data";
-
 import { DECADES_LISTS } from "../data/lists/decades-lists-data";
 import { DIRECTORS_LISTS } from "../data/lists/directors-lists-data";
 import { ELEMENTS_LISTS } from "../data/lists/elements-lists-data";
@@ -15,10 +14,11 @@ import { REVIEWS_ARTICLES } from "../data/reviews-data";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full items-center" id="home">
+    <div className="flex flex-col items-center w-full" id="home">
       <HomeHeader />
+      <div className="h-24 sm:h-28"></div>
 
-      <div className="w-full h-screen items-center px-10 pt-28 sm:pt-36 overflow-y-scroll">
+      <div className="items-center w-full h-[calc(100vh-6rem)] sm:h-[calc(100vh-7rem)] px-10 lg:px-14 xl:px-18 overflow-y-scroll sm:snap-y">
         {/* FEATURED */}
         <HomeSection
           name={"Featured"}
@@ -43,13 +43,13 @@ export default function Home() {
           src={"elements"}
         />
         <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
+        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
+        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
         <HomeSection
           name={"Directors"}
           files={DIRECTORS_LISTS}
           src={"directors"}
         />
-        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
-        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
 
         <Footer
           links={["letterboxd", "lists", "reviews", "archive", "about"]}

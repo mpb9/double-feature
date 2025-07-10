@@ -1,7 +1,12 @@
+import { BRANDING, IMG_ROUTES } from "../constants";
+
 export function metaBuilder(
-  title = "Double Feature",
-  title_preview = "Make it a Double Feature",
-  color = "#69d346"
+  title = BRANDING.title,
+  preview_title = BRANDING.preview_title,
+  preview_img = BRANDING.preview_img,
+  desc = BRANDING.desc,
+  keywords = "",
+  color = BRANDING.color
 ) {
   return [
     { charSet: "utf-8" },
@@ -9,8 +14,7 @@ export function metaBuilder(
     { title: title },
     {
       name: "description",
-      content:
-        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+      content: desc,
     },
     {
       name: "author",
@@ -18,8 +22,9 @@ export function metaBuilder(
     },
     {
       name: "keywords",
-      content:
-        "double feature, movies, film, cinema, michael beebe, reviews, film series",
+      content: `${keywords.length > 0 ? `${keywords}, ` : ""}${
+        BRANDING.keywords
+      }`,
     },
     {
       name: "google",
@@ -27,20 +32,19 @@ export function metaBuilder(
     },
     {
       name: "og:title",
-      content: title_preview,
+      content: preview_title,
     },
     {
       name: "og:description",
-      content:
-        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+      content: desc,
     },
     {
       name: "og:image",
-      content: "https://makeitadoublefeature.com/img/branding/bar-sign.png",
+      content: `${BRANDING.domain}${IMG_ROUTES.branding}${preview_img}`,
     },
     {
       name: "og:url",
-      content: "https://makeitadoublefeature.com/",
+      content: BRANDING.domain,
     },
     {
       name: "og:type",
@@ -52,20 +56,19 @@ export function metaBuilder(
     },
     {
       name: "twitter:title",
-      content: title_preview,
+      content: preview_title,
     },
     {
       name: "twitter:description",
-      content:
-        "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+      content: desc,
     },
     {
       name: "twitter:image",
-      content: "https://makeitadoublefeature.com/img/branding/bar-sign.png",
+      content: `${BRANDING.domain}${IMG_ROUTES.branding}${preview_img}`,
     },
     {
       name: "twitter:url",
-      content: "https://makeitadoublefeature.com/",
+      content: BRANDING.domain,
     },
     {
       name: "twitter:site",
@@ -96,8 +99,7 @@ export const DEFAULT_META = [
   { title: "Double Feature" },
   {
     name: "description",
-    content:
-      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+    content: BRANDING.desc,
   },
   {
     name: "author",
@@ -105,8 +107,7 @@ export const DEFAULT_META = [
   },
   {
     name: "keywords",
-    content:
-      "double feature, movies, film, cinema, michael beebe, reviews, film series",
+    content: BRANDING.keywords,
   },
   {
     name: "google",
@@ -114,20 +115,19 @@ export const DEFAULT_META = [
   },
   {
     name: "og:title",
-    content: "Make it a Double Feature",
+    content: BRANDING.preview_title,
   },
   {
     name: "og:description",
-    content:
-      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+    content: BRANDING.desc,
   },
   {
     name: "og:image",
-    content: "https://makeitadoublefeature.com/img/branding/bar-sign.png",
+    content: `${BRANDING.domain}${IMG_ROUTES.branding}${BRANDING.preview_img}`,
   },
   {
     name: "og:url",
-    content: "https://makeitadoublefeature.com/",
+    content: BRANDING.domain,
   },
   {
     name: "og:type",
@@ -139,20 +139,19 @@ export const DEFAULT_META = [
   },
   {
     name: "twitter:title",
-    content: "Make it a Double Feature",
+    content: BRANDING.preview_title,
   },
   {
     name: "twitter:description",
-    content:
-      "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
+    content: BRANDING.desc,
   },
   {
     name: "twitter:image",
-    content: "https://makeitadoublefeature.com/img/branding/bar-sign.png",
+    content: `${BRANDING.domain}${IMG_ROUTES.branding}${BRANDING.preview_img}`,
   },
   {
     name: "twitter:url",
-    content: "https://makeitadoublefeature.com/",
+    content: BRANDING.domain,
   },
   {
     name: "twitter:site",
@@ -164,7 +163,7 @@ export const DEFAULT_META = [
   },
   {
     name: "theme-color",
-    content: "#69d346",
+    content: BRANDING.color,
   },
   { name: "robots", content: "index, follow" },
   { name: "revisit-after", content: "1 days" },

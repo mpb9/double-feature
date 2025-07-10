@@ -7,7 +7,7 @@ export default function Footer({
   return (
     <div
       id="footer"
-      className="flex flex-wrap w-full justify-center items-center pt-5 pb-16"
+      className="flex flex-wrap items-center justify-center w-full pt-5 pb-16"
     >
       {links.includes("archive") ? (
         <FooterLink

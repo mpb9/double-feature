@@ -1,10 +1,11 @@
 export default function HomeHeader() {
   return (
     <>
-      <div className="hidden sm:block absolute z-10 w-full" id="home-header">
-        <div className="flex w-full items-center justify-center">
+      {/* Desktop Header */}
+      <div className="absolute z-10 hidden w-full sm:block" id="home-header">
+        <div className="flex items-center justify-center w-full">
           <div
-            className="flex flex-col w-fit items-center h-fit px-[38px] py-6"
+            className="flex flex-col items-center px-9.5 py-4.5 w-fit h-fit"
             id="home-title"
           >
             <h6 className="text-xl cursor-default text-[var(--dim)] pb-[3px] font-[100] italic">
@@ -15,8 +16,8 @@ export default function HomeHeader() {
             </h1>
           </div>
         </div>
-        <div className="absolute z-10 top-0 right-4">
-          <div className="flex flex-col w-fit items-center h-fit px-[24px] py-6">
+        <div className="absolute top-0 z-10 right-4">
+          <div className="flex flex-col w-fit items-center h-fit px-[24px] py-4.5">
             <div className="text-xl cursor-default text-right text-[#a5aca0cc] pt-[3px] font-[100]">
               created by: <br />
               <a
@@ -29,8 +30,9 @@ export default function HomeHeader() {
           </div>
         </div>
       </div>
-      <div className="block sm:hidden absolute z-10 w-full" id="home-header">
-        <div className="flex w-full items-center justify-center">
+      {/* Mobile Header */}
+      <div className="absolute z-10 block w-full sm:hidden" id="home-header">
+        <div className="flex items-center justify-center w-full">
           <div
             className="flex flex-col w-fit items-center h-fit px-[38px] py-3"
             id="home-title"
@@ -48,7 +50,7 @@ export default function HomeHeader() {
             </div>
           </div>
         </div>
-        <div className="absolute z-10 top-0 right-4">
+        <div className="absolute top-0 z-10 right-4">
           <div className="flex flex-col w-fit items-center h-fit px-[24px] py-6"></div>
         </div>
       </div>

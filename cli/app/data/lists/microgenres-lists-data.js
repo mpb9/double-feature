@@ -7,7 +7,7 @@ export const MICROGENRES_LISTS = [
     "ani-make-me-consider-my-purpose.gif",
     "",
     "https://letterboxd.com/michaelbeebe/list/animake-me-consider-my-purpose-and-existence/",
-    ["list", "microgenre", "show", "anime"]
+    ["list", "microgenre", "anime"]
   ),
   new ArticleSpecs(
     "stuck-in-a-hole",
@@ -40,5 +40,42 @@ export const MICROGENRES_LISTS = [
     "",
     "https://letterboxd.com/michaelbeebe/list/non-boy-boy-movies/",
     ["list", "microgenre"]
+  ),
+];
+
+// MARK: ADD L8R...
+
+const FUTURE_MICROGENRES = [
+  new ArticleSpecs(
+    "repeated-dialogue",
+    "Repeated Dialogue",
+    "repeated-dialogue.png",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/repeated-dialogue/",
+    ["list", "microgenre"]
+  ),
+  new ArticleSpecs(
+    "vehicle-vehicles",
+    "Vehicle Vehicles",
+    "vehicle-vehicles.png",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/vehicle-vehicles/detail/",
+    ["list", "microgenre"]
+  ),
+  new ArticleSpecs(
+    "stop-trying-to-be-god",
+    "Stop Trying to Be God",
+    "stop-trying-to-be-god.png",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/stop-trying-to-be-god/",
+    ["list", "microgenre"]
+  ),
+  new ArticleSpecs(
+    "sci-fi-as-economic-social-commentary",
+    "Sci-Fi as Economic/Social Commentary",
+    "sci-fi-as-economic-social-commentary.png",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/sci-fi-as-economic-social-commentary/",
+    ["list", "microgenre", "sci-fi"]
   ),
 ];

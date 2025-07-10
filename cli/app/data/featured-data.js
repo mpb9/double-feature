@@ -14,7 +14,7 @@ export const FEATURED_ARTICLES = [
     "Everybody Wants Some!!",
     "everybody-wants-some.jpeg",
     "everybody-wants-some",
-    "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/",
+    "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/reviews/",
     ["featured", "review", "2016"],
     "2025-03-07"
   ),

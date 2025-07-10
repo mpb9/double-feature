@@ -1,6 +1,6 @@
 import ArticlePreview from "../components/articles/article-preview";
 import Footer from "../components/footer/footer";
-import { ARCHIVE_ARTICLES } from "../data/archive-data";
+import { LISTS_ARTICLES } from "../data/lists-data";
 import { REVIEWS_ARTICLES } from "../data/reviews-data";
 import { metaBuilder } from "../services/meta-service";
 
@@ -12,6 +12,7 @@ export function meta() {
   );
   return archiveMeta;
 }
+
 export default function Archive() {
   return (
     <div className="flex flex-col items-start w-full" id="archive">
@@ -38,11 +39,11 @@ export default function Archive() {
             src={"review"}
           />
         ))}
-        {ARCHIVE_ARTICLES.map((articleSpecs, index) => (
+        {LISTS_ARTICLES.map((articleSpecs, index) => (
           <ArticlePreview
             key={index}
             articleSpecs={articleSpecs}
-            src={"archive"}
+            src={"list"}
           />
         ))}
       </div>

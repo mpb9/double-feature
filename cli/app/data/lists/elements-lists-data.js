@@ -34,3 +34,16 @@ export const ELEMENTS_LISTS = [
     ["list", "element"]
   ),
 ];
+
+// MARK: ADD L8R...
+
+const FUTURE_ELEMENTS = [
+  new ArticleSpecs(
+    "theyre-all-so-cool",
+    "Intimidatingly Cool Characters",
+    "theyre-all-so-cool.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/theyre-all-so-cool/",
+    ["list", "element"]
+  ),
+];

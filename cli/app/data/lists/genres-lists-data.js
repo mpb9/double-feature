@@ -10,14 +10,6 @@ export const GENRES_LISTS = [
     ["list", "genre"]
   ),
   new ArticleSpecs(
-    "spooooky",
-    "spOoOoky",
-    "spooooky.gif",
-    "",
-    "https://letterboxd.com/michaelbeebe/list/spooooky/",
-    ["list", "genre"]
-  ),
-  new ArticleSpecs(
     "funny-as-fuck",
     "Funny As F*ck",
     "funny-as-fuck.jpg",
@@ -34,11 +26,32 @@ export const GENRES_LISTS = [
     ["list", "genre"]
   ),
   new ArticleSpecs(
+    "spooooky",
+    "spOoOoky",
+    "spooooky.gif",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/spooooky/",
+    ["list", "genre"]
+  ),
+  new ArticleSpecs(
     "docs",
     "Docs",
     "docs.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/docs/",
+    ["list", "genre"]
+  ),
+];
+
+// MARK: ADD L8R...
+
+const FUTURE_GENRES = [
+  new ArticleSpecs(
+    "feel-good",
+    "Feel Good",
+    "feel-good.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/feel-good/",
     ["list", "genre"]
   ),
 ];

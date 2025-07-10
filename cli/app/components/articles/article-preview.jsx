@@ -26,17 +26,22 @@ export default function ArticlePreview({ articleSpecs, src }) {
       ? `/${src}/${articleSpecs.src}`
       : articleSpecs.url;
 
+  const basicArticlePreviewCss =
+    "flex flex-col items-center justify-center h-full my-4 ml-0 mr-8 tracking-normal group min-w-70 md:min-w-80 lg:min-w-100 snap-start";
+  const textBoxCss =
+    "static w-full flex items-center justify-end bg-[var(--black)]";
+
   if (href.length === 0) {
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 my-4 tracking-normal">
+      <div className={basicArticlePreviewCss}>
         <a
           href={`/${src}/not-found`}
-          className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
+          className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
           style={{
             backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
           }}
         >
-          <div className="static w-full flex items-center justify-end bg-[var(--black)]">
+          <div className={textBoxCss}>
             <h2 className="text-lg md:text-xl lg:text-2xl pr-3 pb-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
               {articleSpecs.title}
             </h2>
@@ -47,7 +52,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
   }
   if (isFeatured) {
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 my-4 tracking-normal">
+      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 my-4 tracking-normal snap-start">
         {/* Switch to <Link /> or something */}
         <a
           href={href}
@@ -56,7 +61,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
             backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
           }}
         >
-          <div className="static w-full flex items-center justify-end bg-[var(--black)]">
+          <div className={textBoxCss}>
             <h2 className="text-xl sm:text-4xl pr-3 pb-[5px] pt-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
               {articleSpecs.title}
             </h2>
@@ -66,15 +71,15 @@ export default function ArticlePreview({ articleSpecs, src }) {
     );
   }
   return (
-    <div className="flex flex-col group items-center justify-center min-w-70 md:min-w-80 lg:min-w-100 h-full ml-0 mr-8 my-4 tracking-normal">
+    <div className={basicArticlePreviewCss}>
       <a
         href={href}
-        className="w-full min-h-44 md:min-h-52 lg:min-h-56 flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
+        className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
         style={{
           backgroundImage: `url(/${IMG_ROUTES.articles}${articleSpecs.img})`,
         }}
       >
-        <div className="static w-full flex items-center justify-end bg-[var(--black)]">
+        <div className={textBoxCss}>
           <h2 className="text-xl lg:text-2xl pr-3 pb-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
             {articleSpecs.title}
           </h2>

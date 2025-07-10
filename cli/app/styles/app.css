@@ -7,7 +7,7 @@
   --l-gray: #d2dbcd;
   --dim: #9da598;
   --green: #69d346;
-  --l-green: #97b58b;
+  --l-green: #030303;
   --red: #950d1b;
   --l-pink: #f4d1c6;
 
@@ -15,6 +15,11 @@
   --boxd-orange: #ff8001;
   --boxd-green: #00e054;
   --boxd-blue: #3fbdf4;
+
+  --scroll-thumb: #41414188;
+  --scroll-thumb-hover: #a5aca0cc;
+
+  /* info: font-size: 17px; */
 }
 html {
   -webkit-text-size-adjust: 100%;
@@ -50,27 +55,39 @@ body {
   border-bottom: 3px solid #0f0606aa;
   box-shadow: 0 0 10px 6px #0f0606aa;
 }
-#home-section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-#home-section > div > h1 {
-  letter-spacing: 0.2rem;
-  font-weight: 100;
-  transition-duration: 500ms;
-  transition-delay: 0ms;
-  text-transform: uppercase;
-}
-#home-section:hover > div > h1 {
-  letter-spacing: 0.4rem;
-  font-weight: 200;
-  transition-duration: 500ms;
-  transition-delay: 50ms;
-}
 
-/* MARK: Scrollbar
+/* MARK: scrollbar
  */
+/* Works on Chrome, Edge, and Safari */
+/* Width */
+/* @layer utilities { */
+/* *::-webkit-scrollbar {
+    width: 18px;
+  } */
+/* Track */
+/* *::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 0vh;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  } */
+/* Handle */
+/* *::-webkit-scrollbar-thumb {
+    background: var(--scroll-thumb);
+    border-radius: 0px;
+    border-right: 4px solid #1a0202;
+    border-left: 2px solid #210a0c;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-thumb-hover);
+    border-right: 4px solid #1a0202;
+    border-left: 0px solid #1a0202;
+  }
+} */
+
+/* MARK: no-scrollbar
+ */
+*/
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -80,23 +97,4 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-
-/* MARK: Misc.
- */
-.btn:hover {
-  box-shadow: 0 0 0.25rem 2px var(--gray);
-}
-
-input[type="text"]:focus {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
-    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
-    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
-}
-
-#textInputContainer input:valid,
-#textInputContainer input:focus {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
-    -1px -1px 6px rgba(255, 255, 255, 0.4), inset 3px 3px 10px rgba(0, 0, 0, 1),
-    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
 }

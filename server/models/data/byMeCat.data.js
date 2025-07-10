@@ -15,11 +15,6 @@ export const initialByMeCatColl = [
     navLink: "",
   },
   {
-    name: "classics",
-    url: "",
-    navLink: "",
-  },
-  {
     name: "archive",
     url: "",
     navLink: "",

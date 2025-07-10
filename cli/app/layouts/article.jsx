@@ -16,7 +16,7 @@ export function meta() {
 export default function Article() {
   return (
     <div id="article">
-      <div className="flex flex-col w-full items-center m-auto bg-transparent min-h-screen">
+      <div className="flex flex-col items-center w-full min-h-screen m-auto bg-transparent">
         <Outlet />
         <Thanks />
         <Footer />

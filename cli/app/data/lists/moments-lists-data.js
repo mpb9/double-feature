@@ -50,3 +50,15 @@ export const MOMENTS_LISTS = [
     ["list", "element"]
   ),
 ];
+
+// MARK: ADD L8R...
+const FUTURE_MOMENTS = [
+  new ArticleSpecs(
+    "cried",
+    "I Cried at Some Point",
+    "cried.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/cried/",
+    ["list", "genre"]
+  ),
+];

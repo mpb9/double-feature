@@ -6,7 +6,6 @@ export default [
   route("archive", `${ROUTE_DIRS.root}archive.jsx`),
   route("lists", `${ROUTE_DIRS.root}lists.jsx`),
   route("reviews", `${ROUTE_DIRS.root}reviews.jsx`),
-  route("tags", `${ROUTE_DIRS.root}tags.jsx`),
 
   layout(`${ROUTE_DIRS.layouts}article.jsx`, [
     // info: Featured

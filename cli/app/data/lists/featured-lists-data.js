@@ -34,3 +34,32 @@ export const FEATURED_LISTS = [
     ["list"]
   ),
 ];
+
+// MARK: ADD L8R...
+
+const FUTURE_FEATURED = [
+  new ArticleSpecs(
+    "movies-my-mom-would-like",
+    "Movies My Mom Would Like",
+    "movies-my-mom-would-like.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/movies-my-mom-would-like/",
+    ["list", "recommendation"]
+  ),
+  new ArticleSpecs(
+    "four-quadrant",
+    "Four Quadrant",
+    "four-quadrant.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/four-quadrant/",
+    ["list", "recommendation"]
+  ),
+  new ArticleSpecs(
+    "movie-x-friend",
+    "MOVIExFRIEND",
+    "movie-x-friend.jpg",
+    "",
+    "https://letterboxd.com/michaelbeebe/list/movie-x-friend/detail/",
+    ["list", "recommendation", "friend"]
+  ),
+];
