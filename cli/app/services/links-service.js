@@ -3,8 +3,8 @@ import { BRANDING, IMG_ROUTES } from "../constants";
 // ! not being used, can't figure out how to use it (always superceded by default links in root.jsx)
 export function linkBuilder(icon = BRANDING.icon) {
   return [
-    { rel: "icon", href: `/${IMG_ROUTES.branding}${icon}.ico` },
-    { rel: "apple-touch-icon", href: `/${IMG_ROUTES.branding}${icon}.png` },
+    { rel: "icon", href: `${IMG_ROUTES.branding}${icon}.ico` },
+    { rel: "apple-touch-icon", href: `${IMG_ROUTES.branding}${icon}.png` },
     { rel: "me", href: "mailto:michaelbeebe1031@gmail.com" },
     { rel: "preconnect", href: "https://fonts.googleapis.com" },
     {
@@ -20,10 +20,10 @@ export function linkBuilder(icon = BRANDING.icon) {
 }
 
 export const DEFAULT_LINKS = [
-  { rel: "icon", href: `/${IMG_ROUTES.branding}${BRANDING.icon}.ico` },
+  { rel: "icon", href: `${IMG_ROUTES.branding}${BRANDING.icon}.ico` },
   {
     rel: "apple-touch-icon",
-    href: `/${IMG_ROUTES.branding}${BRANDING.icon}.png`,
+    href: `${IMG_ROUTES.branding}${BRANDING.icon}.png`,
   },
   { rel: "me", href: "mailto:michaelbeebe1031@gmail.com" },
   { rel: "preconnect", href: "https://fonts.googleapis.com" },

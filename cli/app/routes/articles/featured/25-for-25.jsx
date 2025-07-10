@@ -116,7 +116,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </li>
         </ul>
 
-        <div className="img">
+        <div id="img">
           <img
             src={`${IMG_ROUTES.articles}${articleSpecs.id}/oppenheimer.jpg`}
             alt="Benny Safdie as Edward Teller in Oppenheimer (2023)"
@@ -211,7 +211,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </blockquote>
         <p>what a life affirming film. i will always cherish it 🐀👨‍🍳</p>
 
-        <div className="img">
+        <div id="img">
           <img
             src={`${IMG_ROUTES.articles}${articleSpecs.id}/aftersun.jpg`}
             alt="Frankie Corio and Paul Mescal in Aftersun (2022)"
@@ -339,7 +339,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           ppl, but omg is it devastating…
         </p>
 
-        <div className="img">
+        <div id="img">
           <img
             src={`${IMG_ROUTES.articles}${articleSpecs.id}/crouching-tiger-hidden-dragon.jpg`}
             alt="Zhang Ziyi and Michelle Yeoh in Crouching Tiger, Hidden Dragon (2000)"

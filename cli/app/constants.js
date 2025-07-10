@@ -1,5 +1,5 @@
 export const BRANDING = {
-  domain: "https://makeitadoublefeature.com/",
+  domain: "https://makeitadoublefeature.com",
   title: "Double Feature",
   icon: "two-tix-green",
   preview_title: "Make it a Double Feature",
@@ -11,10 +11,9 @@ export const BRANDING = {
 };
 
 export const IMG_ROUTES = {
-  root: "img/",
   articles: "/img/articles/",
-  branding: "img/branding/",
-  covers: "img/covers/",
+  branding: "/img/branding/",
+  covers: "/img/covers/",
 };
 
 export const DIR_ROUTES = {
