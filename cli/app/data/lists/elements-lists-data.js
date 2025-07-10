@@ -11,7 +11,7 @@ export const ELEMENTS_LISTS = [
   ),
   new ArticleSpecs(
     "trailers",
-    "Trailers",
+    "Trailers!",
     "trailers.jpg",
     "",
     "https://letterboxd.com/michaelbeebe/list/trailers/detail/",
@@ -27,7 +27,7 @@ export const ELEMENTS_LISTS = [
   ),
   new ArticleSpecs(
     "hardest-posters",
-    "Posters",
+    "Posters That Go Hard",
     "hardest-posters.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/hardest-posters/",

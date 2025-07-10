@@ -37,19 +37,19 @@ export default function Home() {
           files={MICROGENRES_LISTS}
           src={"microgenres"}
         />
+        <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
         <HomeSection
           name={"Elements"}
           files={ELEMENTS_LISTS}
           src={"elements"}
         />
-        <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
-        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
-        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
         <HomeSection
           name={"Directors"}
           files={DIRECTORS_LISTS}
           src={"directors"}
         />
+        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
+        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
 
         <Footer
           links={["letterboxd", "lists", "reviews", "archive", "about"]}
