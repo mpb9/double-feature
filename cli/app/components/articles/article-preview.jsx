@@ -62,6 +62,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
           style={{
             backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
+          fetchpriority="high"
         >
           <div className={textBoxCss}>
             <h2 className="text-xl sm:text-4xl pr-3 pb-[5px] pt-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
