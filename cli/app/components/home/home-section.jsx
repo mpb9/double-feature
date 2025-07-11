@@ -36,13 +36,13 @@ export default function HomeSection({ name, files, src }) {
 
   if (isFeatured) {
     return (
-      <div className="flex flex-col w-full pt-2 mb-1 sm:mb-4 sm:pt-4 snap-start">
+      <div className="flex flex-col w-full pt-2 mb-1 sm:mb-4 sm:pt-4">
         {scrollableHtml}
       </div>
     );
   } else if (isReviews || isLists) {
     return (
-      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section snap-start">
+      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section">
         <div className="flex flex-row w-full justify-center sm:justify-start text-[24px] sm:text-4xl italic pl-1">
           <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
             <a
@@ -62,7 +62,7 @@ export default function HomeSection({ name, files, src }) {
     );
   } else {
     return (
-      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section snap-start">
+      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section">
         <div className="flex flex-row w-full justify-center sm:justify-start text-[var(--dim)] text-[22px] sm:text-4xl italic pl-1">
           <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
             ____

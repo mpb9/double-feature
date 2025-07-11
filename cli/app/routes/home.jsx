@@ -18,7 +18,7 @@ export default function Home() {
       <HomeHeader />
       <div className="h-24 sm:h-28"></div>
 
-      <div className="items-center w-full h-[calc(100vh-6rem)] sm:h-[calc(100vh-7rem)] px-10 lg:px-14 xl:px-18 overflow-y-scroll sm:snap-y">
+      <div className="items-center w-full h-[calc(100vh-6rem)] sm:h-[calc(100vh-7rem)] px-10 lg:px-14 xl:px-18 overflow-y-scroll">
         {/* FEATURED */}
         <HomeSection
           name={"Featured"}
