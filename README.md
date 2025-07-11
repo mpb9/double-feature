@@ -2,15 +2,11 @@
 
 Home to all of my film-based endeavours, featuring articles, reviews, lists, and more…
 
----
-
 ## Links :link:
 
 - ***[Make it a Double Feature](https://makeitadoublefeature.com)***
 - *[Personal Website](https://michael-beebe.com)*
 - *[Letterboxd Profile](https://letterboxd.com/michaelbeebe)*
-
----
 
 ## Behind the Scenes :movie_camera:
 
@@ -166,8 +162,4 @@ cd cli && pnpm run deploy
 
 - [react > github-pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
----
-
 ## On-Screen :tv:
-
----
