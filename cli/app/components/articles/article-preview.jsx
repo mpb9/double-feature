@@ -32,6 +32,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
     "static w-full flex items-center justify-end bg-[var(--black)]";
 
   if (href.length === 0) {
+    // info: article not linked to page or external URL
     return (
       <div className={basicArticlePreviewCss}>
         <a
@@ -51,6 +52,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
     );
   }
   if (isFeatured) {
+    // info: featured articles
     return (
       <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 my-4 tracking-normal snap-start">
         {/* Switch to <Link /> or something */}
@@ -71,6 +73,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
     );
   }
   return (
+    // info: every non-featured, non-empty article
     <div className={basicArticlePreviewCss}>
       <a
         href={href}

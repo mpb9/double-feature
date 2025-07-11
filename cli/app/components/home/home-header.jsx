@@ -16,7 +16,7 @@ export default function HomeHeader() {
             </h1>
           </div>
         </div>
-        <div className="absolute top-0 z-10 right-4">
+        <div className="absolute top-0 z-10 right-0 md:right-4 lg:right-8 xl:right-12">
           <div className="flex flex-col w-fit items-center h-fit px-[24px] py-4.5">
             <div className="text-xl cursor-default text-right text-[#a5aca0cc] pt-[3px] font-[100]">
               created by: <br />
