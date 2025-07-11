@@ -1,22 +1,21 @@
-import ArticleHeader from "../../../components/article/article-header";
-import { getFileSpecsById } from "../../../services/file-specs-service";
+import ArticleHeader from "../../../components/articles/article-header";
+import ArticleInfo from "../../../components/articles/article-info";
+import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getFileSpecsById("trainspotting");
+  const data = getArticleSpecsById("trainspotting");
   return data;
 }
 
 export default function Trainspotting({ loaderData }) {
-  const fileSpecs = loaderData;
+  const articleSpecs = loaderData;
   return (
     <>
-      <ArticleHeader fileSpecs={fileSpecs} />
+      <ArticleHeader articleSpecs={articleSpecs} />
       <main>
-        <h2 id="-2025-03-07-https-boxd-it-93m20x-">
-          <a href="https://boxd.it/6h19k3">2024-04-12</a>
-        </h2>
+        <ArticleInfo articleSpecs={articleSpecs} />
         <p>
           Alright. So, people have been struggling to cope with the
           meaninglessness of life{" "}
@@ -95,15 +94,15 @@ export default function Trainspotting({ loaderData }) {
             <i>spoiler alert:</i>
           </b>{" "}
           Ewan McGregor, as Mark Renton, determines that consumerism trumps
-          heroin at the end <i>(very good call)</i>, but I didn’t really find
-          this realization all that intellectually stimulating{" "}
-          <i>(big words)</i>. What really got my juices flowing is that the
-          character claims to participate in the lifestyle that he finds most
-          rewarding throughout the film whether it's heroin addict or modern day
-          consumer. It’s made abundantly clear that the alternative to heroin
-          isn’t very appealing, both through Mark’s voiceover narration and the
-          depressing environments we witness him endure when partaking in normal
-          society. <i>Trainspotting</i> is quick to point out{" "}
+          heroin at the end <i>(good call)</i>, but I didn’t really find this
+          realization all that intellectually stimulating <i>(big words)</i>.
+          What really got my juices flowing is that the character claims to
+          participate in the lifestyle that he finds most rewarding throughout
+          the film whether it's heroin addict or modern day consumer. It’s made
+          abundantly clear that the alternative to heroin isn’t very appealing,
+          both through Mark’s voiceover narration and the depressing
+          environments we witness him endure when partaking in normal society.{" "}
+          <i>Trainspotting</i> is quick to point out{" "}
           <i>(and never stop pointing out)</i> the hypocrisy of those judging
           his heroin use. They’re all just addicted to goods, be it media,
           normalized drugs, etc. Mark is fully aware that a “three-piece suit on

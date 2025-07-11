@@ -1,32 +1,47 @@
 import { index, layout, prefix, route } from "@react-router/dev/routes";
+import { DIR_ROUTES } from "./constants";
 
 export default [
-  index("./routes/home.jsx"),
-  route("archive", "./routes/archive.jsx"),
-  route("lists", "./routes/lists.jsx"),
-  route("reviews", "./routes/reviews.jsx"),
-  route("tags", "./routes/tags.jsx"),
-  layout("layouts/article.jsx", [
+  index(`${DIR_ROUTES.root}home.jsx`),
+  route("archive", `${DIR_ROUTES.root}archive.jsx`),
+  route("lists", `${DIR_ROUTES.root}lists.jsx`),
+  route("reviews", `${DIR_ROUTES.root}reviews.jsx`),
+
+  layout(`${DIR_ROUTES.layouts}article.jsx`, [
+    // info: Featured
     ...prefix("featured", [
-      route("25-for-25", "routes/articles/featured/25-for-25.jsx"),
-      route("escapism", "routes/articles/featured/escapism.jsx"),
+      route("25-for-25", `${DIR_ROUTES.featured}25-for-25.jsx`),
+      route("escapism", `${DIR_ROUTES.featured}escapism.jsx`),
       route(
         "everybody-wants-some",
-        "routes/articles/featured/everybody-wants-some.jsx"
+        `${DIR_ROUTES.featured}everybody-wants-some.jsx`
       ),
-      route("burning", "routes/articles/featured/burning.jsx"),
+      route("burning", `${DIR_ROUTES.featured}burning.jsx`),
     ]),
   ]),
-  // Reviews
-  layout("layouts/review.jsx", [
+
+  layout(`${DIR_ROUTES.layouts}review.jsx`, [
+    // info: Reviews
     ...prefix("review", [
-      route("trainspotting", "./routes/articles/reviews/trainspotting.jsx"),
+      route("trainspotting", `./${DIR_ROUTES.reviews}trainspotting.jsx`),
+      route("alien", `./${DIR_ROUTES.reviews}alien.jsx`),
+      route("nickel-boys", `./${DIR_ROUTES.reviews}nickel-boys.jsx`),
+      route(
+        "fullmetal-alchemist-brotherhood",
+        `./${DIR_ROUTES.reviews}fullmetal-alchemist-brotherhood.jsx`
+      ),
+      route(
+        "requiem-for-a-dream",
+        `./${DIR_ROUTES.reviews}requiem-for-a-dream.jsx`
+      ),
+      route("rebel-ridge", `./${DIR_ROUTES.reviews}rebel-ridge.jsx`),
+      route("the-curse", `./${DIR_ROUTES.reviews}the-curse.jsx`),
+      route("breathless", `./${DIR_ROUTES.reviews}breathless.jsx`),
+      route(
+        "across-the-spider-verse",
+        `./${DIR_ROUTES.reviews}across-the-spider-verse.jsx`
+      ),
+      route("28-years-later", `./${DIR_ROUTES.reviews}28-years-later.jsx`),
     ]),
   ]),
-  // Lists
-  //...prefix("list", [layout("layouts/article.jsx", [])]),
-  // Classics
-  //...prefix("classics", [layout("layouts/article.jsx", [])]),
-  // Archive
-  //...prefix("archive", [layout("layouts/article.jsx", [])]),
 ];

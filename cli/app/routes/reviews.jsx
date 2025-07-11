@@ -1,18 +1,21 @@
-import FilePreview from "../components/file-preview";
-import Footer from "../components/footer";
-import { REVIEWS_FILES } from "../data/reviews-data";
-import { metaBuilder } from "../services/head/meta-service";
+import ArticlePreview from "../components/articles/article-preview";
+import Footer from "../components/footer/footer";
+import { REVIEWS_ARTICLES } from "../data/reviews-data";
+import { metaBuilder } from "../services/meta-service";
 export function meta() {
-  const reviewsMeta = metaBuilder("Reviews");
+  const reviewsMeta = metaBuilder(
+    "Reviews | Double Feature",
+    "Reviews | Make it a Double Feature"
+  );
   return reviewsMeta;
 }
 export default function Reviews() {
   return (
-    <div className="flex flex-col w-full items-start min-h-screen" id="reviews">
-      <div className="w-full items-center px-24 overflow-scroll pt-10">
-        <div className="flex flex-col w-full items-start">
+    <div className="flex flex-col items-start w-full min-h-screen" id="reviews">
+      <div className="items-center w-full px-10 pt-10 overflow-scroll sm:px-14 md:px-24 lg:px-26 xl:px-14">
+        <div className="flex flex-col items-start w-full">
           <h1 className="text-4xl font-[100]">Reviews</h1>
-          <p className="text-lg font-light">
+          <p className="mt-1 text-lg font-light">
             A collection of reviews by{" "}
             <a
               href="https://michael-beebe.com"
@@ -23,12 +26,16 @@ export default function Reviews() {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full px-10 py-5 flex-wrap">
-        {REVIEWS_FILES.map((fileSpecs, index) => (
-          <FilePreview key={index} fileSpecs={fileSpecs} src={"review"} />
+      <div className="flex flex-wrap items-center justify-center w-full pl-10 pr-4 py-5">
+        {REVIEWS_ARTICLES.map((articleSpecs, index) => (
+          <ArticlePreview
+            key={index}
+            articleSpecs={articleSpecs}
+            src={"review"}
+          />
         ))}
       </div>
-      <Footer links={["letterboxd", "tags", "archive", "home", "about"]} />
+      <Footer links={["letterboxd", "lists", "archive", "home", "about"]} />
     </div>
   );
 }

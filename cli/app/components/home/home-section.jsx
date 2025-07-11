@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import FilePreview from "../file-preview";
+import ArticlePreview from "../articles/article-preview";
 
 /**
  * HomeSection component
@@ -23,57 +23,54 @@ HomeSection.propTypes = {
 };
 export default function HomeSection({ name, files, src }) {
   const isFeatured = name == "Featured";
-  const isClassics = name == "Classics";
+  const isReviews = name == "Reviews";
+  const isLists = name == "Lists";
+
+  const scrollableHtml = (
+    <div className="flex flex-row items-center justify-start w-full overflow-x-scroll h-fit no-scrollbar snap-x scroll-smooth">
+      {files.map((articleSpecs, index) => (
+        <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
+      ))}
+    </div>
+  );
 
   if (isFeatured) {
     return (
-      <div className="pb-6" id="home-section">
-        <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
-          ))}
-        </div>
+      <div className="flex flex-col w-full pt-2 mb-1 sm:mb-4 sm:pt-4">
+        {scrollableHtml}
       </div>
     );
-  } else if (isClassics) {
+  } else if (isReviews || isLists) {
     return (
-      <div id="home-section">
-        <div className="flex flex-row w-full text-[var(--dim)] text-4xl italic pl-1">
-          <h1>
-            ____
-            <i className="pl-1 pr-1 cursor-default">{name}</i>
-            ____
-          </h1>
-        </div>
-        <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
-          ))}
-        </div>
-      </div>
-    );
-  } else {
-    return (
-      <div id="home-section">
-        <div className="flex flex-row w-full text-4xl font-[100] pl-0">
-          <h1>
+      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[24px] sm:text-4xl italic pl-1">
+          <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
             <a
               href={`/${name.toLowerCase()}`}
-              className="text-[#69d34688] hover:text-[#69d346] group"
+              className="text-[#69d34688] hover:text-[#69d346] transition-colors duration-[600ms] group/name"
             >
               ____
-              <i className="pl-2 pr-1 text-[var(--dim)] group-hover:text-[#69d346] duration-500">
+              <i className="px-0.5 text-[var(--dim)] group-hover/name:text-[#69d346] transition-colors duration-[600ms]">
                 {name}
               </i>
               ____
             </a>
           </h1>
         </div>
-        <div className="flex flex-row items-center justify-start w-full h-fit overflow-x-scroll scroll-smooth no-scrollbar">
-          {files.map((fileSpecs, index) => (
-            <FilePreview key={index} fileSpecs={fileSpecs} src={src} />
-          ))}
+        {scrollableHtml}
+      </div>
+    );
+  } else {
+    return (
+      <div className="flex flex-col w-full pt-1 mb-2 sm:pt-2 sm:mb-4 group/section">
+        <div className="flex flex-row w-full justify-center sm:justify-start text-[var(--dim)] text-[22px] sm:text-4xl italic pl-1">
+          <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
+            ____
+            <i className="px-0.5 cursor-default">{name}</i>
+            ____
+          </h1>
         </div>
+        {scrollableHtml}
       </div>
     );
   }

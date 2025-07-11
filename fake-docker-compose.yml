@@ -1,0 +1,32 @@
+services:
+  mongo:
+    platform: linux/amd64
+    image: mongo
+    container_name: mongo-container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+  backend:
+    platform: linux/amd64
+    build: ./server
+    container_name: server-container
+    ports:
+      - "2046:2046"
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+    depends_on:
+      - mongo
+
+  frontend:
+    platform: linux/amd64
+    build: ./cli
+    container_name: cli-container
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+volumes:
+  mongo-data:

@@ -13,7 +13,5 @@ export const initialByMeColl = [
 
   // MARK: Lists
 
-  // MARK: Classics
-
   // MARK: Archive
 ];

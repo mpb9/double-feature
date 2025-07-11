@@ -1,18 +1,21 @@
 import { Outlet } from "react-router";
-import Footer from "../components/footer";
-import Thanks from "../components/thanks";
-import { metaBuilder } from "../services/head/meta-service";
+import Thanks from "../components/articles/thanks";
+import Footer from "../components/footer/footer";
+import { metaBuilder } from "../services/meta-service";
 import "../styles/article.css";
 
 export function meta() {
-  const articleMeta = metaBuilder("Article | Double Feature");
+  const articleMeta = metaBuilder(
+    "Double Feature | Article",
+    "Make it a Double Feature | Article"
+  );
   return articleMeta;
 }
 
 export default function Article() {
   return (
     <div id="article">
-      <div className="flex flex-col w-full max-w-[70em] m-auto pb-5 bg-[var(--l-brown)] min-h-screen">
+      <div className="flex flex-col items-center w-full min-h-screen m-auto bg-transparent">
         <Outlet />
         <Thanks />
         <Footer />

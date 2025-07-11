@@ -55,7 +55,7 @@
 ### Frontend (cli)
 
 ```shell
-# ~/.../movies
+# ~/.../double-feature
 
 # Initialize
 pnpm create vite@latest cli -- --template react
@@ -64,7 +64,9 @@ pnpm install
 pnpm add tailwindcss @tailwindcss/vite @phosphor-icons/react prop-types axios
 
 # Run Locally
-pnpm dev
+cd ~/dev/double-feature/cli
+nvm use node
+npm run dev
 ```
 
 #### React + Vite
@@ -79,7 +81,7 @@ Currently, two official plugins are available:
 ### Backend (server)
 
 ```shell
-# ~/.../movies
+# ~/.../double-feature
 
 # Initialize
 mkdir server && cd server
@@ -88,7 +90,9 @@ pnpm add mongodb express cors mongoose
 pnpm add nodemon -D
 
 # Run Locally
-pnpm dev
+cd ~/dev/double-feature/server
+nvm use node
+npm run dev
 ```
 
 #### NoSQL - MongoDB

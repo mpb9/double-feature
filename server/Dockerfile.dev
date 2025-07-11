@@ -1,0 +1,16 @@
+# syntax=docker/dockerfile:1
+# running on 
+FROM node:24.0.1-slim AS development
+
+# Create server directory
+WORKDIR /server
+
+COPY package.json /server/package.json
+COPY package-lock.json /server/package-lock.json
+RUN npm ci
+
+COPY . /server
+
+EXPOSE 2046
+
+CMD [ "npm", "run", "dev" ]

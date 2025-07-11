@@ -1,29 +1,59 @@
-import Footer from "../components/footer";
+import Footer from "../components/footer/footer";
 import HomeHeader from "../components/home/home-header";
 import HomeSection from "../components/home/home-section";
-import { CLASSICS_FILES } from "../data/classics-data";
-import { FEATURED_FILES } from "../data/featured-data";
-import { LISTS_FILES } from "../data/lists-data";
-import { REVIEWS_FILES } from "../data/reviews-data";
+import { FEATURED_ARTICLES } from "../data/featured-data";
+import { DECADES_LISTS } from "../data/lists/decades-lists-data";
+import { DIRECTORS_LISTS } from "../data/lists/directors-lists-data";
+import { ELEMENTS_LISTS } from "../data/lists/elements-lists-data";
+import { FEATURED_LISTS } from "../data/lists/featured-lists-data";
+import { GENRES_LISTS } from "../data/lists/genres-lists-data";
+import { MICROGENRES_LISTS } from "../data/lists/microgenres-lists-data";
+import { MOMENTS_LISTS } from "../data/lists/moments-lists-data";
+import { YEARS_LISTS } from "../data/lists/years-lists-data";
+import { REVIEWS_ARTICLES } from "../data/reviews-data";
 
 export default function Home() {
   return (
-    <div className="flex flex-col w-full items-center" id="home">
+    <div className="flex flex-col items-center w-full" id="home">
       <HomeHeader />
-      <div className="w-full h-screen items-center pl-10 pr-10 overflow-y-scroll pt-36">
+      <div className="h-24 sm:h-28"></div>
+
+      <div className="items-center w-full h-[calc(100vh-6rem)] sm:h-[calc(100vh-7rem)] px-10 lg:px-14 xl:px-18 overflow-y-scroll">
+        {/* FEATURED */}
         <HomeSection
           name={"Featured"}
-          files={FEATURED_FILES}
+          files={FEATURED_ARTICLES}
           src={"featured"}
         />
-        <HomeSection name={"Reviews"} files={REVIEWS_FILES} src={"review"} />
-        <HomeSection name={"Lists"} files={LISTS_FILES} src={"list"} />
+
+        {/* REVIEWS */}
+        <HomeSection name={"Reviews"} files={REVIEWS_ARTICLES} src={"review"} />
+
+        {/* LISTS */}
+        <HomeSection name={"Lists"} files={FEATURED_LISTS} src={"list"} />
+        <HomeSection name={"Genres"} files={GENRES_LISTS} src={"genres"} />
         <HomeSection
-          name={"Classics"}
-          files={CLASSICS_FILES}
-          src={"classics"}
+          name={"Microgenres"}
+          files={MICROGENRES_LISTS}
+          src={"microgenres"}
         />
-        <Footer links={["letterboxd", "tags", "archive", "about"]} />
+        <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
+        <HomeSection
+          name={"Elements"}
+          files={ELEMENTS_LISTS}
+          src={"elements"}
+        />
+        <HomeSection
+          name={"Directors"}
+          files={DIRECTORS_LISTS}
+          src={"directors"}
+        />
+        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
+        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
+
+        <Footer
+          links={["letterboxd", "lists", "reviews", "archive", "about"]}
+        />
       </div>
     </div>
   );
