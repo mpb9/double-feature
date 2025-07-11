@@ -10,24 +10,6 @@ export const REVIEWS_ARTICLES = [
     "2025-06-26"
   ),
   new ArticleSpecs(
-    "trainspotting",
-    "Trainspotting",
-    "trainspotting.jpg",
-    "trainspotting",
-    "https://boxd.it/6h19k3",
-    ["review", "1996"],
-    "2024-04-12"
-  ),
-  new ArticleSpecs(
-    "across-the-spider-verse",
-    "Spider-Man: Across the Spider-Verse",
-    "across-the-spider-verse.jpeg",
-    "across-the-spider-verse",
-    "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
-    ["review", "animation", "2023"],
-    "2024-06-24"
-  ),
-  new ArticleSpecs(
     "alien",
     "Alien",
     "alien.png",
@@ -35,6 +17,15 @@ export const REVIEWS_ARTICLES = [
     "https://letterboxd.com/michaelbeebe/film/alien/",
     ["review", "sci-fi", "1979"],
     "2025-05-02"
+  ),
+  new ArticleSpecs(
+    "burning",
+    "Burning",
+    "burning.jpg",
+    "burning",
+    "https://letterboxd.com/michaelbeebe/film/burning-2018/",
+    ["review", "2018"],
+    "2025-01-24"
   ),
   new ArticleSpecs(
     "nickel-boys",
