@@ -27,7 +27,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
       : articleSpecs.url;
 
   const basicArticlePreviewCss =
-    "flex flex-col items-center justify-center h-full my-4 ml-0 mr-8 tracking-normal group min-w-70 md:min-w-80 lg:min-w-100 snap-start";
+    "flex flex-col items-center justify-center h-full my-4 ml-0 mr-6 tracking-normal group min-w-70 md:min-w-80 lg:min-w-100 snap-start";
   const textBoxCss =
     "static w-full flex items-center justify-end bg-[var(--black)]";
 
@@ -54,7 +54,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
   if (isFeatured) {
     // info: featured articles
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-8 my-4 tracking-normal snap-start">
+      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-6 my-4 tracking-normal snap-start">
         {/* Switch to <Link /> or something */}
         <a
           href={href}

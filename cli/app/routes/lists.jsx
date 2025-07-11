@@ -13,7 +13,7 @@ export function meta() {
 export default function Lists() {
   return (
     <div className="flex flex-col items-start w-full min-h-screen" id="lists">
-      <div className="items-center w-full px-10 pt-10 overflow-scroll sm:px-14 md:px-24">
+      <div className="items-center w-full px-10 pt-10 overflow-scroll sm:px-14 md:px-24 lg:px-26 xl:px-14">
         <div className="flex flex-col items-start w-full">
           <h1 className="text-4xl font-[100]">Lists</h1>
           <p className="mt-1 text-lg font-light">
@@ -27,7 +27,7 @@ export default function Lists() {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center w-full px-10 py-5">
+      <div className="flex flex-wrap items-center justify-center w-full pl-10 pr-4 py-5">
         {LISTS_ARTICLES.map((articleSpecs, index) => (
           <ArticlePreview
             key={index}
