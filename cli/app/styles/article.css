@@ -22,8 +22,12 @@
   --blockquote: #79927528;
 
   --img-background: #8c7d902b;
-  --img-backdrop-left: #97b58b10;
-  --img-backdrop-right: #97b58b10;
+  --img-backdrop: #79927518;
+  --img-backdrop-accent: #97b58b;
+
+  /* info: darker --img-backdrop for future reference: #97b58b10 */
+  /* --img-backdrop-accent: #000; */
+  /* --img-backdrop-accent: #9bbc8e; */
 
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
@@ -173,7 +177,7 @@
   background-color: #000;
 }
 #article #img > img {
-  margin: 2.5rem 0 2rem 0;
+  margin: 1.75rem 0 1.75rem 0;
   border-radius: 0.1rem;
   box-shadow: 0 0 18px 6px #000000cc;
   object-fit: cover;
@@ -183,19 +187,30 @@
   max-height: 500px;
   width: 100%;
   aspect-ratio: 1.85 / 1;
-  transition: all 0.35s ease-in-out;
-  transition-delay: 0.15s;
-  opacity: 80%;
+  transition: all 1s ease-in-out;
+  transition-delay: 0.1s;
+  opacity: 90%;
 }
 #article #img > img:hover {
-  transform: scale(1.12, 1.12);
+  transform: scale(1.1, 1.1);
   transition: all 0.75s ease-in-out;
-  transition-delay: 0.25s;
+  transition-delay: 0.05s;
   opacity: 100%;
-  filter: brightness(1.1);
-  box-shadow: 30vw 70px 0px -70px var(--img-backdrop-right),
-    -30vw -70px 0px -70px var(--img-backdrop-left),
-    30vw 70px 0px -200px var(--l-green), -30vw -70px 0px -200px var(--l-green);
+  filter: brightness(1.05);
+  box-shadow: 30vw 70px 0px -70px var(--img-backdrop),
+    -30vw -70px 0px -70px var(--img-backdrop),
+    32vw 70px 0px -200px var(--img-backdrop-accent),
+    -32vw -70px 0px -200px var(--img-backdrop-accent);
+}
+/* info: easter egg */
+#article #img > img:active {
+  transform: scale(1.5, 1.5);
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+  box-shadow: 0 0 18px 6px var(--white), 0 0 18px 6px var(--green),
+    0 0 18px 6px var(--green);
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.05s;
 }
 
 /* MARK: <ol>,<ul>
@@ -227,7 +242,6 @@
 #article blockquote {
   margin: 1rem 3px 1rem 3px;
   padding: 0.75rem 1rem 0.75rem 1.75rem;
-
   color: var(--l-green);
   background-color: var(--black);
   background-image: linear-gradient(
@@ -236,7 +250,6 @@
     var(--blockquote) 100%
   );
   border-left: 1px solid #89cb7d;
-
   word-break: auto-phrase;
   overflow-wrap: normal;
   text-indent: -0.75ch;
