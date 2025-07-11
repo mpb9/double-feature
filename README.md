@@ -1,6 +1,18 @@
-# Make it a Double Feature
+# Make it a Double Feature :clapper:
 
-## Behind the Scenes
+Home to all of my film-based endeavours, featuring articles, reviews, lists, and more…
+
+---
+
+## Links :link:
+
+- ***[Make it a Double Feature](https://makeitadoublefeature.com)***
+- *[Personal Website](https://michael-beebe.com)*
+- *[Letterboxd Profile](https://letterboxd.com/michaelbeebe)*
+
+---
+
+## Behind the Scenes :movie_camera:
 
 ### MERN Stack
 
@@ -17,38 +29,40 @@
 ### Structure
 
 ```shell
-├── cli/                   # React frontend
-│   ├── public/            # Static assets
-│   ├── src/               # React source code
-│   │   ├── assets/        # Static resources
-│   │   ├── components/    # Reusable components
-│   │   ├── pages/         # Page-level components
-│   │   ├── services/      # API client logic
-│   │   ├── App.jsx        # Main app component
-│   │   ├── main.jsx       # Entry point
-│   │   ├── routes.js      # Frontend routing rules
-│   │   └── index.css       
-│   ├── .env               # Environment variables
-│   ├── package.json       # Client dependencies
+├─ cli/                         # FRONTEND - REACT
+│   ├── app/                    # React source code
+│   │   ├── components/         # Reusable components
+│   │   ├── data/               # Frontend data
+│   │   ├── layouts/            # Reusaable component containers
+│   │   ├── models/             # Classes for frontend data
+│   │   ├── routes/             # Page-level components
+│   │   ├── services/           # API client logic
+│   │   ├── styles/             # CSS Styling
+│   │   ├── root.jsx            # Entry point
+│   │   ├── routes.js           # Frontend routing rules
+│   │   └── constants.js       
+│   ├── public/                 # Static assets
+│   ├── .env                    # Environment variables
+│   ├── Dockerfile              # Frontend Docker file
+│   ├── package.json            # Client dependencies
+│   ├── react-router.config.js    
+│   ├── vite.config.js                    
 │   └── ...
-├── server/                # Express backend
-│   ├── apis/              # External API info
-│   ├── controllers/       # Route handlers
-│   ├── db/                # Database connections
-│   ├── models/            # Data models
-│   ├── routes/            # API routes
-│   ├── config.env         # Environment variables
-│   ├── index.js           # Express server setup
-│   ├── package.json       # Server dependencies
+├── server/                     # BACKEND - EXPRESS/MONGO
+│   ├── apis/                   # External API info
+│   ├── controllers/            # Route handlers
+│   ├── db/                     # Database connections
+│   ├── models/                 # Data models
+│   ├── routes/                 # API routes
+│   ├── config.env              # Environment variables
+│   ├── Dockerfile              # Backend Docker file
+│   ├── index.js                # Express server setup
+│   ├── package.json            # Server dependencies
 │   └── ...
-├── film-series/           # Film Series files
-│   └── ...
-├── letterboxd/            # Letterboxd files
-│   └── ...
-├── venv/                  # Python virtual env
-│   └── ...
-├── .gitignore             # Git ignore file
-├── requirements.json      # venv dependencies
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignore file
+├── docker-compose.yml          # Docker Compose file
+├── docker-redeploy.sh          # Script to redeploy via Docker files
 └── README.md
 ```
 
@@ -152,18 +166,8 @@ cd cli && pnpm run deploy
 
 - [react > github-pages](https://create-react-app.dev/docs/deployment/#github-pages)
 
-## On-Screen
+---
 
-### Film Series
+## On-Screen :tv:
 
-### Letterboxd
-
-### Links
-
-- Film Series
-  - [Dossier](https://docs.google.com/document/d/1dl00sQH2cXBExBTZp5KaAWoJ_r9gFSnaCfZxn-lVTEM/edit?usp=sharing)
-
-- Letterboxd
-  - [Profile](https://letterboxd.com/michaelbeebe)
-  - [Main Menu](https://letterboxd.com/michaelbeebe/list/main-menu/detail)
-  - [Diary](https://letterboxd.com/michaelbeebe/films/diary)
+---
