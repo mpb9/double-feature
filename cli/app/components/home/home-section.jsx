@@ -47,10 +47,10 @@ export default function HomeSection({ name, files, src }) {
           <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
             <a
               href={`/${name.toLowerCase()}`}
-              className="text-[#69d34688] hover:text-[#69d346] transition-colors duration-[600ms] group/name"
+              className="text-[var(--dim)] group-hover/section:text-[#69d34688] hover:text-[#69d346] transition-colors duration-[600ms]"
             >
               ____
-              <i className="px-0.5 text-[var(--dim)] group-hover/name:text-[#69d346] transition-colors duration-[600ms]">
+              <i className="px-0.5 group-hover/section:text-[#69d346] transition-colors duration-[600ms]">
                 {name}
               </i>
               ____
