@@ -135,7 +135,7 @@
   text-underline-offset: 0.25em;
   transition: all 0.5s ease-in-out;
 }
-#article a:visited:not(#info a:visited):not(#footer a:visited) {
+/* #article a:visited:not(#info a:visited):not(#footer a:visited) {
   color: var(--a-visited);
   text-decoration: underline;
   text-decoration-style: solid;
@@ -152,7 +152,7 @@
   text-decoration-thickness: 3px;
   text-underline-offset: 0.25em;
   transition: all 0.5s ease-in-out;
-}
+} */
 #article p a {
   font-weight: 600;
 }
