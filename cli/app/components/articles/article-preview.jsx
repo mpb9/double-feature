@@ -27,7 +27,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
       : articleSpecs.url;
 
   const basicArticlePreviewCss =
-    "flex flex-col items-center justify-center h-full my-4 ml-0 mr-6 tracking-normal group min-w-70 md:min-w-80 lg:min-w-100 snap-start";
+    "flex flex-col items-center justify-center h-full min-w-70 md:min-w-80 lg:min-w-100 my-4 ml-0 mr-6 tracking-normal group snap-start";
   const textBoxCss =
     "static w-full flex items-center justify-end bg-[var(--black)]";
 
@@ -37,7 +37,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
       <div className={basicArticlePreviewCss}>
         <a
           href={`/${src}/not-found`}
-          className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
+          className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-40 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
           style={{
             backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
@@ -54,8 +54,8 @@ export default function ArticlePreview({ articleSpecs, src }) {
   if (isFeatured) {
     // info: featured articles
     return (
-      <div className="flex flex-col group items-center justify-center min-w-70 sm:min-w-[75vw] md:min-w-[70vw] lg:min-w-[55vw] xl:min-w-[45vw] h-full mr-6 my-4 tracking-normal snap-start">
-        {/* Switch to <Link /> or something */}
+      <div className="flex flex-col group items-center justify-center h-full min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[45vw] mr-6 my-4 tracking-normal snap-start">
+        {/* Switch to <Link /> or somethin? */}
         <a
           href={href}
           className="w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
@@ -78,7 +78,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
     <div className={basicArticlePreviewCss}>
       <a
         href={href}
-        className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-44 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
+        className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-40 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
         style={{
           backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
         }}

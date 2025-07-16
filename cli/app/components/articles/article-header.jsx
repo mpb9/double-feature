@@ -10,7 +10,7 @@ export default function ArticleHeader({ articleSpecs }) {
       }}
     >
       <ArticleTags tags={articleSpecs.tags} />
-      <h1 className="text-3xl md:text-4xl lg:text-5xl bg-black pl-10 pr-7 pt-2.5 pb-4 rounded-tl-lg text-[var(--l-gray)] font-[100] cursor-default">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl bg-black pl-10 pr-7 pt-2.5 pb-4 rounded-tl text-[var(--l-gray)] font-[100] cursor-default">
         {articleSpecs.title}
       </h1>
     </header>
