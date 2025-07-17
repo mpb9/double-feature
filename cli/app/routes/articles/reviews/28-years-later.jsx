@@ -1,8 +1,8 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
+import { IMG_ROUTES } from "../../../constants";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
-
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("28-years-later");
@@ -51,6 +51,12 @@ export default function TwentyEightYearsLater({ loaderData }) {
           obviously the whole point is that you can't really live in isolation,
           you have to try and expand, you know, grow, evolve, whatever).
         </p>
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/28-years-later.jpeg`}
+            alt="The bone temple in 28 Years Later"
+          />
+        </div>
         <p>
           Eventually, the first generation of isolationists are tasked with
           convincing their children that the way society functions is{" "}

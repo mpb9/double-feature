@@ -1,5 +1,6 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
+import { IMG_ROUTES } from "../../../constants";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -71,6 +72,13 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
           to be doing… I don't know, it's just cool, it's cool, healthy, and
           universal.
         </p>
+
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/across-the-spider-verse.png`}
+            alt="Corrupt leaders of the Spider Society in Across the Spider-Verse"
+          />
+        </div>
         <p>
           And so yeah, going into my first <i>Across the Spider-Verse</i>{" "}
           viewing, the hype around it was like <i>so</i> intense. The{" "}
