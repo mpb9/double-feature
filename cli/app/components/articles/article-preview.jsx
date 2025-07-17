@@ -54,7 +54,7 @@ export default function ArticlePreview({ articleSpecs, src }) {
   if (isFeatured) {
     // info: featured articles
     return (
-      <div className="flex flex-col group items-center justify-center h-full min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[45vw] mr-6 my-4 tracking-normal snap-start">
+      <div className="flex flex-col group items-center justify-center h-full min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[42vw] mr-6 my-4 tracking-normal snap-start">
         {/* Switch to <Link /> or somethin? */}
         <a
           href={href}

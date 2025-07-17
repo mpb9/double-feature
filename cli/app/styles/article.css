@@ -177,7 +177,7 @@
   background-color: #000;
 }
 #article #img > img {
-  margin: 1.75rem 0 1.75rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   border-radius: 0.1rem;
   box-shadow: 0 0 18px 6px #000000cc;
   object-fit: cover;
@@ -192,7 +192,7 @@
   opacity: 90%;
 }
 #article #img > img:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.08, 1.08);
   transition: all 0.75s ease-in-out;
   transition-delay: 0.05s;
   opacity: 100%;

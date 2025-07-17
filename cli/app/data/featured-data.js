@@ -19,15 +19,6 @@ export const FEATURED_ARTICLES = [
     "2024-06-24"
   ),
   new ArticleSpecs(
-    "everybody-wants-some",
-    "Everybody Wants Some!!",
-    "everybody-wants-some.jpeg",
-    "everybody-wants-some",
-    "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/reviews/",
-    ["featured", "review", "2016"],
-    "2025-03-07"
-  ),
-  new ArticleSpecs(
     "trainspotting",
     "Trainspotting",
     "trainspotting.jpg",
@@ -35,6 +26,15 @@ export const FEATURED_ARTICLES = [
     "https://boxd.it/6h19k3",
     ["featured", "review", "1996"],
     "2024-04-12"
+  ),
+  new ArticleSpecs(
+    "everybody-wants-some",
+    "Everybody Wants Some!!",
+    "everybody-wants-some.jpeg",
+    "everybody-wants-some",
+    "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/reviews/",
+    ["featured", "review", "2016"],
+    "2025-03-07"
   ),
   // new ArticleSpecs(
   //   "escapism",
