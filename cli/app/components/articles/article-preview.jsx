@@ -55,14 +55,13 @@ export default function ArticlePreview({ articleSpecs, src }) {
     // info: featured articles
     return (
       <div className="flex flex-col group items-center justify-center h-full min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[42vw] mr-6 my-4 tracking-normal snap-start">
-        {/* Switch to <Link /> or somethin? */}
         <a
           href={href}
           className="w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
           style={{
             backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
-          fetchpriority="high"
+          fetchPriority="high"
         >
           <div className={textBoxCss}>
             <h2 className="text-xl sm:text-4xl pr-3 pb-[5px] pt-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
