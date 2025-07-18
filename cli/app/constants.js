@@ -1,7 +1,7 @@
 export const BRANDING = {
   domain: "https://makeitadoublefeature.com",
   title: "Double Feature",
-  icon: "two-tix-green_192",
+  icon: "two-tix-green",
   preview_title: "Make it a Double Feature",
   preview_img: "bar-sign.png",
   desc: "Michael Beebe's film-based endeavours, featuring articles, reviews, lists, and more.",
