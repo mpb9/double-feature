@@ -175,7 +175,7 @@
 }
 #article #img > img:hover {
   transform: scale(1.075, 1.075);
-  transition: all 0.75s ease-in-out;
+  transition: all 1s ease-in-out;
   transition-delay: 0.05s;
   opacity: 100%;
   filter: brightness(1.05);

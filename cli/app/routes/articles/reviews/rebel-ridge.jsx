@@ -18,11 +18,11 @@ export default function RebelRidge({ loaderData }) {
       <main>
         <ArticleInfo articleSpecs={articleSpecs} />
         <p>
-          Like "
+          Like{" "}
           <a href="https://boxd.it/C69e" rel="nofollow" target="_blank">
             <i>How To Blow Up a Pipeline</i>
-          </a>
-          " but abt cops/judicial system as opposed to climate change. While the
+          </a>{" "}
+          but abt cops/judicial system as opposed to climate change. While the
           primary focuses differ, both movies make it abundantly clear that
           systemic racism and capitalistic greed create the pressures and
           sustain the environment for injustice.
@@ -53,11 +53,11 @@ export default function RebelRidge({ loaderData }) {
           <br />
           <br />I really liked this movie - just the sheer intensity and
           sincerity as well as the acting and pacing. My only familiarity with
-          the director, Jeremy Saulnier, comes from people recommending "
+          the director, Jeremy Saulnier, comes from people recommending{" "}
           <a href="https://boxd.it/a75m" rel="nofollow" target="_blank">
             <i>Green Room</i>
-          </a>
-          "and knowing it's supposed to be scary/violent/well-regarded. That
+          </a>{" "}
+          and knowing it's supposed to be scary/violent/well-regarded. That
           being said, I feel the elements of horror in this as well - esp in a
           few particularly disturbing interactions with the police officers.
           This movie does have a few character tropes that, while well executed,

@@ -10,15 +10,6 @@ export const FEATURED_ARTICLES = [
     "2025-06-10"
   ),
   new ArticleSpecs(
-    "across-the-spider-verse",
-    "Spider-Man: Across the Spider-Verse",
-    "across-the-spider-verse.jpeg",
-    "across-the-spider-verse",
-    "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
-    ["featured", "review", "animation", "2023"],
-    "2024-06-24"
-  ),
-  new ArticleSpecs(
     "trainspotting",
     "Trainspotting",
     "trainspotting.jpg",
@@ -26,6 +17,15 @@ export const FEATURED_ARTICLES = [
     "https://boxd.it/6h19k3",
     ["featured", "review", "1996"],
     "2024-04-12"
+  ),
+  new ArticleSpecs(
+    "across-the-spider-verse",
+    "Spider-Man: Across the Spider-Verse",
+    "across-the-spider-verse.jpeg",
+    "across-the-spider-verse",
+    "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
+    ["featured", "review", "animation", "2023"],
+    "2024-06-24"
   ),
   new ArticleSpecs(
     "everybody-wants-some",

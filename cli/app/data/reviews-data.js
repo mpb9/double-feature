@@ -1,6 +1,15 @@
 import { ArticleSpecs } from "../models/article-specs";
 export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
+    "superman",
+    "Superman",
+    "superman.jpg",
+    "superman",
+    "https://letterboxd.com/michaelbeebe/film/superman-2025/",
+    ["review", "2025"],
+    "2025-07-17"
+  ),
+  new ArticleSpecs(
     "28-years-later",
     "28 Years Later",
     "28-years-later.png",
