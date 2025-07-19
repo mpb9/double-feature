@@ -22,7 +22,7 @@ export default function HomeHeader() {
               created by: <br />
               <a
                 href="https://michael-beebe.com"
-                className="underline underline-offset-8 decoration-[#69d346aa] decoration-1 text-[var(--dim)] hover:text-[#69d346] duration-300"
+                className="underline underline-offset-8 cursor-pointer decoration-[#69d346aa] decoration-1 text-[var(--dim)] hover:text-[#69d346] duration-300"
               >
                 MICHAEL BEEBE
               </a>
@@ -43,7 +43,7 @@ export default function HomeHeader() {
             <div className="text-lg cursor-default text-[#a5aca0cc] pt-[3px] font-[100]">
               <a
                 href="https://michael-beebe.com"
-                className="underline underline-offset-8 decoration-[#69d346aa] decoration-1 text-[var(--dim)] hover:text-[#69d346] duration-300"
+                className="underline underline-offset-8 cursor-pointer decoration-[#69d346aa] decoration-1 text-[var(--dim)] hover:text-[#69d346] duration-300"
               >
                 MICHAEL BEEBE
               </a>
