@@ -49,11 +49,11 @@ body {
 }
 #home-header {
   background-image: linear-gradient(to right, #8c7d9010 18px, transparent 1px),
-    linear-gradient(to bottom, #00000028 1px, transparent 1px);
+    linear-gradient(to bottom, #0000001c 1px, transparent 1px);
   background-size: 24px 16px;
   background-color: #1d0202;
   border-bottom: 3px solid #0f0606aa;
-  box-shadow: 0 0 10px 6px #0f0606aa;
+  box-shadow: 0 0 10px 6px #0f0606bb;
 }
 
 /* MARK: scrollbar

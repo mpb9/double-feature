@@ -22,9 +22,9 @@ HomeSection.propTypes = {
   src: PropTypes.string.isRequired,
 };
 export default function HomeSection({ name, files, src }) {
-  const isFeatured = name == "Featured";
-  const isReviews = name == "Reviews";
-  const isLists = name == "Lists";
+  const isFeatured = name == "featured";
+  const isReviews = name == "reviews";
+  const isLists = name == "lists";
 
   const scrollableHtml = (
     <div className="flex flex-row items-center justify-start w-full overflow-x-scroll h-fit no-scrollbar snap-x scroll-smooth">
@@ -47,7 +47,7 @@ export default function HomeSection({ name, files, src }) {
           <h1 className="font-[100] tracking-[0.2rem] uppercase group-hover/section:tracking-[0.4rem] group-hover/section:font-[200] transition-all duration-[600ms]">
             <a
               href={`/${name.toLowerCase()}`}
-              className="text-[var(--dim)] group-hover/section:text-[#69d34688] hover:text-[#69d346] transition-colors duration-[600ms]"
+              className="text-[var(--dim)] group-hover/section:text-[#69d34666] hover:text-[#69d346] transition-colors duration-[600ms]"
             >
               ____
               <i className="px-0.5 group-hover/section:text-[#69d346] transition-colors duration-[600ms]">

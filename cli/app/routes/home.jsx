@@ -21,35 +21,35 @@ export default function Home() {
       <div className="items-center w-full h-[calc(100vh-6rem)] sm:h-[calc(100vh-7rem)] px-5 lg:px-14 xl:px-18 overflow-y-scroll">
         {/* FEATURED */}
         <HomeSection
-          name={"Featured"}
+          name={"featured"}
           files={FEATURED_ARTICLES}
           src={"featured"}
         />
 
         {/* REVIEWS */}
-        <HomeSection name={"Reviews"} files={REVIEWS_ARTICLES} src={"review"} />
+        <HomeSection name={"reviews"} files={REVIEWS_ARTICLES} src={"review"} />
 
         {/* LISTS */}
-        <HomeSection name={"Lists"} files={FEATURED_LISTS} src={"list"} />
-        <HomeSection name={"Genres"} files={GENRES_LISTS} src={"genres"} />
+        <HomeSection name={"lists"} files={FEATURED_LISTS} src={"list"} />
+        <HomeSection name={"/genres"} files={GENRES_LISTS} src={"genres"} />
         <HomeSection
-          name={"Microgenres"}
+          name={"/microgenres"}
           files={MICROGENRES_LISTS}
           src={"microgenres"}
         />
-        <HomeSection name={"Moments"} files={MOMENTS_LISTS} src={"moments"} />
+        <HomeSection name={"/moments"} files={MOMENTS_LISTS} src={"moments"} />
         <HomeSection
-          name={"Elements"}
+          name={"/elements"}
           files={ELEMENTS_LISTS}
           src={"elements"}
         />
         <HomeSection
-          name={"Directors"}
+          name={"/directors"}
           files={DIRECTORS_LISTS}
           src={"directors"}
         />
-        <HomeSection name={"Decades"} files={DECADES_LISTS} src={"decades"} />
-        <HomeSection name={"Years"} files={YEARS_LISTS} src={"years"} />
+        <HomeSection name={"/decades"} files={DECADES_LISTS} src={"decades"} />
+        <HomeSection name={"/years"} files={YEARS_LISTS} src={"years"} />
 
         <Footer
           links={["letterboxd", "lists", "reviews", "archive", "about"]}
