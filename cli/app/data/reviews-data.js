@@ -1,6 +1,15 @@
 import { ArticleSpecs } from "../models/article-specs";
 export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
+    "eddington",
+    "Eddington",
+    "eddington.jpg",
+    "eddington",
+    "https://letterboxd.com/michaelbeebe/film/eddington/",
+    ["review", "2025"],
+    "2025-07-19"
+  ),
+  new ArticleSpecs(
     "superman",
     "Superman",
     "superman.jpg",

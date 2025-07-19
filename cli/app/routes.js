@@ -27,6 +27,7 @@ export default [
   layout(`${DIR_ROUTES.layouts}review.jsx`, [
     // info: Reviews
     ...prefix("review", [
+      route("eddington", `./${DIR_ROUTES.reviews}eddington.jsx`),
       route("superman", `./${DIR_ROUTES.reviews}superman.jsx`),
       route("28-years-later", `./${DIR_ROUTES.reviews}28-years-later.jsx`),
       route("alien", `./${DIR_ROUTES.reviews}alien.jsx`),
