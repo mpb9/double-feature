@@ -1,9 +1,26 @@
 import { BRANDING, IMG_ROUTES } from "../constants";
 
+export function reviewMetaBuilder(
+  title = "",
+  img_type = "",
+  desc = "",
+  keywords = ""
+) {
+  const reviewMeta = metaBuilder(
+    `${title} | Double Feature`,
+    `${title} | Review | Make it a Double Feature`,
+    `${IMG_ROUTES.covers}${title.toLowerCase().replace(/ /g, "-")}.${img_type}`,
+    desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
+    keywords,
+    `${BRANDING.color}`
+  );
+  return reviewMeta;
+}
+
 export function metaBuilder(
   title = BRANDING.title,
   preview_title = BRANDING.preview_title,
-  preview_img = BRANDING.preview_img,
+  preview_img = `${IMG_ROUTES.branding}${BRANDING.preview_img}`,
   desc = BRANDING.desc,
   keywords = "",
   color = BRANDING.color
@@ -40,7 +57,7 @@ export function metaBuilder(
     },
     {
       name: "og:image",
-      content: `${BRANDING.domain}${IMG_ROUTES.branding}${preview_img}`,
+      content: `${BRANDING.domain}${preview_img}`,
     },
     {
       name: "og:url",
@@ -64,7 +81,7 @@ export function metaBuilder(
     },
     {
       name: "twitter:image",
-      content: `${BRANDING.domain}${IMG_ROUTES.branding}${preview_img}`,
+      content: `${BRANDING.domain}${preview_img}`,
     },
     {
       name: "twitter:url",

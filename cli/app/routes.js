@@ -46,4 +46,11 @@ export default [
       route("breathless", `./${DIR_ROUTES.reviews}breathless.jsx`),
     ]),
   ]),
+
+  ...prefix("review", [
+    route(
+      "10-things-i-hate-about-you",
+      `./${DIR_ROUTES.reviews}10-things-i-hate-about-you.jsx`
+    ),
+  ]),
 ];

@@ -28,6 +28,15 @@ export const REVIEWS_ARTICLES = [
     "2025-06-26"
   ),
   new ArticleSpecs(
+    "10-things-i-hate-about-you",
+    "10 Things I Hate About You",
+    "10-things-i-hate-about-you.jpg",
+    "10-things-i-hate-about-you",
+    "https://letterboxd.com/michaelbeebe/film/10-things-i-hate-about-you/reviews/",
+    ["review", "1999"],
+    "2025-06-30"
+  ),
+  new ArticleSpecs(
     "alien",
     "Alien",
     "alien.png",
