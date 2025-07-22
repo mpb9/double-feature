@@ -2,7 +2,7 @@ import { BRANDING, IMG_ROUTES } from "../constants";
 
 export function reviewMetaBuilder(
   title = "",
-  img_type = "",
+  img_type = "jpg",
   desc = "",
   keywords = ""
 ) {
