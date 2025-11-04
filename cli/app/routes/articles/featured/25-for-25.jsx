@@ -35,53 +35,82 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </li>
         </ul>
         <h2>
-          25. <a href="https://boxd.it/dGNE">Lady Bird</a>
+          25.{" "}
+          <a href="https://boxd.it/dGNE" target="_blank">
+            Lady Bird
+          </a>
         </h2>
         <h2>
-          24. <a href="https://boxd.it/2416">Hot Fuzz</a>
+          24.{" "}
+          <a href="https://boxd.it/2416" target="_blank">
+            Hot Fuzz
+          </a>
         </h2>
         <h2>
-          23. <a href="https://boxd.it/20hO">Superbad</a>
+          23.{" "}
+          <a href="https://boxd.it/20hO" target="_blank">
+            Superbad
+          </a>
         </h2>
         <h2>
-          22. <a href="https://boxd.it/eOCm">Get Out</a>
+          22.{" "}
+          <a href="https://boxd.it/eOCm" target="_blank">
+            Get Out
+          </a>
         </h2>
         <h2>
-          21. <a href="https://boxd.it/948A">The Handmaiden</a>
+          21.{" "}
+          <a href="https://boxd.it/948A" target="_blank">
+            The Handmaiden
+          </a>
         </h2>
         <h2>
-          20. <a href="https://boxd.it/d2hI">The Favourite</a>
+          20.{" "}
+          <a href="https://boxd.it/d2hI" target="_blank">
+            The Favourite
+          </a>
         </h2>
         <h2>
-          19. <a href="https://boxd.it/hNVe">Hereditary</a>
+          19.{" "}
+          <a href="https://boxd.it/hNVe" target="_blank">
+            Hereditary
+          </a>
         </h2>
         <h2>
           18.{" "}
-          <a href="https://boxd.it/jUk4">Everything Everywhere All at Once</a>
+          <a href="https://boxd.it/jUk4" target="_blank">
+            Everything Everywhere All at Once
+          </a>
         </h2>
         <p>
           if there's a common theme on this list, its that im a sucker for
           sincere cinema.
         </p>
         <h2>
-          17. <a href="https://boxd.it/1JP0">All About Lily Chou-Chou</a>
+          17.{" "}
+          <a href="https://boxd.it/1JP0" target="_blank">
+            All About Lily Chou-Chou
+          </a>
         </h2>
         <p>
           When I put this movie on for the first time a few months ago, I
           couldn't even get through the{" "}
-          <a href="https://youtu.be/oKGoEvvZXzI?si=xwDF9D2PnWiFALWZ">
+          <a
+            href="https://youtu.be/oKGoEvvZXzI?si=xwDF9D2PnWiFALWZ"
+            target="_blank"
+          >
             opening sequence
           </a>{" "}
           without spamming my friends with texts professing my love for it. I'm
           just going to let a few of my initial messages speak for themselves:
         </p>
-        <div className="img">
+        <div>
           <img
             src={`${IMG_ROUTES.articles}${articleSpecs.id}/all-about-lily-chou-chou-text1.png`}
             alt="Text 1 - All About Lily Chou-Chou (2001)"
           />
         </div>
-        <div className="img">
+        <div>
           <img
             src={`${IMG_ROUTES.articles}${articleSpecs.id}/all-about-lily-chou-chou-text2.png`}
             alt="Text 2 - All About Lily Chou-Chou (2001)"
@@ -129,13 +158,19 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           contribute to the loneliness epidemic that's plagued the youth for
           decades. Sigh, anyways, I'm done rambling, but I just want to add that
           this movie also has such an{" "}
-          <a href="https://letterboxd.com/michaelbeebe/list/soundtracks/detail/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/list/soundtracks/detail/"
+            target="_blank"
+          >
             incredible soundtrack
           </a>
           , so have fun checking that out if you trust my music taste.
         </p>
         <h2>
-          16. <a href="https://boxd.it/1Y2i">Children of Men</a>
+          16.{" "}
+          <a href="https://boxd.it/1Y2i" target="_blank">
+            Children of Men
+          </a>
         </h2>
         <div id="img">
           <img
@@ -145,7 +180,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </div>
         <p>
           lol if The Brutalist was "up my alley", this movie features{" "}
-          <a href="https://youtu.be/wrALRx95mHs?si=5nY18gnUy8ByZVA0">
+          <a
+            href="https://youtu.be/wrALRx95mHs?si=5nY18gnUy8ByZVA0"
+            target="_blank"
+          >
             this scene
           </a>
           . its unbearable how relevant this film is specifically in regard to
@@ -159,14 +197,20 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <ul>
           <li>
-            <a href="https://www.goodreads.com/quotes/11243889-in-one-of-the-key-scenes-in-alfonso-cuaron-s-2006">
+            <a
+              href="https://www.goodreads.com/quotes/11243889-in-one-of-the-key-scenes-in-alfonso-cuaron-s-2006"
+              target="_blank"
+            >
               quote from Mark Fisher's <i>Capitalist Realism</i>
             </a>{" "}
             regarding Children of Men
           </li>
         </ul>
         <h2>
-          15. <a href="https://boxd.it/k4BO">The Brutalist</a>
+          15.{" "}
+          <a href="https://boxd.it/k4BO" target="_blank">
+            The Brutalist
+          </a>
         </h2>
         <blockquote>
           My buildings were designed to endure such erosion.
@@ -181,13 +225,19 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <ul>
           <li>
             very thought-provoking{" "}
-            <a href="https://open.spotify.com/episode/2fUO43K5JsFtCT1bWbcoFp?si=ug-ZU6NMQ028i6zAxUXL_w">
+            <a
+              href="https://open.spotify.com/episode/2fUO43K5JsFtCT1bWbcoFp?si=ug-ZU6NMQ028i6zAxUXL_w"
+              target="_blank"
+            >
               The Big Picture podcast episode featuring Adam Nayman
             </a>
           </li>
         </ul>
         <h2>
-          14. <a href="https://boxd.it/2b1M">Crouching Tiger, Hidden Dragon</a>
+          14.{" "}
+          <a href="https://boxd.it/2b1M" target="_blank">
+            Crouching Tiger, Hidden Dragon
+          </a>
         </h2>
         <div id="img">
           <img
@@ -205,7 +255,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <p>
           to briefly touch on the fight scenes, they fucking float lol. the
           moment in the{" "}
-          <a href="https://youtu.be/ltY3ZLA6dA8?si=1ndg1AeQyZkaYibg">
+          <a
+            href="https://youtu.be/ltY3ZLA6dA8?si=1ndg1AeQyZkaYibg"
+            target="_blank"
+          >
             initial showdown
           </a>{" "}
           between Zhang Ziyi and Michelle Yeoh where they both just take off
@@ -230,7 +283,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           you've seen it you know the vibe. what a banger
         </p>
         <h2>
-          13. <a href="https://boxd.it/7bQA">Whiplash</a>
+          13.{" "}
+          <a href="https://boxd.it/7bQA" target="_blank">
+            Whiplash
+          </a>
         </h2>
         <p>
           <i>
@@ -255,14 +311,20 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           <i>movie-about-how-self-destructive-it-is-to-make-movies</i> subgenre…
           and, since its Damien Chazelle, obviously the metaphor for filmmaking
           is jazz music (p.s.{" "}
-          <a href="https://letterboxd.com/director/damien-chazelle/">
+          <a
+            href="https://letterboxd.com/director/damien-chazelle/"
+            target="_blank"
+          >
             all of Chazelle's movies
           </a>{" "}
           fit in this subgenre). the ending is maybe(?) misinterpreted by some
           ppl, but omg is it devastating…
         </p>
         <h2>
-          12. <a href="https://boxd.it/1JzG">Inglourious Basterds</a>
+          12.{" "}
+          <a href="https://boxd.it/1JzG" target="_blank">
+            Inglourious Basterds
+          </a>
         </h2>
         <p>
           was my fav movie throughout high school and i'm very due to watch it
@@ -283,7 +345,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           damn dude i do not understand ur mindset rn
         </p>
         <h2>
-          11. <a href="https://boxd.it/pUfA">Dune: Part 2</a>
+          11.{" "}
+          <a href="https://boxd.it/pUfA" target="_blank">
+            Dune: Part 2
+          </a>
         </h2>
         <p>
           i dont think ive ever written anything significant abt <i>Dune</i>,
@@ -321,7 +386,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           <i>(i like sci-fi)</i>
         </p>
         <h2>
-          10. <a href="https://boxd.it/Arw0">Aftersun</a>
+          10.{" "}
+          <a href="https://boxd.it/Arw0" target="_blank">
+            Aftersun
+          </a>
         </h2>
         <div id="img">
           <img
@@ -354,7 +422,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           is worth bringing up bc omg wtf idk what else to say
         </p>
         <h2>
-          9. <a href="https://boxd.it/27ww">Ratatouille</a>
+          9.{" "}
+          <a href="https://boxd.it/27ww" target="_blank">
+            Ratatouille
+          </a>
         </h2>
         <blockquote>
           In many ways, the work of a critic is easy. We risk very little, yet
@@ -381,7 +452,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </blockquote>
         <p>what a life affirming film. i will always cherish it 🐀👨‍🍳</p>
         <h2>
-          8. <a href="https://boxd.it/hTha">Parasite</a>
+          8.{" "}
+          <a href="https://boxd.it/hTha" target="_blank">
+            Parasite
+          </a>
         </h2>
         <div id="img">
           <img
@@ -395,7 +469,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           with? yeah.
         </p>
         <h2>
-          7. <a href="https://boxd.it/28No">Pan's Labyrinth</a>
+          7.{" "}
+          <a href="https://boxd.it/28No" target="_blank">
+            Pan's Labyrinth
+          </a>
         </h2>
         <p>
           u guys seen this shit? i feel like we dont talk abt this shit enough.
@@ -421,7 +498,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <p>⭐⭐⭐⭐⭐</p>
         <h2>
           5.{" "}
-          <a href="https://letterboxd.com/film/oppenheimer-2023/">
+          <a
+            href="https://letterboxd.com/film/oppenheimer-2023/"
+            target="_blank"
+          >
             Oppenheimer
           </a>
         </h2>
@@ -437,7 +517,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           like "whatever man, he's good and all but <i>Social Network</i> AND{" "}
           <i>Zodiac</i> exist??" anyways, this is far and away my fav nolan and
           has been since{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/film/oppenheimer-2023/"
+            target="_blank"
+          >
             i first watched/reviewed it
           </a>
         </p>
@@ -450,7 +533,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           ya go
         </p>
         <h2>
-          4. <a href="https://boxd.it/2b4m">Spirited Away</a>
+          4.{" "}
+          <a href="https://boxd.it/2b4m" target="_blank">
+            Spirited Away
+          </a>
         </h2>
         <p>
           i think me loving Miyazaki so much, seeing every movie he's made, and
@@ -471,14 +557,20 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <ul>
           <li>
-            <a href="https://letterboxd.com/michaelbeebe/list/ghibli-ranked/">
+            <a
+              href="https://letterboxd.com/michaelbeebe/list/ghibli-ranked/"
+              target="_blank"
+            >
               Studio Ghibli Movie Rankings
             </a>
           </li>
         </ul>
         <h2>
           3.{" "}
-          <a href="https://letterboxd.com/film/mad-max-fury-road/">
+          <a
+            href="https://letterboxd.com/film/mad-max-fury-road/"
+            target="_blank"
+          >
             Mad Max: Fury Road
           </a>
         </h2>
@@ -489,7 +581,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <h2>
           2.{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/paprika-2006/reviews/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/film/paprika-2006/reviews/"
+            target="_blank"
+          >
             Paprika
           </a>{" "}
         </h2>
@@ -512,7 +607,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           things that i love and how they're all connected and build off each
           other an—
           <i>SOMEDAY i'll write a book or something,</i> but for now:{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/paprika-2006/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/film/paprika-2006/"
+            target="_blank"
+          >
             this is what i wrote
           </a>{" "}
           when i watched this masterpiece for the first time.
@@ -527,7 +625,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <p>
           i'll forever mourn the immense, <i>immense</i> loss of the{" "}
           <b>singular, genius</b> artist who was Satoshi Kon. he made{" "}
-          <a href="https://letterboxd.com/michaelbeebe/list/kon-ranked/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/list/kon-ranked/"
+            target="_blank"
+          >
             four outstanding films
           </a>{" "}
           and a brilliant anime all by age 46. he gave the world so much, and
@@ -537,29 +638,44 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <ul>
           <li className="pb-2">
-            <a href="https://youtu.be/9GzZuRMwbW4?si=VxKEVmV0ZsItUMM-">
+            <a
+              href="https://youtu.be/9GzZuRMwbW4?si=VxKEVmV0ZsItUMM-"
+              target="_blank"
+            >
               The SATOSHI KON PROBLEM
             </a>{" "}
             (video essay by STEVEM)
           </li>
           <li>
-            <a href="https://www.youtube.com/playlist?list=PLQuKbs0mEWs90Dxy0fopqOPQxSWHPne0Z">
+            <a
+              href="https://www.youtube.com/playlist?list=PLQuKbs0mEWs90Dxy0fopqOPQxSWHPne0Z"
+              target="_blank"
+            >
               Satoshi Kon and Why Love Is All You Need
             </a>{" "}
             (video essay series by BREADSWORD)
             <ul>
               <li>
-                <a href="https://youtu.be/2XGYr9_BiEU?si=VqCwBYrGkRmwk9dc">
+                <a
+                  href="https://youtu.be/2XGYr9_BiEU?si=VqCwBYrGkRmwk9dc"
+                  target="_blank"
+                >
                   Ep. 1 - <i>Perfect Blue</i>
                 </a>
               </li>
               <li>
-                <a href="https://youtu.be/1dfn-yMmvis?si=dTfTMLTVmqnDYS_F">
+                <a
+                  href="https://youtu.be/1dfn-yMmvis?si=dTfTMLTVmqnDYS_F"
+                  target="_blank"
+                >
                   Ep. 2 - <i>Millenium Actress</i>
                 </a>
               </li>
               <li>
-                <a href="https://youtu.be/9EceEemWo0k?si=q1CMXJ5Us-8zCN6l">
+                <a
+                  href="https://youtu.be/9EceEemWo0k?si=q1CMXJ5Us-8zCN6l"
+                  target="_blank"
+                >
                   Ep. 3 - <i>Tokyo Godfathers</i>
                 </a>
               </li>
@@ -568,7 +684,10 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </ul>
         <h2>
           1.{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/film/portrait-of-a-lady-on-fire/reviews/"
+            target="_blank"
+          >
             Portrait of a Lady on Fire
           </a>
         </h2>

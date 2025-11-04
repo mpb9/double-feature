@@ -49,8 +49,9 @@ export default function FullmetalAlchemistBrotherhood({ loaderData }) {
           cooking for me, but it pretty much just played prevent defense during
           the culminating conflict (aside from the whole go up to heaven and eat
           god situation which, again, was dope asf visually and conceptually).
-          in conclusion, this kinda just made me wanna watch the hunter x hunter
-          chimera ant arc now? oh and ling yao is a dog i love that guy
+          in conclusion, this kinda just made me wanna watch the{" "}
+          <i>Hunter x Hunter</i> chimera ant arc now? oh and ling yao is a dog i
+          love that guy
         </p>
       </main>
     </>

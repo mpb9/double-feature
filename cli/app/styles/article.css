@@ -135,24 +135,6 @@
   text-underline-offset: 0.25em;
   transition: all 0.5s ease-in-out;
 }
-#article a:visited:not(#info a:visited):not(#footer a:visited) {
-  color: var(--a-visited);
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: var(--a-underline-visited);
-  text-decoration-thickness: 4px;
-  text-underline-offset: 0.1em;
-}
-#article
-  a:visited:hover:not(#info a:visited:hover):not(#footer a:visited:hover) {
-  color: var(--a-visited-hover);
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: var(--a-underline-visited-hover);
-  text-decoration-thickness: 3px;
-  text-underline-offset: 0.25em;
-  transition: all 0.5s ease-in-out;
-}
 #article p a {
   font-weight: 600;
 }
@@ -177,7 +159,7 @@
   background-color: #000;
 }
 #article #img > img {
-  margin: 1.75rem 0 1.75rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   border-radius: 0.1rem;
   box-shadow: 0 0 18px 6px #000000cc;
   object-fit: cover;
@@ -192,8 +174,8 @@
   opacity: 90%;
 }
 #article #img > img:hover {
-  transform: scale(1.1, 1.1);
-  transition: all 0.75s ease-in-out;
+  transform: scale(1.075, 1.075);
+  transition: all 1s ease-in-out;
   transition-delay: 0.05s;
   opacity: 100%;
   filter: brightness(1.05);

@@ -1,6 +1,24 @@
 import { ArticleSpecs } from "../models/article-specs";
 export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
+    "eddington",
+    "Eddington",
+    "eddington.jpg",
+    "eddington",
+    "https://letterboxd.com/michaelbeebe/film/eddington/",
+    ["review", "2025"],
+    "2025-07-19"
+  ),
+  new ArticleSpecs(
+    "superman",
+    "Superman",
+    "superman.jpg",
+    "superman",
+    "https://letterboxd.com/michaelbeebe/film/superman-2025/",
+    ["review", "2025"],
+    "2025-07-17"
+  ),
+  new ArticleSpecs(
     "28-years-later",
     "28 Years Later",
     "28-years-later.png",
@@ -10,22 +28,13 @@ export const REVIEWS_ARTICLES = [
     "2025-06-26"
   ),
   new ArticleSpecs(
-    "trainspotting",
-    "Trainspotting",
-    "trainspotting.jpg",
-    "trainspotting",
-    "https://boxd.it/6h19k3",
-    ["review", "1996"],
-    "2024-04-12"
-  ),
-  new ArticleSpecs(
-    "across-the-spider-verse",
-    "Spider-Man: Across the Spider-Verse",
-    "across-the-spider-verse.jpeg",
-    "across-the-spider-verse",
-    "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
-    ["review", "animation", "2023"],
-    "2024-06-24"
+    "10-things-i-hate-about-you",
+    "10 Things I Hate About You",
+    "10-things-i-hate-about-you.jpg",
+    "10-things-i-hate-about-you",
+    "https://letterboxd.com/michaelbeebe/film/10-things-i-hate-about-you/reviews/",
+    ["review", "1999"],
+    "2025-06-30"
   ),
   new ArticleSpecs(
     "alien",
@@ -35,6 +44,15 @@ export const REVIEWS_ARTICLES = [
     "https://letterboxd.com/michaelbeebe/film/alien/",
     ["review", "sci-fi", "1979"],
     "2025-05-02"
+  ),
+  new ArticleSpecs(
+    "burning",
+    "Burning",
+    "burning.jpg",
+    "burning",
+    "https://letterboxd.com/michaelbeebe/film/burning-2018/",
+    ["review", "2018"],
+    "2025-01-24"
   ),
   new ArticleSpecs(
     "nickel-boys",

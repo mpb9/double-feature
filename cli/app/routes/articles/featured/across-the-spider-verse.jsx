@@ -1,5 +1,6 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
+import { IMG_ROUTES } from "../../../constants";
 import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 
@@ -19,7 +20,10 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
         <ArticleInfo articleSpecs={articleSpecs} />
         <p>
           When I first watched{" "}
-          <a href="https://letterboxd.com/michaelbeebe/film/spider-man-into-the-spider-verse/">
+          <a
+            href="https://letterboxd.com/michaelbeebe/film/spider-man-into-the-spider-verse/"
+            target="_blank"
+          >
             <i>Into the Spider-Verse</i>
           </a>
           , I was high a kite and absolutely dug every minute of it. A few
@@ -41,7 +45,10 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
           watching a ton of videos about all things <i>Spider-Verse</i>. In my
           journey down this particular YouTube rabbit hole, I discovered that
           the creators had spent a lot of time{" "}
-          <a href="https://youtu.be/l-wUKu_V2Lk?si=N2WlHYRNAbwHXzj0">
+          <a
+            href="https://youtu.be/l-wUKu_V2Lk?si=N2WlHYRNAbwHXzj0"
+            target="_blank"
+          >
             explaining their creative and technical processes
           </a>
           . They were constantly experimenting and using animation/graphics as a
@@ -65,10 +72,20 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
           to be doing… I don't know, it's just cool, it's cool, healthy, and
           universal.
         </p>
+
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/across-the-spider-verse.png`}
+            alt="Corrupt leaders of the Spider Society in Across the Spider-Verse"
+          />
+        </div>
         <p>
           And so yeah, going into my first <i>Across the Spider-Verse</i>{" "}
           viewing, the hype around it was like <i>so</i> intense. The{" "}
-          <a href="https://youtu.be/shW9i6k8cB0?si=xu2QZZlk3t30W7-I">
+          <a
+            href="https://youtu.be/shW9i6k8cB0?si=xu2QZZlk3t30W7-I"
+            target="_blank"
+          >
             trailers
           </a>{" "}
           were crazy, it was going to feature all different types of animation,
@@ -103,7 +120,10 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
           Also, I mean, I think it's a trans allegory, which is really cool. I
           mean it might not be, but I'm going to read it as such regardless (and
           its really easy to do so). Oh! also I love{" "}
-          <a href="https://youtu.be/yL4GEKcTX04?si=vtqnXpFi70FrRU9T">
+          <a
+            href="https://youtu.be/yL4GEKcTX04?si=vtqnXpFi70FrRU9T"
+            target="_blank"
+          >
             Spider-Punk
           </a>
           .
