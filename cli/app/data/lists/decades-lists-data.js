@@ -4,7 +4,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "2020s",
     "2020s",
-    "2020s.jpg",
+    "2020s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-2020s/",
     ["list", "decade"],
@@ -13,7 +13,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "2010s",
     "2010s",
-    "2010s.jpg",
+    "2010s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-2010s/",
     ["list", "decade"],
@@ -22,7 +22,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "2000s",
     "2000s",
-    "2000s.jpg",
+    "2000s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-2000s/",
     ["list", "decade"],
@@ -31,7 +31,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "1990s",
     "1990s",
-    "1990s.jpg",
+    "1990s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-1990s/",
     ["list", "decade"],
@@ -40,7 +40,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "1980s",
     "1980s",
-    "1980s.gif",
+    "1980s.avif",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-1980s/",
     ["list", "decade"],
@@ -49,7 +49,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "1970s",
     "1970s",
-    "1970s.jpg",
+    "1970s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-1970s/",
     ["list", "decade"],
@@ -58,7 +58,7 @@ export const DECADES_LISTS = [
   new ArticleSpecs(
     "1960s",
     "1960s",
-    "1960s.jpg",
+    "1960s.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/decade-1960s/",
     ["list", "decade"],

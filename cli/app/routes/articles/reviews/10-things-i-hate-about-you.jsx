@@ -6,22 +6,19 @@ import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 import { reviewMetaBuilder } from "../../../services/meta-service";
 import "../../../styles/article.css";
-
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("10-things-i-hate-about-you");
   return data;
 }
-
 export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "10 Things I Hate About You",
-    "jpg",
+    "jpeg",
     "A review of the 1999 film '10 Things I Hate About You' by Michael Beebe."
   );
   return reviewMeta;
 }
-
 export default function TenThingsIHateAboutYou({ loaderData }) {
   const articleSpecs = loaderData;
 

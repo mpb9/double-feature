@@ -3,7 +3,7 @@ export const FEATURED_ARTICLES = [
   new ArticleSpecs(
     "25-for-25",
     "25 for '25",
-    "25-for-25.jpg",
+    "25-for-25.jpeg",
     "25-for-25",
     "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
     ["featured", "ranking"],
@@ -12,7 +12,7 @@ export const FEATURED_ARTICLES = [
   new ArticleSpecs(
     "trainspotting",
     "Trainspotting",
-    "trainspotting.jpg",
+    "trainspotting.jpeg",
     "trainspotting",
     "https://boxd.it/6h19k3",
     ["featured", "review", "1996"],
@@ -39,7 +39,7 @@ export const FEATURED_ARTICLES = [
   // new ArticleSpecs(
   //   "escapism",
   //   "Escapism",
-  //   "escapism.jpg",
+  //   "escapism.jpeg",
   //   "escapism",
   //   "",
   //   ["featured", "film series"],

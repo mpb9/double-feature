@@ -3,7 +3,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "eddington",
     "Eddington",
-    "eddington.jpg",
+    "eddington.jpeg",
     "eddington",
     "https://letterboxd.com/michaelbeebe/film/eddington/",
     ["review", "2025"],
@@ -12,7 +12,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "superman",
     "Superman",
-    "superman.jpg",
+    "superman.jpeg",
     "superman",
     "https://letterboxd.com/michaelbeebe/film/superman-2025/",
     ["review", "2025"],
@@ -21,7 +21,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "28-years-later",
     "28 Years Later",
-    "28-years-later.png",
+    "28-years-later.jpeg",
     "28-years-later",
     "https://letterboxd.com/michaelbeebe/film/28-years-later/",
     ["review", "horror", "2025"],
@@ -30,7 +30,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "10-things-i-hate-about-you",
     "10 Things I Hate About You",
-    "10-things-i-hate-about-you.jpg",
+    "10-things-i-hate-about-you.jpeg",
     "10-things-i-hate-about-you",
     "https://letterboxd.com/michaelbeebe/film/10-things-i-hate-about-you/reviews/",
     ["review", "1999"],
@@ -39,7 +39,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "alien",
     "Alien",
-    "alien.png",
+    "alien.jpeg",
     "alien",
     "https://letterboxd.com/michaelbeebe/film/alien/",
     ["review", "sci-fi", "1979"],
@@ -48,7 +48,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "burning",
     "Burning",
-    "burning.jpg",
+    "burning.jpeg",
     "burning",
     "https://letterboxd.com/michaelbeebe/film/burning-2018/",
     ["review", "2018"],
@@ -66,7 +66,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "the-curse",
     "The Curse",
-    "the-curse.png",
+    "the-curse.jpeg",
     "the-curse",
     "https://letterboxd.com/michaelbeebe/film/the-curse-2023/",
     ["review", "show", "2023"],
@@ -75,7 +75,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "rebel-ridge",
     "Rebel Ridge",
-    "rebel-ridge.jpg",
+    "rebel-ridge.jpeg",
     "rebel-ridge",
     "https://letterboxd.com/michaelbeebe/film/rebel-ridge/",
     ["review", "2024"],
@@ -84,7 +84,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "fullmetal-alchemist-brotherhood",
     "Fullmetal Alchemist: Brotherhood",
-    "fullmetal-alchemist-brotherhood.png",
+    "fullmetal-alchemist-brotherhood.jpeg",
     "fullmetal-alchemist-brotherhood",
     "https://letterboxd.com/michaelbeebe/film/fullmetal-alchemist-brotherhood/",
     ["review", "anime", "spoilers", "2009"],
@@ -93,7 +93,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "requiem-for-a-dream",
     "Requiem for a Dream",
-    "requiem-for-a-dream.jpg",
+    "requiem-for-a-dream.jpeg",
     "requiem-for-a-dream",
     "https://letterboxd.com/michaelbeebe/film/requiem-for-a-dream/",
     ["review", "2000"],
@@ -102,7 +102,7 @@ export const REVIEWS_ARTICLES = [
   new ArticleSpecs(
     "breathless",
     "Breathless",
-    "breathless.jpg",
+    "breathless.jpeg",
     "breathless",
     "https://letterboxd.com/michaelbeebe/film/breathless/",
     ["review", "1960"],

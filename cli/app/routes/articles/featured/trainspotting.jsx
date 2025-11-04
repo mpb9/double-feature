@@ -73,7 +73,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-00.jpeg`}
             alt="Legendary opening scene of Trainspotting"
           />
         </div>
@@ -168,7 +168,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting1.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-01.jpeg`}
             alt="Ewan McGregor as Mark Renton laying on the train tracks in Trainspotting"
           />
         </div>
@@ -218,7 +218,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting2.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-02.jpeg`}
             alt="Ewan McGregor as Mark Renton laying on the floor in Trainspotting"
           />
         </div>

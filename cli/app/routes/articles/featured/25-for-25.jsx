@@ -106,13 +106,13 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <div>
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/all-about-lily-chou-chou-text1.png`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/all_about_lily_chou_chou-2001-00.jpeg`}
             alt="Text 1 - All About Lily Chou-Chou (2001)"
           />
         </div>
         <div>
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/all-about-lily-chou-chou-text2.png`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/all_about_lily_chou_chou-2001-01.jpeg`}
             alt="Text 2 - All About Lily Chou-Chou (2001)"
           />
         </div>
@@ -174,7 +174,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/children-of-men.jpeg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/children_of_men-2006-00.jpeg`}
             alt="'Clive Owen's character, Theo, visits a friend at Battersea Power Station, which is now some combination of government building and private collection. Cultural treasures - Michelangelo's David, Picasso's Guernica, Pink Floyd's inflatable pig - are preserved in a building that is itself a refurbished heritage artifact.' - Mark Fisher"
           />
         </div>
@@ -241,7 +241,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/crouching-tiger-hidden-dragon.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/crouching_tiger_hidden_dragon-2000-00.jpeg`}
             alt="Zhang Ziyi and Michelle Yeoh in Crouching Tiger, Hidden Dragon (2000)"
           />
         </div>
@@ -393,7 +393,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/aftersun.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/aftersun-2022-00.jpeg`}
             alt="Frankie Corio and Paul Mescal in Aftersun (2022)"
           />
         </div>
@@ -459,7 +459,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/parasite.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/parasite-2019-00.jpeg`}
             alt="Kang-ho Song as Kim Ki-taek and Yeo-jeong Jo as Park Yeon-kyo in Bong Joon Ho's Oscar-winning thriller, Parasite (2019)"
           />
         </div>
@@ -507,7 +507,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/oppenheimer.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/oppenheimer-2023-00.jpeg`}
             alt="Benny Safdie as Edward Teller in Oppenheimer (2023)"
           />
         </div>
@@ -617,7 +617,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/paprika.gif`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/paprika-2006-00.avif`}
             alt="_ALT_TEXT_"
           />
         </div>
@@ -693,7 +693,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </h2>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/portrait-of-a-lady-on-fire.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/portrait_of_a_lady_on_fire-2018-00.jpeg`}
             alt="_ALT_TEXT_"
           />
         </div>
@@ -703,7 +703,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/portrait-of-a-lady-on-fire1.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/portrait_of_a_lady_on_fire-2018-01.jpeg`}
             alt="_ALT_TEXT_"
           />
         </div>

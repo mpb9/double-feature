@@ -72,10 +72,9 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
           to be doing… I don't know, it's just cool, it's cool, healthy, and
           universal.
         </p>
-
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/across-the-spider-verse.png`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/across_the_spider_verse-2023-00.jpeg`}
             alt="Corrupt leaders of the Spider Society in Across the Spider-Verse"
           />
         </div>

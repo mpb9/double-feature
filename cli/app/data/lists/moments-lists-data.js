@@ -4,7 +4,7 @@ export const MOMENTS_LISTS = [
   new ArticleSpecs(
     "scenes",
     "Scenes",
-    "scenes.jpg",
+    "scenes.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/scenes/detail/",
     ["list", "element"]
@@ -20,7 +20,7 @@ export const MOMENTS_LISTS = [
   new ArticleSpecs(
     "title-cards",
     "Title Cards",
-    "title-cards.jpg",
+    "title-cards.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/title-cards/detail/",
     ["list", "element"]
@@ -28,7 +28,7 @@ export const MOMENTS_LISTS = [
   new ArticleSpecs(
     "endings",
     "Endings",
-    "endings.jpg",
+    "endings.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/endings/",
     ["list", "element"]
@@ -36,7 +36,7 @@ export const MOMENTS_LISTS = [
   new ArticleSpecs(
     "quotes",
     "Quotes",
-    "quotes.png",
+    "quotes.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/quotes/detail/",
     ["list", "element"]
@@ -44,7 +44,7 @@ export const MOMENTS_LISTS = [
   new ArticleSpecs(
     "montages",
     "Montages",
-    "montages.gif",
+    "montages.avif",
     "",
     "https://letterboxd.com/michaelbeebe/list/montage/detail/",
     ["list", "element"]
@@ -56,7 +56,7 @@ const FUTURE_MOMENTS = [
   new ArticleSpecs(
     "cried",
     "I Cried at Some Point",
-    "cried.jpg",
+    "cried.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/cried/",
     ["list", "genre"]

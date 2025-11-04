@@ -13,7 +13,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2024",
     "2024",
-    "2024.jpg",
+    "2024.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2024/",
     ["list", "year"],
@@ -22,7 +22,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2023",
     "2023",
-    "2023.jpg",
+    "2023.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2023/",
     ["list", "year"],
@@ -31,7 +31,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2022",
     "2022",
-    "2022.png",
+    "2022.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2022/",
     ["list", "year"],
@@ -40,7 +40,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2021",
     "2021",
-    "2021.jpg",
+    "2021.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2021/",
     ["list", "year"],
@@ -49,7 +49,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2020",
     "2020",
-    "2020.jpg",
+    "2020.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2020/",
     ["list", "year"],
@@ -58,7 +58,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2019",
     "2019",
-    "2019.jpg",
+    "2019.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2019/",
     ["list", "year"],
@@ -67,7 +67,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "",
     "2018",
-    "2018.jpg",
+    "2018.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2018/",
     ["list", "year"],
@@ -76,7 +76,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2017",
     "2017",
-    "2017.jpg",
+    "2017.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2017/",
     ["list", "year"],
@@ -85,7 +85,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2016",
     "2016",
-    "2016.jpg",
+    "2016.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2016/",
     ["list", "year"],
@@ -94,7 +94,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2015",
     "2015",
-    "2015.jpg",
+    "2015.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2015/",
     ["list", "year"],
@@ -103,7 +103,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2014",
     "2014",
-    "2014.jpg",
+    "2014.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2014/",
     ["list", "year"],
@@ -112,7 +112,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2013",
     "2013",
-    "2013.jpg",
+    "2013.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/2013/",
     ["list", "year"],
@@ -130,7 +130,7 @@ export const YEARS_LISTS = [
   new ArticleSpecs(
     "2011",
     "2011",
-    "2011.gif",
+    "2011.avif",
     "",
     "https://letterboxd.com/michaelbeebe/list/2011/",
     ["list", "year"],

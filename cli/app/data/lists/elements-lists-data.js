@@ -4,7 +4,7 @@ export const ELEMENTS_LISTS = [
   new ArticleSpecs(
     "soundtracks",
     "Soundtracks",
-    "soundtracks.jpg",
+    "soundtracks.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/soundtracks/detail/",
     ["list", "element", "music"]
@@ -12,7 +12,7 @@ export const ELEMENTS_LISTS = [
   new ArticleSpecs(
     "trailers",
     "Trailers!",
-    "trailers.jpg",
+    "trailers.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/trailers/detail/",
     ["list", "element"]
@@ -41,7 +41,7 @@ const FUTURE_ELEMENTS = [
   new ArticleSpecs(
     "theyre-all-so-cool",
     "Intimidatingly Cool Characters",
-    "theyre-all-so-cool.jpg",
+    "theyre-all-so-cool.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/theyre-all-so-cool/",
     ["list", "element"]

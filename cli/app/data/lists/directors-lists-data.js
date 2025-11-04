@@ -4,7 +4,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "miyazaki",
     "Hayao Miyazaki",
-    "miyazaki.jpg",
+    "miyazaki.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/ghibli-ranked/",
     ["list", "director", "animation"]
@@ -28,7 +28,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "nolan",
     "Christopher Nolan",
-    "nolan.jpg",
+    "nolan.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/nolan-ranked/",
     ["list", "director"]
@@ -44,7 +44,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "fincher",
     "David Fincher",
-    "fincher.gif",
+    "fincher.avif",
     "",
     "https://letterboxd.com/michaelbeebe/list/fincher-ranked/",
     ["list", "director"]
@@ -52,7 +52,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "wes",
     "Wes Anderson",
-    "wes.jpg",
+    "wes.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/wes-ranked/",
     ["list", "director"]
@@ -60,7 +60,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "bong",
     "Bong Joon-ho",
-    "bong.jpg",
+    "bong.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/bong-ranked/",
     ["list", "director"]
@@ -76,7 +76,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "coen-bros",
     "Coen Brothers",
-    "coen-bros.jpg",
+    "coen-bros.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/coen-brothers-ranked/",
     ["list", "director"]
@@ -84,7 +84,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "villeneuve",
     "Denis Villeneuve",
-    "villeneuve.jpg",
+    "villeneuve.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/villeneuve-ranked/",
     ["list", "director"]
@@ -92,7 +92,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "tarantino",
     "Quentin Tarantino",
-    "tarantino.jpg",
+    "tarantino.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/tarantino-ranked/",
     ["list", "director"]
@@ -108,7 +108,7 @@ export const DIRECTORS_LISTS = [
   new ArticleSpecs(
     "by-women",
     "Female Directors",
-    "by-women.jpg",
+    "by-women.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/by-women/",
     ["list", "director"]

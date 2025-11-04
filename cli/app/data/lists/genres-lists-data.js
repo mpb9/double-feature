@@ -12,7 +12,7 @@ export const GENRES_LISTS = [
   new ArticleSpecs(
     "funny-as-fuck",
     "Funny As F*ck",
-    "funny-as-fuck.jpg",
+    "funny-as-fuck.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/funny-as-fuck/",
     ["list", "genre"]
@@ -28,7 +28,7 @@ export const GENRES_LISTS = [
   new ArticleSpecs(
     "spooooky",
     "spOoOoky",
-    "spooooky.gif",
+    "spooooky.avif",
     "",
     "https://letterboxd.com/michaelbeebe/list/spooooky/",
     ["list", "genre"]
@@ -36,7 +36,7 @@ export const GENRES_LISTS = [
   new ArticleSpecs(
     "docs",
     "Docs",
-    "docs.jpg",
+    "docs.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/docs/",
     ["list", "genre"]
@@ -49,7 +49,7 @@ const FUTURE_GENRES = [
   new ArticleSpecs(
     "feel-good",
     "Feel Good",
-    "feel-good.jpg",
+    "feel-good.jpeg",
     "",
     "https://letterboxd.com/michaelbeebe/list/feel-good/",
     ["list", "genre"]
