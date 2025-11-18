@@ -2,9 +2,9 @@ import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import Thanks from "../../../components/articles/thanks";
 import Footer from "../../../components/footer/footer";
-import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
 import { reviewMetaBuilder } from "../../../services/meta-service";
+import { getArticleSpecsById } from "../../../services/specs-service";
 import "../../../styles/article.css";
 export async function loader() {
   await sleep(300);

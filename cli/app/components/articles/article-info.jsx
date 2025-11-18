@@ -16,7 +16,7 @@ ArticleInfo.propTypes = {
     src: PropTypes.string,
     url: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
-    date: PropTypes.string,
+    publish_date: PropTypes.string,
   }).isRequired,
   htmlMappers: PropTypes.arrayOf(
     PropTypes.shape({
@@ -39,7 +39,7 @@ export default function ArticleInfo({ articleSpecs, htmlMappers }) {
           fontSize: "1.12rem",
         }}
       >
-        <a href={`${articleSpecs.url}`}>{articleSpecs.date}</a>
+        <a href={`${articleSpecs.url}`}>{articleSpecs.publish_date}</a>
       </h2>
     </div>
   );

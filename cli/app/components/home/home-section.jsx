@@ -16,7 +16,7 @@ HomeSection.propTypes = {
       src: PropTypes.string,
       url: PropTypes.string,
       tags: PropTypes.arrayOf(PropTypes.string),
-      date: PropTypes.string,
+      publish_date: PropTypes.string,
     })
   ).isRequired,
   src: PropTypes.string.isRequired,

@@ -15,15 +15,15 @@ ArticlePreview.propTypes = {
     src: PropTypes.string,
     url: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
-    date: PropTypes.string,
+    publish_date: PropTypes.string,
   }).isRequired,
   src: PropTypes.string.isRequired,
 };
 export default function ArticlePreview({ articleSpecs, src }) {
   const isFeatured = articleSpecs.tags.includes("featured");
   const href =
-    articleSpecs.src.length > 0
-      ? `/${src}/${articleSpecs.src}`
+    articleSpecs.id.length > 0
+      ? `/${src}/${articleSpecs.id}`
       : articleSpecs.url;
 
   const basicArticlePreviewCss =

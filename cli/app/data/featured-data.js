@@ -36,6 +36,40 @@ export const FEATURED_ARTICLES = [
     ["featured", "review", "2016"],
     "2025-03-07"
   ),
+
+  // new ArticleSpecs_NEW(
+  //   "25 for 25",
+  //   "2025-06-10",
+  //   "https://letterboxd.com/michaelbeebe/list/25-for-25/detail/",
+  //   "jpeg",
+  //   null,
+  //   null
+  // ),
+
+  // new ArticleSpecs_NEW(
+  //   "Trainspotting",
+  //   "2024-04-12",
+  //   "https://boxd.it/6h19k3",
+  //   "jpeg",
+  //   getFilmSpecsByTitle("Trainspotting"),
+  //   null
+  // ),
+  // new ArticleSpecs_NEW(
+  //   "Spider-Man: Across the Spider-Verse",
+  //   "2024-06-24",
+  //   "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
+  //   "jpeg",
+  //   getFilmSpecsByTitle("Spider-Man: Across the Spider-Verse"),
+  //   null
+  // ),
+  // new ArticleSpecs_NEW(
+  //   "Everybody Wants Some!!",
+  //   "2025-03-07",
+  //   "https://letterboxd.com/michaelbeebe/film/everybody-wants-some/reviews/",
+  //   "jpeg",
+  //   getFilmSpecsByTitle("Everybody Wants Some!!"),
+  //   null
+  // ),
   // new ArticleSpecs(
   //   "escapism",
   //   "Escapism",

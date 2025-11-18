@@ -2,13 +2,13 @@ import { BRANDING, IMG_ROUTES } from "../constants";
 
 export function reviewMetaBuilder(
   title = "",
-  img_type = "jpg",
+  img_type = "jpeg",
   desc = "",
   keywords = ""
 ) {
   const reviewMeta = metaBuilder(
     `${title} | Double Feature`,
-    `${title} | Review | Make it a Double Feature`,
+    `${title} | Review | Double Feature`, // ${title} (YYYY) | Review | Double Feature
     `${IMG_ROUTES.covers}${title.toLowerCase().replace(/ /g, "-")}.${img_type}`,
     desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
     keywords,
