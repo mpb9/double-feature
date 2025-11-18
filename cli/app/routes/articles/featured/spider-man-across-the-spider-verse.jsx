@@ -4,13 +4,11 @@ import { IMG_ROUTES } from "../../../constants";
 import { sleep } from "../../../services/loader-service";
 import { reviewMetaBuilder } from "../../../services/meta-service";
 import { getArticleSpecsById } from "../../../services/specs-service";
-
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("spider-man-across-the-spider-verse");
   return data;
 }
-
 export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Spider-Man: Across the Spider-Verse",
@@ -19,7 +17,6 @@ export function meta() {
   );
   return reviewMeta;
 }
-
 export default function AcrossTheSpiderVerse({ loaderData }) {
   const articleSpecs = loaderData;
 

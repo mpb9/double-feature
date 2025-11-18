@@ -7,15 +7,34 @@ export function reviewMetaBuilder(
   desc = "",
   keywords = ""
 ) {
+  const reviewTitle = `‘${title}’ Review – Michael Beebe`;
   const reviewMeta = metaBuilder(
-    `‘${title}’ Review - Michael Beebe`,
-    `‘${title}’ Review | Double Feature`, // ${title} (YYYY) | Review | Double Feature
+    reviewTitle,
+    reviewTitle,
     `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
-    desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
+    desc || `Read Michael Beebe's review of ‘${title}’ on Double Feature.`,
     keywords,
     `${BRANDING.color}`
   );
   return reviewMeta;
+}
+
+export function articleMetaBuilder(
+  title = "",
+  img_type = "jpeg",
+  desc = "",
+  keywords = ""
+) {
+  const articleTitle = `${title} – Michael Beebe`;
+  const articleMeta = metaBuilder(
+    articleTitle,
+    articleTitle,
+    `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
+    desc || `Read Michael Beebe's article, ${title}, on Double Feature.`,
+    keywords,
+    `${BRANDING.color}`
+  );
+  return articleMeta;
 }
 
 export function metaBuilder(

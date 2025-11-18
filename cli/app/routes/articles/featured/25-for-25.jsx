@@ -2,14 +2,21 @@ import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import { IMG_ROUTES } from "../../../constants";
 import { sleep } from "../../../services/loader-service";
+import { articleMetaBuilder } from "../../../services/meta-service";
 import { getArticleSpecsById } from "../../../services/specs-service";
-
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("25-for-25");
   return data;
 }
-
+export function meta() {
+  const reviewMeta = articleMetaBuilder(
+    "25 for '25",
+    "jpeg",
+    "The 25 Best Films of the 21st Century (so far) (according to Michael Beebe)."
+  );
+  return reviewMeta;
+}
 export default function TwentyFiveForTwentyFive({ loaderData }) {
   const articleSpecs = loaderData;
 

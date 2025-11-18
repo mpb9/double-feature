@@ -2,13 +2,21 @@ import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import { IMG_ROUTES } from "../../../constants";
 import { sleep } from "../../../services/loader-service";
+import { reviewMetaBuilder } from "../../../services/meta-service";
 import { getArticleSpecsById } from "../../../services/specs-service";
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("trainspotting");
   return data;
 }
-
+export function meta() {
+  const reviewMeta = reviewMetaBuilder(
+    "Trainspotting",
+    "jpeg",
+    "A review of the 1996 film ‘Trainspotting’ by Michael Beebe."
+  );
+  return reviewMeta;
+}
 export default function Trainspotting({ loaderData }) {
   const articleSpecs = loaderData;
   return (
