@@ -1,4 +1,11 @@
 import { Link } from "react-router";
+
+/**
+ * FooterLink component
+ * @param {string} name - The name of the link
+ * @param {string} url - The site URL (only used when linking externally)
+ * @returns {JSX.Element}
+ */
 export default function FooterLink({ name, url }) {
   // ! TEMPORARY: Don't diplay "TAGS" link until tags are implemented/functional
   if (name == "Tags") {

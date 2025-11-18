@@ -4,31 +4,33 @@ import ArticlePreview from "../articles/article-preview";
 /**
  * HomeSection component
  * @param {string} name - The name of the section
- * @param {Array} files - The files to display in the section
+ * @param {Array} articleSpecsArr - The files to display in the section
+ * @param {string} src - The category of the section for the URL // ? redundant with name variable
  * @returns {JSX.Element}
  */
 HomeSection.propTypes = {
   name: PropTypes.string.isRequired,
-  files: PropTypes.arrayOf(
+  articleSpecsArr: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string,
       title: PropTypes.string.isRequired,
       img: PropTypes.string.isRequired,
-      src: PropTypes.string,
+      external_host: PropTypes.bool,
       url: PropTypes.string,
       tags: PropTypes.arrayOf(PropTypes.string),
-      publish_date: PropTypes.string,
+      published: PropTypes.string,
     })
   ).isRequired,
   src: PropTypes.string.isRequired,
 };
-export default function HomeSection({ name, files, src }) {
+export default function HomeSection({ name, articleSpecsArr, src }) {
   const isFeatured = name == "featured";
   const isReviews = name == "reviews";
   const isLists = name == "lists";
 
   const scrollableHtml = (
     <div className="flex flex-row items-center justify-start w-full overflow-x-scroll h-fit no-scrollbar snap-x scroll-smooth">
-      {files.map((articleSpecs, index) => (
+      {articleSpecsArr.map((articleSpecs, index) => (
         <ArticlePreview key={index} articleSpecs={articleSpecs} src={src} />
       ))}
     </div>

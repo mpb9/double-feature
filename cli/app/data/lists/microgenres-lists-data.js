@@ -5,7 +5,7 @@ export const MICROGENRES_LISTS = [
     "ani-make-me-consider-my-purpose",
     "Ani(make me consider my purpose)",
     "ani-make-me-consider-my-purpose.avif",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/animake-me-consider-my-purpose-and-existence/",
     ["list", "microgenre", "anime"]
   ),
@@ -13,7 +13,7 @@ export const MICROGENRES_LISTS = [
     "stuck-in-a-hole",
     "Someone Gets Stuck in a Hole",
     "stuck-in-a-hole.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/stuck-in-a-hole/",
     ["list", "microgenre"]
   ),
@@ -21,7 +21,7 @@ export const MICROGENRES_LISTS = [
     "marxist-leftist",
     "Marxist/Leftist",
     "marxist-leftist.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/marxist-leftist/",
     ["list", "microgenre"]
   ),
@@ -29,7 +29,7 @@ export const MICROGENRES_LISTS = [
     "child-separated-from-family",
     "Child Separated from Family",
     "child-separated-from-family.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/child-separated-from-family/",
     ["list", "microgenre"]
   ),
@@ -37,7 +37,7 @@ export const MICROGENRES_LISTS = [
     "non-boy-boy-movies",
     "Non-Boy Boy Movies",
     "non-boy-boy-movies.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/non-boy-boy-movies/",
     ["list", "microgenre"]
   ),
@@ -50,7 +50,7 @@ const FUTURE_MICROGENRES = [
     "repeated-dialogue",
     "Repeated Dialogue",
     "repeated-dialogue.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/repeated-dialogue/",
     ["list", "microgenre"]
   ),
@@ -58,7 +58,7 @@ const FUTURE_MICROGENRES = [
     "vehicle-vehicles",
     "Vehicle Vehicles",
     "vehicle-vehicles.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/vehicle-vehicles/detail/",
     ["list", "microgenre"]
   ),
@@ -66,7 +66,7 @@ const FUTURE_MICROGENRES = [
     "stop-trying-to-be-god",
     "Stop Trying to Be God",
     "stop-trying-to-be-god.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/stop-trying-to-be-god/",
     ["list", "microgenre"]
   ),
@@ -74,7 +74,7 @@ const FUTURE_MICROGENRES = [
     "sci-fi-as-economic-social-commentary",
     "Sci-Fi as Economic/Social Commentary",
     "sci-fi-as-economic-social-commentary.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/sci-fi-as-economic-social-commentary/",
     ["list", "microgenre", "sci-fi"]
   ),

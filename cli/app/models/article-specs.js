@@ -1,67 +1,104 @@
-import {
-  toLowerCaseDash,
-  toLowerCaseUnderscore,
-} from "../services/string-service";
+import { toLowerCaseDash } from "../services/string-service";
 import FilmSpecs from "./film-specs";
 import TvSpecs from "./tv-specs";
 
 export class ArticleSpecs {
+  id;
+  title;
+  published;
+  url;
+  external_host;
+  tags;
+  img;
+  // film_specs_arr = [];
+  // tv_specs_arr = [];
+  // film_ids;
+  // tv_ids;
+
   constructor(
     id = "",
     title = "",
     img = "",
-    src = "",
+    external_host = false,
     url = "",
     tags = [],
-    publish_date = ""
+    published = ""
+    // film_ids = [],
+    // tv_ids = []
   ) {
     this.id = id;
     this.title = title;
     this.img = img;
-    this.src = src;
+    this.external_host = external_host;
     this.url = url;
     this.tags = tags;
-    this.publish_date = publish_date;
+    this.published = published;
+    // this.film_ids = film_ids;
+    // this.tv_ids = tv_ids;
+
+    // this.setFilmSpecsArr();
+    // this.setTvSpecsArr();
   }
+
+  // setFilmSpecsArr() {
+  //   this.film_ids.forEach((id) => {
+  //     this.film_specs_arr.push(getFilmSpecsById(id));
+  //   });
+  // }
+
+  // setTvSpecsArr() {
+  //   this.tv_ids.forEach((id) => {
+  //     this.tv_specs_arr.push(getTvSpecsById(id));
+  //   });
+  // }
 }
 
 // ! NEW (not in use)
 export class ArticleSpecs_NEW {
   id;
   title;
-  publish_date;
-  release_date;
+  published;
+  // release_date;
   url;
+  external_host = false;
+  tags = []; // ? delete this later
   img;
-  film_specs;
-  tv_specs;
+  film_specs_arr;
+  tv_specs_arr;
 
   constructor(
     title,
-    publish_date,
+    published,
     url,
-    img_file_format = "jpeg",
-    film_specs = new FilmSpecs(),
-    tv_specs = new TvSpecs()
+    film_specs_arr = [new FilmSpecs()],
+    tv_specs_arr = [new TvSpecs()],
+    img_file_format = "jpeg"
   ) {
     this.id = toLowerCaseDash(title);
     this.title = String(title);
     this.url = String(url);
-    this.publish_date = String(publish_date);
+    this.published = String(published);
+    this.img = `${this.id}.${img_file_format}`;
 
-    // this.film_specs = film_specs ? FilmSpecs(...film_specs) : null;
-    this.film_specs = film_specs.title !== undefined ? film_specs : null;
-    // this.film_specs = film_specs;
-    // this.tv_specs = tv_specs ? TvSpecs(...tv_specs) : null;
-    this.tv_specs = tv_specs.title !== undefined ? tv_specs : null;
-    // this.tv_specs = tv_specs;
-
-    this.release_date = this.film_specs ? String(this.film_specs.year) : null;
-    if (this.tv_specs) {
-      this.release_date = String(this.tv_specs.year_start);
+    this.film_specs_arr = film_specs_arr;
+    if (
+      this.film_specs_arr.length === 1 &&
+      this.film_specs_arr[0]?.title === undefined
+    ) {
+      this.film_specs_arr = null;
     }
 
-    // const img_file_format = String(img_file_format);
-    this.img = `${this.id}.${img_file_format}`;
+    this.tv_specs_arr = tv_specs_arr;
+    if (
+      this.tv_specs_arr.length === 1 &&
+      this.tv_specs_arr[0]?.title === undefined
+    ) {
+      this.tv_specs_arr = null;
+    }
+
+    // this.release_date = this.film_specs ? String(this.film_specs.year) : null;
+    // if (this.tv_specs) {
+    //   this.release_date = String(this.tv_specs.year_start);
+    // }
   }
 }

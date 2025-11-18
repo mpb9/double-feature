@@ -5,7 +5,7 @@ export const GENRES_LISTS = [
     "sci-fi-canon",
     "Sci-Fi Canon",
     "sci-fi-canon.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/sci-fi-canon/",
     ["list", "genre"]
   ),
@@ -13,7 +13,7 @@ export const GENRES_LISTS = [
     "funny-as-fuck",
     "Funny As F*ck",
     "funny-as-fuck.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/funny-as-fuck/",
     ["list", "genre"]
   ),
@@ -21,7 +21,7 @@ export const GENRES_LISTS = [
     "roms",
     "Love & Romance",
     "roms.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/roms/",
     ["list", "genre"]
   ),
@@ -29,7 +29,7 @@ export const GENRES_LISTS = [
     "spooooky",
     "spOoOoky",
     "spooooky.avif",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/spooooky/",
     ["list", "genre"]
   ),
@@ -37,7 +37,7 @@ export const GENRES_LISTS = [
     "docs",
     "Docs",
     "docs.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/docs/",
     ["list", "genre"]
   ),
@@ -50,7 +50,7 @@ const FUTURE_GENRES = [
     "feel-good",
     "Feel Good",
     "feel-good.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/feel-good/",
     ["list", "genre"]
   ),

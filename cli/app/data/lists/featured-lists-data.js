@@ -5,7 +5,7 @@ export const FEATURED_LISTS = [
     "all-time-favs",
     "Favorite Films",
     "all-time-favs.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/all-time-favs/",
     ["list", "ranking", "best of"]
   ),
@@ -13,7 +13,7 @@ export const FEATURED_LISTS = [
     "directors",
     "Favorite Directors",
     "directors.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/directors/detail/",
     ["list", "ranking", "favorite", "director"]
   ),
@@ -21,7 +21,7 @@ export const FEATURED_LISTS = [
     "recommendations",
     "Recommendations",
     "recommendations.avif",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/please-watch-neon-genesis-evangelion/",
     ["list", "recommendation"]
   ),
@@ -29,7 +29,7 @@ export const FEATURED_LISTS = [
     "never-wanted-it-to-end",
     "Never Wanted It to End",
     "never-wanted-it-to-end.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/never-wanted-it-to-end/",
     ["list"]
   ),
@@ -42,7 +42,7 @@ const FUTURE_FEATURED = [
     "movies-my-mom-would-like",
     "Movies My Mom Would Like",
     "movies-my-mom-would-like.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/movies-my-mom-would-like/",
     ["list", "recommendation"]
   ),
@@ -50,7 +50,7 @@ const FUTURE_FEATURED = [
     "four-quadrant",
     "Four Quadrant",
     "four-quadrant.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/four-quadrant/",
     ["list", "recommendation"]
   ),
@@ -58,7 +58,7 @@ const FUTURE_FEATURED = [
     "movie-x-friend",
     "MOVIExFRIEND",
     "movie-x-friend.jpeg",
-    "",
+    true,
     "https://letterboxd.com/michaelbeebe/list/movie-x-friend/detail/",
     ["list", "recommendation", "friend"]
   ),
