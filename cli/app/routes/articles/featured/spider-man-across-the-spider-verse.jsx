@@ -2,12 +2,22 @@ import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import { IMG_ROUTES } from "../../../constants";
 import { sleep } from "../../../services/loader-service";
+import { reviewMetaBuilder } from "../../../services/meta-service";
 import { getArticleSpecsById } from "../../../services/specs-service";
 
 export async function loader() {
   await sleep(300);
-  const data = getArticleSpecsById("across-the-spider-verse");
+  const data = getArticleSpecsById("spider-man-across-the-spider-verse");
   return data;
+}
+
+export function meta() {
+  const reviewMeta = reviewMetaBuilder(
+    "Spider-Man: Across the Spider-Verse",
+    "jpeg",
+    "A review of the 2023 film ‘Spider-Man: Across the Spider-Verse’ by Michael Beebe."
+  );
+  return reviewMeta;
 }
 
 export default function AcrossTheSpiderVerse({ loaderData }) {
@@ -74,7 +84,7 @@ export default function AcrossTheSpiderVerse({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/across_the_spider_verse-2023-00.jpeg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/spider_man_across_the_spider_verse-2023-00.jpeg`}
             alt="Corrupt leaders of the Spider Society in Across the Spider-Verse"
           />
         </div>

@@ -13,8 +13,8 @@ export default [
       route("25-for-25", `${DIR_ROUTES.featured}25-for-25.jsx`),
       // route("escapism", `${DIR_ROUTES.featured}escapism.jsx`),
       route(
-        "across-the-spider-verse",
-        `./${DIR_ROUTES.featured}across-the-spider-verse.jsx`
+        "spider-man-across-the-spider-verse",
+        `./${DIR_ROUTES.featured}spider-man-across-the-spider-verse.jsx`
       ),
       route(
         "everybody-wants-some",

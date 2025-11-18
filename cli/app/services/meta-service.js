@@ -8,8 +8,8 @@ export function reviewMetaBuilder(
   keywords = ""
 ) {
   const reviewMeta = metaBuilder(
-    `‘${title}’ (Review) - Michael Beebe`,
-    `‘${title}’ (Review) | Make it a Double Feature`, // ${title} (YYYY) | Review | Double Feature
+    `‘${title}’ Review - Michael Beebe`,
+    `‘${title}’ Review | Double Feature`, // ${title} (YYYY) | Review | Double Feature
     `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
     desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
     keywords,

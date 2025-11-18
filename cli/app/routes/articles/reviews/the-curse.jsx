@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "The Curse",
     "jpeg",
-    "A review of the 2023 series 'The Curse' by Michael Beebe."
+    "A review of the 2023 series ‘The Curse’ by Michael Beebe."
   );
   return reviewMeta;
 }

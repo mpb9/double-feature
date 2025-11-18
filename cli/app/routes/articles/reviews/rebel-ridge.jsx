@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Rebel Ridge",
     "jpeg",
-    "A review of the 2024 film 'Rebel Ridge' by Michael Beebe."
+    "A review of the 2024 film ‘Rebel Ridge’ by Michael Beebe."
   );
   return reviewMeta;
 }

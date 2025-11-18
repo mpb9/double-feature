@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "10 Things I Hate About You",
     "jpeg",
-    "A review of the 1999 film '10 Things I Hate About You' by Michael Beebe."
+    "A review of the 1999 film ‘10 Things I Hate About You’ by Michael Beebe."
   );
   return reviewMeta;
 }

@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Fullmetal Alchemist: Brotherhood",
     "jpeg",
-    "A review of the 2009 anime series 'Fullmetal Alchemist: Brotherhood' by Michael Beebe."
+    "A review of the 2009 anime series ‘Fullmetal Alchemist: Brotherhood’ by Michael Beebe."
   );
   return reviewMeta;
 }

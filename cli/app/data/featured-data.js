@@ -23,9 +23,9 @@ export const FEATURED_ARTICLES = [
     // null
   ),
   new ArticleSpecs(
-    "across-the-spider-verse",
+    "spider-man-across-the-spider-verse",
     "Spider-Man: Across the Spider-Verse",
-    "across-the-spider-verse.jpeg",
+    "spider-man-across-the-spider-verse.jpeg",
     false,
     "https://letterboxd.com/michaelbeebe/film/spider-man-across-the-spider-verse/",
     ["featured", "review", "animation", "2023"],

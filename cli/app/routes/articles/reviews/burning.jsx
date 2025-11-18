@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Burning",
     "jpeg",
-    "A review of the 2018 film 'Burning' by Michael Beebe."
+    "A review of the 2018 film ‘Burning’ by Michael Beebe."
   );
   return reviewMeta;
 }

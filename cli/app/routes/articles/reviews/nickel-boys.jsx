@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Nickel Boys",
     "jpeg",
-    "A review of the 2024 film 'Nickel Boys' by Colson Whitehead."
+    "A review of the 2024 film ‘Nickel Boys’ by Colson Whitehead."
   );
   return reviewMeta;
 }

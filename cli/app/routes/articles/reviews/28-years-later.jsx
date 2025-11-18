@@ -16,7 +16,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "28 Years Later",
     "jpeg",
-    "A review of the 2025 film '28 Years Later' by Michael Beebe.",
+    "A review of the 2025 film ‘28 Years Later’ by Michael Beebe.",
     "28 Years Later"
   );
   return reviewMeta;

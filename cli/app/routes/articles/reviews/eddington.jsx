@@ -16,7 +16,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Eddington",
     "jpeg",
-    "A review of the 2025 film 'Eddington' by Michael Beebe."
+    "A review of the 2025 film ‘Eddington’ by Michael Beebe."
   );
   return reviewMeta;
 }

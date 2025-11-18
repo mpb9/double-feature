@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Superman",
     "jpeg",
-    "A review of the 2025 film 'Superman' by Michael Beebe."
+    "A review of the 2025 film ‘Superman’ by Michael Beebe."
   );
   return reviewMeta;
 }

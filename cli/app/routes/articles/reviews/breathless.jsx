@@ -15,7 +15,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Breathless",
     "jpeg",
-    "A review of the 1960 film 'Breathless' by Michael Beebe."
+    "A review of the 1960 film ‘Breathless’ by Michael Beebe."
   );
   return reviewMeta;
 }

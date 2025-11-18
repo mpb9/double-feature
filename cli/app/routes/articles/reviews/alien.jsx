@@ -16,7 +16,7 @@ export function meta() {
   const reviewMeta = reviewMetaBuilder(
     "Alien",
     "jpeg",
-    "A review of the 1979 film 'Alien' by Michael Beebe."
+    "A review of the 1979 film ‘Alien’ by Michael Beebe."
   );
   return reviewMeta;
 }
