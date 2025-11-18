@@ -25,7 +25,6 @@ export default function FullmetalAlchemistBrotherhood({ loaderData }) {
   return (
     <div id="article">
       <div className="flex flex-col items-center w-full min-h-screen m-auto bg-transparent">
-        {" "}
         <ArticleHeader articleSpecs={articleSpecs} />
         <main>
           <ArticleInfo articleSpecs={articleSpecs} />

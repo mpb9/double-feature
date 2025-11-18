@@ -1,4 +1,5 @@
 import { BRANDING, IMG_ROUTES } from "../constants";
+import { toLowerCaseDash } from "./string-service";
 
 export function reviewMetaBuilder(
   title = "",
@@ -7,9 +8,9 @@ export function reviewMetaBuilder(
   keywords = ""
 ) {
   const reviewMeta = metaBuilder(
-    `${title} | Double Feature`,
-    `${title} | Review | Double Feature`, // ${title} (YYYY) | Review | Double Feature
-    `${IMG_ROUTES.covers}${title.toLowerCase().replace(/ /g, "-")}.${img_type}`,
+    `${title} | Review | Double Feature`,
+    `${title} | Review | Make it a Double Feature`, // ${title} (YYYY) | Review | Double Feature
+    `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
     desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
     keywords,
     `${BRANDING.color}`
