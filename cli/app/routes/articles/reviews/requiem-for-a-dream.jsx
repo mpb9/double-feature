@@ -14,9 +14,9 @@ export async function loader() {
 }
 export function meta() {
   const reviewMeta = reviewMetaBuilder(
-    "Requiem For a Dream",
+    "Requiem for a Dream",
     "jpeg",
-    "A review of the 2000 film 'Requiem For a Dream' by Michael Beebe."
+    "A review of the 2000 film 'Requiem for a Dream' by Michael Beebe."
   );
   return reviewMeta;
 }
