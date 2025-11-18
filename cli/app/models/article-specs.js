@@ -18,7 +18,7 @@ export class ArticleSpecs {
     this.id = id;
     this.title = title;
     this.img = img;
-    // this.src = src;
+    this.src = src;
     this.url = url;
     this.tags = tags;
     this.publish_date = publish_date;

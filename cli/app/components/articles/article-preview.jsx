@@ -22,8 +22,8 @@ ArticlePreview.propTypes = {
 export default function ArticlePreview({ articleSpecs, src }) {
   const isFeatured = articleSpecs.tags.includes("featured");
   const href =
-    articleSpecs.id.length > 0
-      ? `/${src}/${articleSpecs.id}`
+    articleSpecs.src.length > 0
+      ? `/${src}/${articleSpecs.src}`
       : articleSpecs.url;
 
   const basicArticlePreviewCss =
