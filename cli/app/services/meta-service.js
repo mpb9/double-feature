@@ -7,10 +7,9 @@ export function reviewMetaBuilder(
   desc = "",
   keywords = ""
 ) {
-  const reviewTitle = `‘${title}’ Review – Michael Beebe`;
   const reviewMeta = metaBuilder(
-    reviewTitle,
-    reviewTitle,
+    `‘${title}’ Review | Double Feature`,
+    `‘${title}’ Review – Michael Beebe`,
     `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
     desc || `Read Michael Beebe's review of ‘${title}’ on Double Feature.`,
     keywords,
@@ -25,10 +24,9 @@ export function articleMetaBuilder(
   desc = "",
   keywords = ""
 ) {
-  const articleTitle = `${title} – Michael Beebe`;
   const articleMeta = metaBuilder(
-    articleTitle,
-    articleTitle,
+    `${title} | Double Feature`,
+    `${title} – Michael Beebe`,
     `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
     desc || `Read Michael Beebe's article, ${title}, on Double Feature.`,
     keywords,
