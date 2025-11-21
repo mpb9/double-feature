@@ -104,7 +104,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             ahead of—you know what… nevermind.
           </i>
         </p>
-        <br />
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/everything-everywhere-all-at-once-00.jpeg`}
+            alt=""
+          />
+        </div>
         <p>
           In any case, I should probably jot down something about{" "}
           <i>Everything Everywhere All at Once</i> this point. Luckily, given
