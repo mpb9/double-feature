@@ -1,14 +1,21 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
-import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
-
+import { reviewMetaBuilder } from "../../../services/meta-service";
+import { getArticleSpecsById } from "../../../services/specs-service";
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("everybody-wants-some");
   return data;
 }
-
+export function meta() {
+  const reviewMeta = reviewMetaBuilder(
+    "Everybody Wants Some!!",
+    "jpeg",
+    "A review of the 2016 film ‘Everybody Wants Some!!’ by Michael Beebe."
+  );
+  return reviewMeta;
+}
 export default function EverybodyWantsSome({ loaderData }) {
   const articleSpecs = loaderData;
   return (

@@ -1,6 +1,11 @@
 import { FREQUENT_LINKS } from "../../data/link-data";
 import FooterLink from "./footer-link";
 
+/**
+ * Footer component
+ * @param {Array} links - The reference IDs for footer links
+ * @returns {JSX.Element}
+ */
 export default function Footer({
   links = ["letterboxd", "home", "reviews", "lists", "archive", "about"],
 }) {

@@ -1,20 +1,38 @@
 import { BRANDING, IMG_ROUTES } from "../constants";
+import { toLowerCaseDash } from "./string-service";
 
 export function reviewMetaBuilder(
   title = "",
-  img_type = "jpg",
+  img_type = "jpeg",
   desc = "",
   keywords = ""
 ) {
   const reviewMeta = metaBuilder(
-    `${title} | Double Feature`,
-    `${title} | Review | Make it a Double Feature`,
-    `${IMG_ROUTES.covers}${title.toLowerCase().replace(/ /g, "-")}.${img_type}`,
-    desc || `Read Michael Beebe's review of '${title}' on Double Feature.`,
+    `‘${title}’ Review | Double Feature`,
+    `‘${title}’ Review – Michael Beebe`,
+    `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
+    desc || `Read Michael Beebe's review of ‘${title}’ on Double Feature.`,
     keywords,
     `${BRANDING.color}`
   );
   return reviewMeta;
+}
+
+export function articleMetaBuilder(
+  title = "",
+  img_type = "jpeg",
+  desc = "",
+  keywords = ""
+) {
+  const articleMeta = metaBuilder(
+    `${title} | Double Feature`,
+    `${title} – Michael Beebe`,
+    `${IMG_ROUTES.covers}${toLowerCaseDash(title)}.${img_type}`,
+    desc || `Read Michael Beebe's article, ${title}, on Double Feature.`,
+    keywords,
+    `${BRANDING.color}`
+  );
+  return articleMeta;
 }
 
 export function metaBuilder(

@@ -1,14 +1,22 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import { IMG_ROUTES } from "../../../constants";
-import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
+import { reviewMetaBuilder } from "../../../services/meta-service";
+import { getArticleSpecsById } from "../../../services/specs-service";
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("trainspotting");
   return data;
 }
-
+export function meta() {
+  const reviewMeta = reviewMetaBuilder(
+    "Trainspotting",
+    "jpeg",
+    "A review of the 1996 film ‘Trainspotting’ by Michael Beebe."
+  );
+  return reviewMeta;
+}
 export default function Trainspotting({ loaderData }) {
   const articleSpecs = loaderData;
   return (
@@ -73,7 +81,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-00.jpeg`}
             alt="Legendary opening scene of Trainspotting"
           />
         </div>
@@ -168,7 +176,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting1.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-01.jpeg`}
             alt="Ewan McGregor as Mark Renton laying on the train tracks in Trainspotting"
           />
         </div>
@@ -218,7 +226,7 @@ export default function Trainspotting({ loaderData }) {
         </p>
         <div id="img">
           <img
-            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting2.jpg`}
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/trainspotting-1996-02.jpeg`}
             alt="Ewan McGregor as Mark Renton laying on the floor in Trainspotting"
           />
         </div>

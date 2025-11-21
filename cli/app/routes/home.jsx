@@ -22,34 +22,58 @@ export default function Home() {
         {/* FEATURED */}
         <HomeSection
           name={"featured"}
-          files={FEATURED_ARTICLES}
+          articleSpecsArr={FEATURED_ARTICLES}
           src={"featured"}
         />
 
         {/* REVIEWS */}
-        <HomeSection name={"reviews"} files={REVIEWS_ARTICLES} src={"review"} />
+        <HomeSection
+          name={"reviews"}
+          articleSpecsArr={REVIEWS_ARTICLES}
+          src={"review"}
+        />
 
         {/* LISTS */}
-        <HomeSection name={"lists"} files={FEATURED_LISTS} src={"list"} />
-        <HomeSection name={"/genres"} files={GENRES_LISTS} src={"genres"} />
+        <HomeSection
+          name={"lists"}
+          articleSpecsArr={FEATURED_LISTS}
+          src={"list"}
+        />
+        <HomeSection
+          name={"/genres"}
+          articleSpecsArr={GENRES_LISTS}
+          src={"genres"}
+        />
         <HomeSection
           name={"/microgenres"}
-          files={MICROGENRES_LISTS}
+          articleSpecsArr={MICROGENRES_LISTS}
           src={"microgenres"}
         />
-        <HomeSection name={"/moments"} files={MOMENTS_LISTS} src={"moments"} />
+        <HomeSection
+          name={"/moments"}
+          articleSpecsArr={MOMENTS_LISTS}
+          src={"moments"}
+        />
         <HomeSection
           name={"/elements"}
-          files={ELEMENTS_LISTS}
+          articleSpecsArr={ELEMENTS_LISTS}
           src={"elements"}
         />
         <HomeSection
           name={"/directors"}
-          files={DIRECTORS_LISTS}
+          articleSpecsArr={DIRECTORS_LISTS}
           src={"directors"}
         />
-        <HomeSection name={"/decades"} files={DECADES_LISTS} src={"decades"} />
-        <HomeSection name={"/years"} files={YEARS_LISTS} src={"years"} />
+        <HomeSection
+          name={"/decades"}
+          articleSpecsArr={DECADES_LISTS}
+          src={"decades"}
+        />
+        <HomeSection
+          name={"/years"}
+          articleSpecsArr={YEARS_LISTS}
+          src={"years"}
+        />
 
         <Footer
           links={["letterboxd", "lists", "reviews", "archive", "about"]}

@@ -12,19 +12,18 @@ ArticlePreview.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     img: PropTypes.string.isRequired,
-    src: PropTypes.string,
+    external_host: PropTypes.bool.isRequired,
     url: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
-    date: PropTypes.string,
+    published: PropTypes.string,
   }).isRequired,
   src: PropTypes.string.isRequired,
 };
 export default function ArticlePreview({ articleSpecs, src }) {
   const isFeatured = articleSpecs.tags.includes("featured");
-  const href =
-    articleSpecs.src.length > 0
-      ? `/${src}/${articleSpecs.src}`
-      : articleSpecs.url;
+  const href = articleSpecs.external_host
+    ? articleSpecs.url
+    : `/${src}/${articleSpecs.id}`;
 
   const basicArticlePreviewCss =
     "flex flex-col items-center justify-center h-full min-w-70 md:min-w-80 lg:min-w-100 my-4 ml-0 mr-6 tracking-normal group snap-start";

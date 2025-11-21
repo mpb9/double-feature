@@ -1,7 +1,7 @@
 import ArticleHeader from "../../../components/articles/article-header";
 import Unfinished from "../../../components/articles/unfinished";
-import { getArticleSpecsById } from "../../../services/article-specs-service";
 import { sleep } from "../../../services/loader-service";
+import { getArticleSpecsById } from "../../../services/specs-service";
 
 export async function loader() {
   await sleep(300);
