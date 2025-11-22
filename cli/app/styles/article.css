@@ -82,7 +82,7 @@
 #article h4,
 #article h5,
 #article h6 {
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   word-break: auto-phrase;
   overflow-wrap: normal;
 }
@@ -213,8 +213,8 @@
     transparent 0%,
     transparent 30%,
     var(--gray) 30%,
-    var(--gray) 50%,
-    transparent 50%,
+    var(--gray) 45%,
+    transparent 45%,
     transparent 100%
   );
 }
@@ -274,6 +274,20 @@
 }
 #article td {
   padding: 0.125em 0.5em 0.25em 0.5em;
+}
+
+/* MARK: #info
+*/
+#article div#info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+#article div#info + h2,
+#article div#info + p {
+  margin-top: 1.25rem;
 }
 
 /* MARK: #thanks

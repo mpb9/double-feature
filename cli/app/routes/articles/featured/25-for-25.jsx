@@ -25,13 +25,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
         <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
-        <h2>The 25 Best Films of the 21st Century (so far)</h2>
+        <h2 style={{ fontSize: "1.8rem" }}>
+          The 25 Best Films of the 21st Century (so far)
+        </h2>
         <ul>
           <li>
-            only caveat: <b>one film per director</b>
+            Only caveat: <b>one film per director</b>
           </li>
           <li>
-            shoutout{" "}
+            Shoutout{" "}
             <a
               href="https://open.spotify.com/show/6mTel3azvnK8isLs4VujvF?si=4acf0f9ee3aa48f5"
               rel="nofollow"
@@ -45,49 +47,57 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           25.{" "}
           <a href="https://boxd.it/dGNE" target="_blank">
             Lady Bird
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2017)</b>
         </h2>
         <h2>
           24.{" "}
           <a href="https://boxd.it/2416" target="_blank">
             Hot Fuzz
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2007)</b>
         </h2>
         <h2>
           23.{" "}
           <a href="https://boxd.it/20hO" target="_blank">
             Superbad
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2007)</b>
         </h2>
         <h2>
           22.{" "}
           <a href="https://boxd.it/eOCm" target="_blank">
             Get Out
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2017)</b>
         </h2>
         <h2>
           21.{" "}
           <a href="https://boxd.it/948A" target="_blank">
             The Handmaiden
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2016)</b>
         </h2>
         <h2>
           20.{" "}
           <a href="https://boxd.it/d2hI" target="_blank">
             The Favourite
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2018)</b>
         </h2>
         <h2>
           19.{" "}
           <a href="https://boxd.it/hNVe" target="_blank">
             Hereditary
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2018)</b>
         </h2>
         <h2>
           18.{" "}
           <a href="https://boxd.it/jUk4" target="_blank">
             Everything Everywhere All at Once
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2022)</b>
         </h2>
         <p>
           Odds are there's going to be a pretty recognizable pattern that
@@ -156,7 +166,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           17.{" "}
           <a href="https://boxd.it/1JP0" target="_blank">
             All About Lily Chou-Chou
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2001)</b>
         </h2>
         <p>
           When I put this movie on for the first time a few months ago, I
@@ -194,9 +205,18 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           This movie f*cks every which way no matter what state of mind you're
           in <i>(and yes, I've rewatched it since and it still does).</i>
         </p>
-        <br />
-        <p>P.S.</p>
-        <p>
+
+        <p
+          style={{
+            marginBottom: "0.5rem",
+            marginTop: "1.75rem",
+            textDecoration: "underline",
+            textUnderlineOffset: "2px",
+          }}
+        >
+          P.S.
+        </p>
+        <p style={{ marginTop: "0px" }}>
           <i>All About Lily Chou-Chou</i> is a deeply messed up movie and is an
           incredibly difficult watch for the vast majority of the film{" "}
           <i>(despite how i've been making it sound)</i>…{" "}
@@ -240,7 +260,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           16.{" "}
           <a href="https://boxd.it/k4BO" target="_blank">
             The Brutalist
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2024)</b>
         </h2>
         <blockquote>
           My buildings were designed to endure such erosion.
@@ -267,7 +288,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           15.{" "}
           <a href="https://boxd.it/1Y2i" target="_blank">
             Children of Men
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2006)</b>
         </h2>
         <div id="img">
           <img
@@ -308,7 +330,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           14.{" "}
           <a href="https://boxd.it/2b1M" target="_blank">
             Crouching Tiger, Hidden Dragon
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2000)</b>
         </h2>
         <div id="img">
           <img
@@ -357,7 +380,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           13.{" "}
           <a href="https://boxd.it/7bQA" target="_blank">
             Whiplash
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2014)</b>
         </h2>
         <p>
           <i>
@@ -396,7 +420,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           12.{" "}
           <a href="https://boxd.it/1JzG" target="_blank">
             Inglourious Basterds
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2009)</b>
         </h2>
         <p>
           This was my fav movie throughout high school, and I'm very due to
@@ -424,7 +449,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           11.{" "}
           <a href="https://boxd.it/pUfA" target="_blank">
             Dune: Part 2
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2024)</b>
         </h2>
         <p>
           I don't think I've ever written anything significant abt <i>Dune</i>,
@@ -464,7 +490,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           10.{" "}
           <a href="https://boxd.it/Arw0" target="_blank">
             Aftersun
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2022)</b>
         </h2>
         <div id="img">
           <img
@@ -500,7 +527,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           9.{" "}
           <a href="https://boxd.it/27ww" target="_blank">
             Ratatouille
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2007)</b>
         </h2>
         <blockquote>
           In many ways, the work of a critic is easy. We risk very little, yet
@@ -530,7 +558,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           8.{" "}
           <a href="https://boxd.it/hTha" target="_blank">
             Parasite
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2019)</b>
         </h2>
         <div id="img">
           <img
@@ -547,7 +576,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           7.{" "}
           <a href="https://boxd.it/28No" target="_blank">
             Pan's Labyrinth
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2006)</b>
         </h2>
         <p>
           You guys seen this sh*t? I feel like we don't talk about this shit
@@ -564,7 +594,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           viewing… guess I got plans for tomorrow night.
         </p>
         <h2>
-          6. <a href="https://boxd.it/17ue">The Social Network</a>
+          6. <a href="https://boxd.it/17ue">The Social Network</a>{" "}
+          <b className="text-sm font-light">(2010)</b>
         </h2>
         <blockquote>
           Sorry, my Prada’s at the cleaners along with my hoodie and my fuck-you
@@ -578,7 +609,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             target="_blank"
           >
             Oppenheimer
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2023)</b>
         </h2>
         <div id="img">
           <img
@@ -616,7 +648,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           4.{" "}
           <a href="https://boxd.it/2b4m" target="_blank">
             Spirited Away
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2001)</b>
         </h2>
         <p>
           I think me loving Miyazaki so much, seeing every movie he's made, and
@@ -652,7 +685,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             target="_blank"
           >
             Mad Max: Fury Road
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2015)</b>
         </h2>
         <p>
           <i>Mad Max</i> vs. <i>Spirited Away</i> for the bronze metal is an
@@ -667,6 +701,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           >
             Paprika
           </a>{" "}
+          <b className="text-sm font-light">(2006)</b>
         </h2>
         <p>
           Yep. It was always going to be these two films at the top. I obviously
@@ -769,7 +804,8 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             target="_blank"
           >
             Portrait of a Lady on Fire
-          </a>
+          </a>{" "}
+          <b className="text-sm font-light">(2019)</b>
         </h2>
         <div id="img">
           <img

@@ -29,17 +29,8 @@ ArticleInfo.propTypes = {
 export default function ArticleInfo({ articleSpecs, htmlMappers }) {
   return (
     <div id="info">
-      <h2
-        style={{
-          marginTop: "1rem",
-          // fontStyle: "italic",
-          textAlign: "left",
-          paddingLeft: "2px",
-          fontSize: "1.12rem",
-        }}
-      >
-        <a href={`${articleSpecs.url}`}>{articleSpecs.published}</a>
-      </h2>
+      <a href={`${articleSpecs.url}`}>{articleSpecs.published}</a>
+      <span>Michael Beebe</span>
     </div>
   );
 }
