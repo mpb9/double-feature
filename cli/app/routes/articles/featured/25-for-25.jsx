@@ -813,9 +813,9 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             alt="_ALT_TEXT_"
           />
         </div>
-        <p>
-          🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 <b>Hey, this wasn't so hard!</b>{" "}
-          🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        <p style={{ textAlign: "center" }}>
+          🔥🔥🔥🔥🔥🔥🔥 <b className="mx-2">Hey, this wasn't so hard!</b>{" "}
+          🔥🔥🔥🔥🔥🔥🔥
         </p>
         <div id="img">
           <img
