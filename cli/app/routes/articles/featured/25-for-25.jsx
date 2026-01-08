@@ -1,9 +1,11 @@
+import { Info } from "@phosphor-icons/react";
 import ArticleHeader from "../../../components/articles/article-header";
 import ArticleInfo from "../../../components/articles/article-info";
 import { IMG_ROUTES } from "../../../constants";
 import { sleep } from "../../../services/loader-service";
 import { articleMetaBuilder } from "../../../services/meta-service";
 import { getArticleSpecsById } from "../../../services/specs-service";
+
 export async function loader() {
   await sleep(300);
   const data = getArticleSpecsById("25-for-25");
@@ -25,79 +27,106 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
       <ArticleHeader articleSpecs={articleSpecs} />
       <main>
         <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
-        <h2 style={{ fontSize: "1.8rem" }}>
-          The 25 Best Films of the 21st Century (so far)
-        </h2>
-        <ul>
-          <li>
-            Only caveat: <b>one film per director</b>
-          </li>
-          <li>
-            Shoutout{" "}
-            <a
-              href="https://open.spotify.com/show/6mTel3azvnK8isLs4VujvF?si=4acf0f9ee3aa48f5"
-              rel="nofollow"
-            >
-              The Big Picture
-            </a>{" "}
-            podcast for the inspiration!
-          </li>
-        </ul>
+        <blockquote id="no-quote">
+          <Info size={30} weight="regular" className="inline-block mr-2" />
+          <span className="font-bold">
+            My 25 Best Films of the 21st Century (So Far)
+          </span>
+          <ul>
+            <li>
+              Only caveat: <b>one film per director</b>
+            </li>
+            <li>
+              Shoutout{" "}
+              <a
+                href="https://open.spotify.com/show/6mTel3azvnK8isLs4VujvF?si=4acf0f9ee3aa48f5"
+                rel="nofollow"
+              >
+                The Big Picture
+              </a>{" "}
+              podcast for the inspiration!
+            </li>
+          </ul>
+        </blockquote>
+        {/* 
+        MARK: 25
+        */}
         <h2>
           25.{" "}
           <a href="https://boxd.it/dGNE" target="_blank">
             Lady Bird
           </a>{" "}
-          <b className="text-sm font-light">(2017)</b>
+          <span className="font-thin text-xl">(2017)</span>
         </h2>
+        {/* 
+        MARK: 24
+        */}
         <h2>
           24.{" "}
           <a href="https://boxd.it/2416" target="_blank">
             Hot Fuzz
           </a>{" "}
-          <b className="text-sm font-light">(2007)</b>
+          <span className="font-thin text-xl">(2007)</span>
         </h2>
+        {/* 
+        MARK: 23
+        */}
         <h2>
           23.{" "}
           <a href="https://boxd.it/20hO" target="_blank">
             Superbad
           </a>{" "}
-          <b className="text-sm font-light">(2007)</b>
+          <span className="font-thin text-xl">(2007)</span>
         </h2>
+        {/* 
+        MARK: 22
+        */}
         <h2>
           22.{" "}
           <a href="https://boxd.it/eOCm" target="_blank">
             Get Out
           </a>{" "}
-          <b className="text-sm font-light">(2017)</b>
+          <span className="font-thin text-xl">(2017)</span>
         </h2>
+        {/* 
+        MARK: 21
+        */}
         <h2>
           21.{" "}
           <a href="https://boxd.it/948A" target="_blank">
             The Handmaiden
           </a>{" "}
-          <b className="text-sm font-light">(2016)</b>
+          <span className="font-thin text-xl">(2016)</span>
         </h2>
+        {/* 
+        MARK: 20
+        */}
         <h2>
           20.{" "}
           <a href="https://boxd.it/d2hI" target="_blank">
             The Favourite
           </a>{" "}
-          <b className="text-sm font-light">(2018)</b>
+          <span className="font-thin text-xl">(2018)</span>
         </h2>
+        {/* 
+        MARK: 19
+        */}
         <h2>
           19.{" "}
           <a href="https://boxd.it/hNVe" target="_blank">
             Hereditary
           </a>{" "}
-          <b className="text-sm font-light">(2018)</b>
+          <span className="font-thin text-xl">(2018)</span>
         </h2>
+        {/* 
+        MARK: 18 
+        */}
         <h2>
           18.{" "}
           <a href="https://boxd.it/jUk4" target="_blank">
             Everything Everywhere All at Once
           </a>{" "}
-          <b className="text-sm font-light">(2022)</b>
+          <span className="font-thin text-xl">(2022)</span>
         </h2>
         <p>
           Odds are there's going to be a pretty recognizable pattern that
@@ -162,12 +191,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           with them, but raise the level of empathy of non-immigrants towards
           those who just have it harder than us in so many ways.
         </p>
+        {/* 
+        MARK: 17 
+        */}
         <h2>
           17.{" "}
           <a href="https://boxd.it/1JP0" target="_blank">
             All About Lily Chou-Chou
           </a>{" "}
-          <b className="text-sm font-light">(2001)</b>
+          <span className="font-thin text-xl">(2001)</span>
         </h2>
         <p>
           When I put this movie on for the first time a few months ago, I
@@ -205,7 +237,6 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           This movie f*cks every which way no matter what state of mind you're
           in <i>(and yes, I've rewatched it since and it still does).</i>
         </p>
-
         <p
           style={{
             marginBottom: "0.5rem",
@@ -256,12 +287,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>
           , so have fun checking that out if you trust my music taste.
         </p>
+        {/* 
+        MARK: 16
+        */}
         <h2>
           16.{" "}
           <a href="https://boxd.it/k4BO" target="_blank">
             The Brutalist
           </a>{" "}
-          <b className="text-sm font-light">(2024)</b>
+          <span className="font-thin text-xl">(2024)</span>
         </h2>
         <blockquote>
           My buildings were designed to endure such erosion.
@@ -284,12 +318,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             </a>
           </li>
         </ul>
+        {/* 
+        MARK: 15
+        */}
         <h2>
           15.{" "}
           <a href="https://boxd.it/1Y2i" target="_blank">
             Children of Men
           </a>{" "}
-          <b className="text-sm font-light">(2006)</b>
+          <span className="font-thin text-xl">(2006)</span>
         </h2>
         <div id="img">
           <img
@@ -326,12 +363,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             regarding <i>Children of Men</i>
           </li>
         </ul>
+        {/* 
+        MARK: 14
+        */}
         <h2>
           14.{" "}
           <a href="https://boxd.it/2b1M" target="_blank">
             Crouching Tiger, Hidden Dragon
           </a>{" "}
-          <b className="text-sm font-light">(2000)</b>
+          <span className="font-thin text-xl">(2000)</span>
         </h2>
         <div id="img">
           <img
@@ -376,12 +416,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           between Yeoh and Yun-Fat's characters. I'm not going to spoil, but if
           you've seen it you know the vibe. What a banger.
         </p>
+        {/* 
+        MARK: 13
+        */}
         <h2>
           13.{" "}
           <a href="https://boxd.it/7bQA" target="_blank">
             Whiplash
           </a>{" "}
-          <b className="text-sm font-light">(2014)</b>
+          <span className="font-thin text-xl">(2014)</span>
         </h2>
         <p>
           <i>
@@ -416,12 +459,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           fit in this subgenre). The ending is misinterpreted by some people,
           but damn is it devastating…
         </p>
+        {/* 
+        MARK: 12
+        */}
         <h2>
           12.{" "}
           <a href="https://boxd.it/1JzG" target="_blank">
             Inglourious Basterds
           </a>{" "}
-          <b className="text-sm font-light">(2009)</b>
+          <span className="font-thin text-xl">(2009)</span>
         </h2>
         <p>
           This was my fav movie throughout high school, and I'm very due to
@@ -445,24 +491,27 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           don't have any right to demand something from an artist, but damn dude
           I do not understand your mindset right now.
         </p>
+        {/* 
+        MARK: 11
+        */}
         <h2>
           11.{" "}
           <a href="https://boxd.it/pUfA" target="_blank">
             Dune: Part 2
           </a>{" "}
-          <b className="text-sm font-light">(2024)</b>
+          <span className="font-thin text-xl">(2024)</span>
         </h2>
         <p>
           I don't think I've ever written anything significant abt <i>Dune</i>,
           which is an unusual thing for me to <i>(not)</i> do when I love
           something to the extent that I love <i>Dune</i>. the movies both fuck
-          (and so will <i>Messiah</i>, f*ck the doubters + trust in Villeneuve's
+          (and so will <i>Messiah</i>—f*ck the doubters + trust in Villeneuve's
           vision), and the books are among my all-time favorites (mandatorily
           acknowledging that i dont read much ngl). This might be another
           example of the "Parasite Effect", a term that I just made up. It
           occurs when I'm just so passionate about the themes explored and fully
           aligned with the critiques levelled in films (those akin to{" "}
-          <i>Parasite</i>/<i>Dune</i>
+          <i>Parasite</i> / <i>Dune</i>
           ), and its hard for me to refrain from just saying "hell yeah" or
           simply listing all the things I love about them. Someday I'll get
           around to writing more thoughtfully about <i>Dune</i>, but today is,
@@ -472,26 +521,49 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
         <ul>
           <i>
             <li>
-              <i>Frankenstein; or, The Modern Prometheus</i>
+              <a
+                href="https://www.goodreads.com/book/show/35031085-frankenstein"
+                target="_blank"
+              >
+                <i>Frankenstein; or, The Modern Prometheus</i>
+              </a>
             </li>
             <li>
-              <i>The Dispossessed</i>
+              <a
+                href="https://www.goodreads.com/book/show/13651.The_Dispossessed"
+                target="_blank"
+              >
+                <i>The Dispossessed</i>
+              </a>
             </li>
             <li>
-              <i>Things Fall Apart</i>
+              <a
+                href="https://www.goodreads.com/book/show/37781.Things_Fall_Apart"
+                target="_blank"
+              >
+                <i>Things Fall Apart</i>
+              </a>
             </li>
             <li>
-              <i>Dune</i>
+              <a
+                href="https://www.goodreads.com/book/show/44767458-dune"
+                target="_blank"
+              >
+                <i>Dune</i>
+              </a>
             </li>
           </i>
         </ul>
-        <p>(i like sci-fi)</p>
+        <p>(I like sci-fi).</p>
+        {/* 
+        MARK: 10
+        */}
         <h2>
           10.{" "}
           <a href="https://boxd.it/Arw0" target="_blank">
             Aftersun
           </a>{" "}
-          <b className="text-sm font-light">(2022)</b>
+          <span className="font-thin text-xl">(2022)</span>
         </h2>
         <div id="img">
           <img
@@ -507,7 +579,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           cannot do justice to how well paced this movie is. There are a few
           other films on this list that similarly lure the audience in with
           their pacing, but I've never found myself as hypnotized as I did
-          watching <i>Afterson</i>. I do not recall empathizing with a character
+          watching <i>Aftersun</i>. I do not recall empathizing with a character
           so deeply in this manner… feeling all of his broken and unsatisfied
           soul, aware of time fleeting away, understanding the love he
           undoubtably carries for his daughter, watching him summon all of the
@@ -523,12 +595,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </b>{" "}
           is worth bringing up because oh my gosh what the idk what else to say.
         </p>
+        {/* 
+        MARK: 9
+        */}
         <h2>
           9.{" "}
           <a href="https://boxd.it/27ww" target="_blank">
             Ratatouille
           </a>{" "}
-          <b className="text-sm font-light">(2007)</b>
+          <span className="font-thin text-xl">(2007)</span>
         </h2>
         <blockquote>
           In many ways, the work of a critic is easy. We risk very little, yet
@@ -554,12 +629,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           returning to Gusteau's soon, hungry for more.
         </blockquote>
         <p>What a life affirming film. I will always cherish it 🐀👨‍🍳.</p>
+        {/* 
+        MARK: 8
+        */}
         <h2>
           8.{" "}
           <a href="https://boxd.it/hTha" target="_blank">
             Parasite
           </a>{" "}
-          <b className="text-sm font-light">(2019)</b>
+          <span className="font-thin text-xl">(2019)</span>
         </h2>
         <div id="img">
           <img
@@ -572,12 +650,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           actively want to seek out in every other piece of artwork you engage
           with? Yeah.
         </p>
+        {/* 
+        MARK: 7
+        */}
         <h2>
           7.{" "}
           <a href="https://boxd.it/28No" target="_blank">
             Pan's Labyrinth
           </a>{" "}
-          <b className="text-sm font-light">(2006)</b>
+          <span className="font-thin text-xl">(2006)</span>
         </h2>
         <p>
           You guys seen this sh*t? I feel like we don't talk about this shit
@@ -593,15 +674,21 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           watched it a few times since, but I'm more than due for another
           viewing… guess I got plans for tomorrow night.
         </p>
+        {/* 
+        MARK: 6
+        */}
         <h2>
           6. <a href="https://boxd.it/17ue">The Social Network</a>{" "}
-          <b className="text-sm font-light">(2010)</b>
+          <span className="font-thin text-xl">(2010)</span>
         </h2>
         <blockquote>
           Sorry, my Prada’s at the cleaners along with my hoodie and my fuck-you
           flip-flops you pretentious douchebag.
         </blockquote>
         <p>⭐⭐⭐⭐⭐</p>
+        {/* 
+        MARK: 5
+        */}
         <h2>
           5.{" "}
           <a
@@ -610,7 +697,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           >
             Oppenheimer
           </a>{" "}
-          <b className="text-sm font-light">(2023)</b>
+          <span className="font-thin text-xl">(2023)</span>
         </h2>
         <div id="img">
           <img
@@ -632,7 +719,6 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>
           .
         </p>
-
         <p style={{ marginBottom: 0 }}>
           <b>Note:</b>
         </p>
@@ -644,12 +730,15 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           <i>Interstellar</i> fucks too. I forgot to say anything abt it so
           there ya go.
         </p>
+        {/* 
+        MARK: 4
+        */}
         <h2>
           4.{" "}
           <a href="https://boxd.it/2b4m" target="_blank">
             Spirited Away
           </a>{" "}
-          <b className="text-sm font-light">(2001)</b>
+          <span className="font-thin text-xl">(2001)</span>
         </h2>
         <p>
           I think me loving Miyazaki so much, seeing every movie he's made, and
@@ -678,6 +767,9 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             </a>
           </li>
         </ul>
+        {/* 
+        MARK: 3
+        */}
         <h2>
           3.{" "}
           <a
@@ -686,13 +778,16 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           >
             Mad Max: Fury Road
           </a>{" "}
-          <b className="text-sm font-light">(2015)</b>
+          <span className="font-thin text-xl">(2015)</span>
         </h2>
         <p>
           <i>Mad Max</i> vs. <i>Spirited Away</i> for the bronze metal is an
           absolutely brutal matchup. I'm going with my heart and my gut (but
           things are getting interesting… I don't like that I had to do this).
         </p>
+        {/* 
+        MARK: 2
+        */}
         <h2>
           2.{" "}
           <a
@@ -701,7 +796,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           >
             Paprika
           </a>{" "}
-          <b className="text-sm font-light">(2006)</b>
+          <span className="font-thin text-xl">(2006)</span>
         </h2>
         <p>
           Yep. It was always going to be these two films at the top. I obviously
@@ -797,6 +892,9 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
             </ul>
           </li>
         </ul>
+        {/* 
+        MARK: 1
+        */}
         <h2>
           1.{" "}
           <a
@@ -805,7 +903,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           >
             Portrait of a Lady on Fire
           </a>{" "}
-          <b className="text-sm font-light">(2019)</b>
+          <span className="font-thin text-xl">(2019)</span>
         </h2>
         <div id="img">
           <img

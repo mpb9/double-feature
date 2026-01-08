@@ -29,8 +29,8 @@ ArticleInfo.propTypes = {
 export default function ArticleInfo({ articleSpecs, htmlMappers }) {
   return (
     <div id="info">
+      <a href="https://michael-beebe.com">Michael Beebe</a>
       <a href={`${articleSpecs.url}`}>{articleSpecs.published}</a>
-      <span>Michael Beebe</span>
     </div>
   );
 }

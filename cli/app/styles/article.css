@@ -66,7 +66,7 @@
   margin: 1rem 0;
   border-left: 2px solid transparent;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.55;
   word-break: auto-phrase;
   overflow-wrap: normal;
 }
@@ -218,6 +218,10 @@
     transparent 100%
   );
 }
+#article blockquote li {
+  margin: 0.25rem 1.75rem;
+  list-style-position: inside;
+}
 
 /* MARK: quote
 */
@@ -248,6 +252,10 @@
 }
 #article blockquote::after {
   content: close-quote;
+}
+#article blockquote#no-quote::before,
+#article blockquote#no-quote::after {
+  content: none;
 }
 
 /* MARK: <table>
@@ -283,10 +291,11 @@
   justify-content: space-between;
   margin-top: 0.75rem;
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 100;
 }
 #article div#info + h2,
-#article div#info + p {
+#article div#info + p,
+#article div#info + blockquote {
   margin-top: 1.25rem;
 }
 
@@ -294,10 +303,10 @@
 */
 #article p#thanks {
   margin: 1rem 0;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 100;
   letter-spacing: 0.1em;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--gray);
   font-style: italic;
 }

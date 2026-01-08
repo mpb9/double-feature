@@ -34,17 +34,17 @@ export default function ArticlePreview({ articleSpecs, src }) {
     if (isFeatured) {
       // info: featured articles
       return (
-        <div className="flex flex-col group items-center justify-center h-full min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[43vw] mr-6 my-4 tracking-normal snap-start">
+        <div className="group flex flex-col justify-center items-center my-4 mr-6 min-w-70 sm:min-w-[75vw] md:min-w-[65vw] lg:min-w-[55vw] xl:min-w-[43vw] h-full tracking-normal snap-start">
           <a
             href={href}
-            className="w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] flex items-end shadow-lg grayscale brightness-100 bg-no-repeat bg-cover bg-center group-hover:grayscale-0 group-hover:brightness-110 transition duration-500"
+            className="flex items-end bg-cover bg-no-repeat bg-center shadow-lg brightness-100 group-hover:brightness-110 grayscale group-hover:grayscale-0 w-full min-h-44 sm:min-h-[40vh] md:min-h-[45vh] lg:min-h-[45vh] xl:min-h-[45vh] transition duration-500"
             style={{
               backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
             }}
             fetchPriority="high"
           >
             <div className={textBoxCss}>
-              <h2 className="text-xl sm:text-4xl pr-3 pb-[5px] pt-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
+              <h2 className="pt-[1px] pr-3 pb-[5px] font-[100] text-[var(--l-gray)] group-hover:text-[#69d346] text-xl sm:text-4xl transition duration-500">
                 {articleSpecs.title}
               </h2>
             </div>
@@ -57,13 +57,13 @@ export default function ArticlePreview({ articleSpecs, src }) {
       <div className={basicArticlePreviewCss}>
         <a
           href={href}
-          className="flex items-end w-full transition duration-500 bg-center bg-no-repeat bg-cover shadow-lg min-h-40 md:min-h-52 lg:min-h-56 grayscale brightness-100 group-hover:grayscale-0 group-hover:brightness-110"
+          className="flex items-end bg-cover bg-no-repeat bg-center shadow-lg brightness-100 group-hover:brightness-110 grayscale group-hover:grayscale-0 w-full min-h-40 md:min-h-52 lg:min-h-56 transition duration-500"
           style={{
             backgroundImage: `url(${IMG_ROUTES.covers}${articleSpecs.img})`,
           }}
         >
           <div className={textBoxCss}>
-            <h2 className="text-xl lg:text-2xl pr-3 pb-[1px] text-[var(--l-gray)] group-hover:text-[#69d346] font-[100] transition duration-500">
+            <h2 className="pr-3 pb-[1px] font-[100] text-[var(--l-gray)] group-hover:text-[#69d346] text-xl lg:text-2xl transition duration-500">
               {articleSpecs.title}
             </h2>
           </div>
