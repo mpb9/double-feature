@@ -68,6 +68,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>{" "}
           <span className="font-thin text-xl">(2007)</span>
         </h2>
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/hot-fuzz-2007-00.jpeg`}
+            alt="Nick Frost in Hot Fuzz (2007) holding up DVD copies of Point Break and Bad Boys II"
+          />
+        </div>
         {/* 
         MARK: 23
         */}
@@ -98,6 +104,12 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
           </a>{" "}
           <span className="font-thin text-xl">(2016)</span>
         </h2>
+        <div id="img">
+          <img
+            src={`${IMG_ROUTES.articles}${articleSpecs.id}/the-handmaiden-2016-00.jpeg`}
+            alt="The police force in Hot Fuzz (2007), including Simon Pegg and Nick Frost."
+          />
+        </div>
         {/* 
         MARK: 20
         */}
