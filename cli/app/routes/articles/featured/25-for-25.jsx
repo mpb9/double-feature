@@ -28,7 +28,7 @@ export default function TwentyFiveForTwentyFive({ loaderData }) {
       <main>
         <ArticleInfo articleSpecs={articleSpecs} htmlMappers={[]} />
         <blockquote id="no-quote">
-          <Info size={30} weight="regular" className="inline-block mr-2" />
+          <Info size={30} weight="regular" className="inline-block mr-3" />
           <span className="font-bold">
             My 25 Best Films of the 21st Century (So Far)
           </span>
