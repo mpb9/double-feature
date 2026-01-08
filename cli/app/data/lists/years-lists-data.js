@@ -6,7 +6,7 @@ export const YEARS_LISTS = [
     "2025",
     "2025.jpeg",
     true,
-    "https://letterboxd.com/michaelbeebe/list/2025/",
+    "https://letterboxd.com/michaelbeebe/list/2025-2/",
     ["list", "year"],
     "2025-12-31"
   ),
